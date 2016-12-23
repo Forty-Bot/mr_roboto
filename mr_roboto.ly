@@ -8,7 +8,7 @@
     composer = "Arranged by Sean Anderson"
     tagline = "v0.1"
 }
-#(set-global-staff-size 16)
+#(set-global-staff-size 12)
 #(set-default-paper-size "letter")
 global = { 
     \time 4/4
@@ -41,7 +41,7 @@ globalTempo = {
                 \clef "treble_8"
                 \key af \mixolydian
 		
-                r2 r4 bf' 8 ( af' _~  |
+                r2 r4 bf' 8 ( af' \mp _~  |
                 af' 4 df'' 8 c'' 4. af' 8 gf' _~  |
                 gf' 1 ) |
 
@@ -51,7 +51,7 @@ globalTempo = {
 
                 r2 r4 bf' 8 ( af' _~  |
                 af' 4 df'' 8 c'' 4. af' 8 gf' _~  |
-                gf' 1 ) |
+                gf' 1 \prall ) |
 
 		r2 r4 < bf' bf> 8 ( < af' af > _~  |
 		< af' af > 4 < df'' df' > 8 < c'' c' > 4. < ef'' ef' > 8 ) < f'' f' > _~  |
@@ -59,7 +59,7 @@ globalTempo = {
 
                 R1  |
                 R1*11  |
-                r2 r4 bf 8  af _~  |
+                r2 r4 bf 8 \f af _~  |
 %% 15
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r8 r r4  |
@@ -76,7 +76,7 @@ globalTempo = {
                 \key ef \aeolian
                 ef' 4 r r2  |
                 R1*3  |
-                r4 r8 df ef  ef df ef  |
+                r4 r8 df \mf ef  ef df ef  |
 %% 30
                 r2 ef 8  ef df ef   |
                 r2 gf 8  gf f 4   |
@@ -169,8 +169,8 @@ globalTempo = {
 %% 120
                 r2 bf  |
                 bf 4 af 8 ( gf ) r2 |
-                bf 1 _~ ( |
-                bf 8 af gf ef gf 2 ) | 
+                bf 1 ( |
+                af 8 gf ef gf _~ gf 2 ) | 
                 r2 \grace bf 8 ( gf' 2  |
 %% 125
                 ef' 1 )  |
@@ -326,7 +326,7 @@ globalTempo = {
                 
                 \clef "treble_8"
                 \key af \mixolydian
-                gf 1 _~ |
+                gf 1 \p _~ |
                 gf 1 _~ |
                 gf 1 _~ |
                 gf 1 _~ |
@@ -366,7 +366,7 @@ globalTempo = {
                 \key ef \aeolian
                 ef' 4 ef' 8 r r2  |
                 ef' 4 ef' 8 r r2  |
-                ef' 4 ef' 8 r r4 r8 ef'  |
+                ef' 4 ef' 8 r2 ef' 8  |
                 < f' ef' > 4 ef' 8 r r2  |
                 < ef' f' > 4 ef' 8 r r2  |
 %% 30
@@ -439,12 +439,12 @@ globalTempo = {
                 R1  |
                 \key ef \aeolian
 		R1 | R1 | R1 | R1 | R1 | R1 |
-		r2 \tuplet 3/2 { f' 4 f' f' }  |
-		r2 \tuplet 3/2 { f' 4 f' f' }  |
+		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
+		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
 %% 95
                 r1*2 
-		r2 \tuplet 3/2 { f' 4 f' f' }  |
-		r2 \tuplet 3/2 { f' 4 f' f' }  |
+		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
+		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
                 R1  |
 %% 100
                 r4 ef'  bf  gf'   |
@@ -501,7 +501,7 @@ globalTempo = {
                 gf' 2 r4 bf' 8 af' _~  |
                 af' 4 df'' 8  c'' 4. af' 8 gf' _~  |
                 gf' 1 _~  |
-                gf' 2 r8 d'  ef' af _~  |
+                gf' 2 r8 d' ef' af _~  |
                 af 1 _~  |
 %% 150
                 af 1  |
@@ -694,19 +694,19 @@ globalTempo = {
                 c' 8  df' c' df' c' ) r r4  |
 %% 15
                 R1  |
-                r4 df' 8 df' df' ef' r df'  |
-                df' 8 df' df' ef' r2  |
+                r4 gf' 8 gf' gf' ef' r gf'  |
+                gf' 8 gf' gf' ef' r2  |
                 R1  |
-                r4 df' 8 df' df' ef' r df'  |
-                df' 8 df' df' ef' r2  |
+                r4 gf' 8 gf' gf' ef' r gf'  |
+                gf' 8 gf' gf' ef' r2  |
                 R1  |
-                r4 df' 8 df' df' ef' r df'  |
-                df' 8 df' df' ef' r2  |
+                r4 gf' 8 gf' gf' ef' r gf'  |
+                gf' 8 gf' gf' ef' r2  |
                 R1  |
                 \key ef \aeolian
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r4 r8 bf  |
+                bf 4 bf 8 r2 bf 8  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
 %% 30
@@ -768,25 +768,25 @@ globalTempo = {
                 bf 8 r r4 r2  |
                 \key gf \lydian
                 R1  |
-                r4 df' 8 df' df' ef' r df'  |
-                df' 8 df' df' ef' r2  |
+                r4 gf' 8 gf' gf' ef' r gf'  |
+                gf' 8 gf' gf' ef' r2  |
                 R1  |
-                r4 df' 8 df' df' ef' r df'  |
-                df' 8 df' df' ef' r2  |
+                r4 gf' 8 gf' gf' ef' r gf'  |
+                gf' 8 gf' gf' ef' r2  |
                 R1  |
-                r4 df' 8 df' df' ef' r df'  |
-                df' 8 df' df' ef' r2  |
+                r4 gf' 8 gf' gf' ef' r gf'  |
+                gf' 8 gf' gf' ef' r2  |
                 R1  |
                	\key ef \aeolian
                 R1*4 
 		bf 8 bf bf bf bf 4 af 8 bf _~  |
                 bf 8 bf 4 af 8 bf 4 af  |
-                bf 8 bf r4 r2  |
-                bf 8 bf r4 r2  |
+		bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' }  |
+                bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
                 bf 8 bf bf af bf 4 af 8 bf _~  |
                 bf 8 bf 4 af 8 bf 4 af  |
-                bf 8 bf r4 r2  |
-                bf 8 bf r4 r2  |
+                bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
+                bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
                 bf 8 bf bf af bf 4 af 8 bf _~  |
                 bf 8 bf 4 af 8 bf 4 af 8 r  |
                 bf 8 bf bf af bf 4 af 8 bf _~  |
@@ -823,29 +823,25 @@ globalTempo = {
                 df' 1  |
                 bf 8 bf  bf  bf  bf  bf  bf  bf   |
                 bf 8  bf  bf  bf  bf  r r4  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' r af r  |
+                af' 8 r af r af' ef' af af  |
                 af' 8 ef' af af af' ef' af af  |
                 af' 8 ef' af af af' ef' af af  |
-%% 135
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-%% 140
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-%% 145
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-%% 150
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af r r4  |
+		\tuplet 3/2 { af 8 af af af af af } af r r4  |
                 \key gf \lydian
                 R1  |
                 r4 gf' 8 gf' gf' af' r gf'  |
@@ -937,9 +933,11 @@ globalTempo = {
 	      Sec -- ret, sec -- ret, I got a sec -- ret
 
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo Do -- mo
+	      Do -- mo oo oo oo
+	      Do -- mo oo oo oo
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo Do -- mo
+	      Do -- mo oo oo oo
+	      Do -- mo oo oo oo
 
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
@@ -964,25 +962,25 @@ globalTempo = {
 	      na na na na
 	      na
 
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee     doo
+              dee     doo     dee deh doo doo
               dee deh doo doo dee deh doo doo
               dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo dee deh doo doo
-              dee deh doo doo ba
+	      ra ba ba ba ba ba ba
 
 	      Sec -- ret, sec -- ret, I got a sec -- ret
 	      Sec -- ret, sec -- ret, I got a sec -- ret
@@ -1043,20 +1041,20 @@ globalTempo = {
                 gf 1 _~  |
                 gf 2 _~ gf 8 r r4 |
 %% 15
-                r4 ef 8 ef ef 4 ef  |
+                r4 ef 8 ef c 4 af,  |
                 r4 gf 4. f  |
                 ef 4. df r4  |
-                r4 ef 8 ef ef 4 ef  |
+                r4 ef 8 ef c 4 af,  |
                 r4 gf 4. f  |
                 ef 4. df r4  |
-                r4 ef 8 ef ef 4 ef  |
+                r4 ef 8 ef c 4 af,  |
                 r4 gf 4. f  |
                 ef 4. df r4  |
-                r4 ef 8 ef ef 4 ef  |
+                r4 ef 8 ef c 4 gf  |
                 \key ef \aeolian
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r4 r8 gf  |
+                gf 4  gf 8  r2 gf 8  |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
 %% 30
@@ -1117,16 +1115,16 @@ globalTempo = {
                 g 8  g  g  g g  g  g  g   |
                 g 8 r r4 r2  | 
                 \key gf \lydian
-                r4 ef 8 ef ef 4 ef  |
+                r4 ef 8 ef c 4 af,  |
                 r4 gf 4. f  |
                 ef 4. df r4  |
-                r4 ef 8 ef ef 4 ef  |
+                r4 ef 8 ef c 4 af,  |
                 r4 gf 4. f  |
                 ef 4. df r4  |
-                r4 ef 8 ef ef 4 ef  |
+                r4 ef 8 ef c 4 af,  |
                 r4 gf 4. f  |
                 ef 4. df r4  |
-                r4 ef 8 ef ef 4 ef  |
+                r4 ef 8 ef c 4 af,  |
 		\key ef \aeolian
 		R1*4 
                 f 8 f f f f 4 ef 8 f _~  |
@@ -1181,32 +1179,33 @@ globalTempo = {
                 af 1  |
                 ef 8 ef  ef  ef  ef  ef  ef  ef   |
                 ef 8  ef  ef  ef  ef  r r4  |
-                r1 r1 r1 r1 r1 
-                r8 af ef  df gf,  af ef df  |
-                gf, 8  af  ef df gf, r r4  |
-%% 140
-                R1  |
-                r8 af ef df gf,  af ef df  |
-                gf, 8 af  ef df gf, r r4  |
-                R1  |
-                r8 af ef df gf,  af ef df  |
-%% 145
-                gf, 8  af ef  df  gf,  r r4  |
-                R1  |
-                r8 af  ef df gf,  af  ef df  |
-                gf, 8 af ef df gf, a  bf  ef _~  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r ef' r ef  |
+                r 8 ef' r ef r a bf ef _~  |
                 ef 1 _~  |
-%% 150
                 ef 1  |
 		\tuplet 3/2 { ef 8 ef ef ef ef ef } ef r r4  |
-                \key gf \lydian
-                r4 ef 8 ef ef 4 ef  |
+		\key gf \lydian
+                r4 ef 8 ef c 4 af,  |
                 r4 gf 4. f  |
                 ef 4. df r4  |
-                r4 ef 8 ef ef 4 ef  |
+                r4 ef 8 ef c 4 af,  |
                 r4 gf 4. f  |
                 ef 4. df r4  |
-                r4 ef 8 ef ef 4 ef  |
+                r4 ef 8 ef c 4 af,  |
                 r4 gf 4. f  |
                 ef 4. df r4  |
                 R1  |
@@ -1225,9 +1224,9 @@ globalTempo = {
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 	Hi -- mi -- tsu wo Shi -- ri tai
 
-              Got a sec -- cret I got se -- crets
-              Got a sec -- cret I got se -- crets
-              Got a sec -- cret I got se -- crets
+              Got a sec -- cret Got a sec -- cret
+              Got a sec -- cret Got a sec -- cret
+              Got a sec -- cret Got a sec -- cret
               Got a sec -- cret
 
 	      ee oo
@@ -1283,9 +1282,9 @@ globalTempo = {
 	      ba ba ba ba
 	      ba
 
-              Got a sec -- cret I got se -- crets
-              Got a sec -- cret I got se -- crets
-              Got a sec -- cret I got se -- crets
+              Got a sec -- cret Got a sec -- cret
+              Got a sec -- cret Got a sec -- cret
+              Got a sec -- cret Got a sec -- cret
               Got a sec -- cret
 
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
@@ -1316,30 +1315,28 @@ globalTempo = {
 	      na na na na
 	      na
 
-              deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-	      
-	      ba dam ba
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo deh doo
+              deh doo ba dam ba
 	      ra ba ba ba ba ba
 	      ba
 	      
-	      Got a sec -- cret I got se -- crets
-              Got a sec -- cret I got se -- crets
-              Got a sec -- cret I got se -- crets
-              Got a sec -- cret
+	      Got a sec -- cret Got a sec -- cret
+              Got a sec -- cret Got a sec -- cret
+              Got a sec -- cret Got a sec -- cret
 
 	      ee oo
 	      ee oo
@@ -1412,8 +1409,8 @@ globalTempo = {
                 \key ef \aeolian
                 ef 4 ef 8 r r2  |
                 ef 4 ef 8 r r2  |
-                ef 4 ef 8 r r4 r8 ef  |
-                ef 4  ef 8  r r8 bf, af, f,  |
+                ef 4 ef 8 r2 ef 8  |
+                ef 4  ef 8 r4 bf, 8 af, f,  |
 		gf, 4 gf, gf, f, 8 gf, _~  |
 		gf, 8 gf, 4 gf, 8 gf, 4 af,  |
 		f, 4 f, f, f, 8 bf, _~  |
@@ -1530,18 +1527,18 @@ globalTempo = {
                 bf, 8  bf,  bf,  bf,  bf,  r r4  |
                 r1 r1 r1 r1 r1 
                 r8 bf, af, gf, ef,  bf,  af,  gf,  |
-                ef, 8  bf,  af,  gf, ef, r r4  |
+                ef, 8 bf, af, gf, ef, r r4  |
 %% 140
                 R1  |
-                r8 bf,  af,  gf,  ef,  bf, af, gf,  |
-                ef, 8  bf,  af,  gf, ef,  r r4  |
+                r8 bf, af, gf, ef, bf, af, gf,  |
+                ef, 8 bf, af, gf, ef, r r4  |
                 R1  |
-                r8 bf,  af,  gf,  ef,  bf,  af,  gf,  |
+                r8 bf, af, gf, ef, bf, af, gf,  |
 %% 145
-                ef, 8 bf,  af,  gf, ef,  r r4  |
+                ef, 8 bf, af, gf, ef, r r4  |
                 R1  |
-                r8 bf,  af,  gf,  ef,  bf,  af, gf,   |
-                ef, 8  bf,  af,  gf, ef, d  ef  af, _~  |
+                r8 bf, af,  gf,  ef,  bf, af, gf,   |
+                ef, 8  bf,  af,  gf, ef, d ef  af, _~  |
                 af, 1 _~  |
 %% 150
                 af, 1  |
@@ -1574,11 +1571,11 @@ globalTempo = {
 	      jmm jmm jmm jmm jmm jmm jmm jmm jmm jmm
 	      
 	      You're won -- d'ring who I am
-	      da da da da da
+	      ba da da da da
 	      Mach -- ine or man -- ne -- quin
-	      da da da da da
+	      ba da da da da
 	      With parts made in Jap -- an
-	      da da da da da
+	      ba da da da da
 	      I am the mod -- ern
 	      
 	      ee oo
@@ -1636,11 +1633,11 @@ globalTempo = {
 	      ba
 
               I am the mod -- ern man
-	      da da da da da
+	      ba da da da da
 	      Who hides be -- hind a mask
-	      da da da da da
+	      ba da da da da
 	      So no one else can see
-	      da da da da da
+	      ba da da da da
 	      My true i -- den -- ti
 
 	      Do -- mo Do -- mo Do -- mo Do -- mo
@@ -1706,11 +1703,11 @@ globalTempo = {
 	      ba
 
               The time has come at last
-	      da da da da da
+	      ba da da da da
 	      To throw a -- way the mask
-	      da da da da da
+	      ba da da da da
 	      Now ev -- rey -- one can see
-	      da da da da da
+	      ba da da da da
 	      My true i -- den 
 
 	      Kil -- roy
