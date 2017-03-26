@@ -15,7 +15,9 @@ global = {
     \skip 1*167 
 }
 globalTempo = {
-    \tempo 4 = 145  
+    \tempo "Freely" 4 = 100
+    \skip 1*12
+    \tempo "Rock" 4 = 145
 }
 \score {
   %\articulate <<
@@ -43,22 +45,20 @@ globalTempo = {
 		
                 r2 r4 bf' 8 ( af' \mp _~  |
                 af' 4 df'' 8 c'' 4. af' 8 gf' _~  |
-                gf' 1 ) |
-
-                r2 r4 bf 8 ( af _~  |
+                gf' 2. ) bf 8 ( af _~  |
                 af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 1 ) |
-
-                r2 r4 bf' 8 ( af' _~  |
-                af' 4 df'' 8 c'' 4. af' 8 gf' _~  |
-                gf' 1 \prall ) |
-
-		r2 r4 < bf' bf> 8 ( < af' af > _~  |
+                gf 2. ) bf' 8 ( af' _~  |
+                af' 4 df'' 8 c'' 4. af' 8. gf' 32 af'  |
+                gf' 2. ) bf 8 ( af _~  |
+                af 4 df' 8 c' 4. af 8 gf _~  |
+                gf 2. )< bf' bf> 8 ( < af' af > _~  |
 		< af' af > 4 < df'' df' > 8 < c'' c' > 4. < ef'' ef' > 8 ) < f'' f' > _~  |
-		< f'' f' > 1 |
+		< f'' f' > 1 _~  |
+		< f'' f' > 1 _~  |
+		< f'' f' > 1 _~  |
+		< f'' f' > 1   |
 
-                R1  |
-                R1*11  |
+                R1*10  |
                 r2 r4 bf 8 \f af _~  |
 %% 15
                 af 4 df' 8 c' 4. af 8 gf _~  |
@@ -217,7 +217,7 @@ globalTempo = {
                 R1  \bar "|."
             } % Voice
             \addlyrics{
-	      ah ah ah ah ee
+	      ah ah ah ah ah ee
 
 	      You're won -- d'ring who I am
 	      Mach -- ine or man -- ne -- quin
@@ -326,17 +326,18 @@ globalTempo = {
                 
                 \clef "treble_8"
                 \key af \mixolydian
-                gf 1 \p _~ |
-                gf 1 _~ |
-                gf 1 _~ |
-                gf 1 _~ |
-                gf 1 _~ |
-                gf 1 _~ |
-                gf 1 _~ |
-                gf 1 _~ |
-                gf 1 _~ |
-                gf 1 _~ |
-                gf 1  \glissando |
+                \override Hairpin.circled-tip = ##t
+		gf' 1 \< _~ |
+                gf' 1 \! _~ |
+                gf' 1 _~ |
+                gf' 1 _~ |
+                gf' 1 _~ |
+                gf' 1 _~ |
+                gf' 1 _~ |
+                gf' 1 _~ |
+                gf' 1 _~ |
+                gf' 1 _~ |
+                gf' 1  \glissando |
 		f' 1 _~ |
 		f' 1 _~ |
 		f' 1 |
@@ -665,20 +666,21 @@ globalTempo = {
                 
                 \clef "treble_8"
                 \key af \mixolydian
-                df 1 _~  | 
-                df 1 _~  | 
-                df 1 _~  | 
-                df 1 _~  | 
-                df 1 _~  | 
-                df 1 _~  | 
-                df 1 _~  | 
-                df 1 _~  | 
-                df 1 _~  | 
-                df 1 _~  | 
-                df 1  \glissando  | 
-                c' 1 _~  |
-		c' 1 _~  |
-                c' 1  |
+                \override Hairpin.circled-tip = ##t
+                df' 1 \< _~  | 
+                df' 1 \! _~  | 
+                df' 1 _~  | 
+                df' 1 _~  | 
+                df' 1 _~  | 
+                df' 1 _~  | 
+                df' 1 _~  | 
+                df' 1 _~  | 
+                df' 1 _~  | 
+                df' 1 _~  | 
+                df' 1  \glissando  | 
+                f 1 _~  |
+		f 1 _~  |
+                f 1  |
 		bf 8 bf bf bf bf bf r bf _~  |
 %% 5
                 bf 8 bf 4 bf 8 bf 4 bf 8 r  |
@@ -779,7 +781,7 @@ globalTempo = {
                 R1  |
                	\key ef \aeolian
                 R1*4 
-		bf 8 bf bf bf bf 4 af 8 bf _~  |
+		bf 8 bf bf af bf 4 af 8 bf _~  |
                 bf 8 bf 4 af 8 bf 4 af  |
 		bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' }  |
                 bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
@@ -789,28 +791,28 @@ globalTempo = {
                 bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
                 bf 8 bf bf af bf 4 af 8 bf _~  |
                 bf 8 bf 4 af 8 bf 4 af 8 r  |
+		af 8 af af gf af 4 gf 8 af _~  |
+                af 8 af 4 gf 8 af 4 gf 8 r  |
                 bf 8 bf bf af bf 4 af 8 bf _~  |
                 bf 8 bf 4 af 8 bf 4 af 8 r  |
+		af 8 af af gf af 4 gf 8 af _~  |
+                af 8 af 4 gf 8 af 4 gf 8 r  |
                 bf 8 bf bf af bf 4 af 8 bf _~  |
                 bf 8 bf 4 af 8 bf 4 af 8 r  |
+		af 8 af af gf af 4 gf 8 af _~  |
+                af 8 af 4 gf 8 af 4 gf 8 r  |
                 bf 8 bf bf af bf 4 af 8 bf _~  |
                 bf 8 bf 4 af 8 bf 4 af 8 r  |
+		af 8 af af gf af 4 gf 8 af _~  |
+                af 8 af 4 gf 8 af 4 gf 8 r  |
                 bf 8 bf bf af bf 4 af 8 bf _~  |
                 bf 8 bf 4 af 8 bf 4 af 8 r  |
+		af 8 af af gf af 4 gf 8 af _~  |
+                af 8 af 4 gf 8 af 4 gf 8 r  |
                 bf 8 bf bf af bf 4 af 8 bf _~  |
                 bf 8 bf 4 af 8 bf 4 af 8 r  |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
+		af 8 af af gf af 4 gf 8 af _~  |
+                af 8 af 4 gf 8 af 4 gf 8 r  |
                 cf' 1  |
                 df' 1  |
 %% 125
@@ -1013,8 +1015,9 @@ globalTempo = {
                 
                 \clef "bass"
                 \key af \mixolydian
-                bf 1 _~  |
-                bf 1 _~  |
+                \override Hairpin.circled-tip = ##t
+                bf 1 \< _~  |
+                bf 1 \! _~  |
                 bf 1 _~  |
                 bf 1 _~  |
                 bf 1 _~  |
@@ -1024,9 +1027,9 @@ globalTempo = {
                 bf 1 _~  |
                 bf 1 _~  |
                 bf 1  \glissando |
-		f 1 _~ |
-		f 1 _~  |
-		f 1  |
+		c 1 _~ |
+		c 1 _~  |
+		c 1  |
 		bf, 8 bf, bf, bf, bf, bf, r bf, _~  |
 %% 5
                 bf, 8 bf, 4 bf, 8 bf, 4 bf, 8 r  |
@@ -1147,16 +1150,14 @@ globalTempo = {
                 f 8 f f ef f 4 ef 8 f _~  |
                 f 8 f 4 ef 8 f 4 ef 8 r  |
                 f 8 f f ef f 4 ef 8 f 
-                % warning: overlong bar truncated here |
-                \skip 8 f 4 ef 8 f 4 ef 8 r  |
+                f 8 f 4 ef 8 f 4 ef 8 r  |
                 f 8 f f ef f 4 ef 8 f _~  |
 %% 110
                 f 8 f 4 ef 8 f 4 ef 8 r  |
                 f 8 f f ef f 4 ef 8 f _~  |
                 f 8 f 4 ef 8 f 4 ef 8 r  |
                 f 8 f f ef f 4 ef 8 f 
-                % warning: overlong bar truncated here |
-                \skip 8 f 4 ef 8 f 4 ef 8 r  |
+                f 8 f 4 ef 8 f 4 ef 8 r  |
 %% 115
                 f 8 f f ef f 4 ef 8 f _~  |
                 f 8 f 4 ef 8 f 4 ef 8 r  |
@@ -1365,8 +1366,9 @@ globalTempo = {
                 
                 \clef "bass"
                 \key af \mixolydian
-                af 1 _~  |
-                af 1 _~  |
+                \override Hairpin.circled-tip = ##t
+                af 1 \< _~  |
+                af 1 \! _~  |
                 af 1 _~  |
                 af 1 _~  |
                 af 1 _~  |
