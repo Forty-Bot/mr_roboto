@@ -58,94 +58,79 @@ globalTempo = {
 		< f'' f' > 1 _~  |
 		< f'' f' > 1   |
 
-                R1*10  |
+		\mark \default
+		R1*10  |
                 r2 r4 bf 8 \f af _~  |
-%% 15
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r8 r r4  |
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r  |
-%% 20
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r  |
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. df' 4   |
-%% 25
                 \key ef \aeolian
                 ef' 4 r r2  |
                 R1*3  |
                 r4 r8 df \mf ef  ef df ef  |
-%% 30
                 r2 ef 8  ef df ef   |
                 r2 gf 8  gf f 4   |
                 df 4 r r2  |
                 r4 r8 df ef ef ef ef  |
                 r4 r8 df ef ef  ef ef  |
-%% 35
                 r4 r8 df gf  gf f  df _~  |
                 df 4 r r2  |
                 r4 r8 df ef ef ef ef  |
                 r2 ef 8 ef ef ef  |
                 r2 gf 8 gf  f df _~  |
-%% 40
                 df 4 r r2  |
                 r4 r8 ef bf  bf af gf   |
                 r2 bf 8  bf af gf   |
                 r4 r8 df f  f ef  f  
-                % warning: overlong bar truncated here |
                 \skip 8 r8 r ef gf  gf f 4  |
-%% 45
                 cf 1  |
                 r4 r8 df gf gf f 4  |
                 ef 4 r r2  |
                 r2 gf 8 gf 4  f 8  |
                 cf 2. r4  |
-%% 50
                 r4 r8 df  gf  gf  r f   |
                 ef 2 r  |
                 R1  |
                 r4 r8 df 8 ef 16 ef 8 ef 8. ef 8   |
                 r4 r8 ef ef ef ef  ef  |
-%% 55
                 r4 r8 df  gf gf  f df _~  |
                 df 4 r r2  |
                 r4 r8 ef ef ef 16 ef 8 ef 8.  |
                 r2 ef 8  ef  ef  ef  |
                 r4 r8 df gf  gf  f 4   |
-%% 60
                 df 4. r8 r2  |
                 r4 r8 bf bf bf 16 af 8. gf 8  |
                 r4 r8 bf bf  bf af gf  |
                 r4 r8 df gf  gf ef f _~  |
                 f 2 r  |
-%% 65
                 r4 r8 gf bf  bf  af  gf  | 
                 \skip 8 r8 r4 bf 8 bf af gf  | 
                 \skip 8 r8 df  df  gf  gf f f _~  |
 		f 4 r8 df  \tuplet 3/2 { gf 4 gf f }  |
                 cf 1   |
-%% 70
 		\skip 8 r4 cf 8 \tuplet 3/2 { gf 4 gf f }  |
                 ef 4 ( bf 2. )  |
 		r2 \tuplet 3/2 { gf 4 gf f }  |
                 cf 1  |
 		r4 r8 cf  \tuplet 3/2 { gf 4 gf f }  |
-%% 75
                 ef 1  |
 		r2 r4 bf 8  af _~  |
                 \key gf \lydian
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r  |
                 r2 r4 bf 8  af _~  |
-%% 80
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r  |
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r  |
-%% 85
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. df' 4   |
                 \key ef \aeolian
@@ -154,42 +139,34 @@ globalTempo = {
                 f 8  f  f  f  f 4  r8 f  _~  |
                 f 8 f 4 ef 8 f 4  ef 8 ef  |
                 f 8 f  f f r4 r8 f  _~  |
-%% 110
                 f 4 f 8 ef f 4  ef 8  ef   |
                 f 8 f  f  f f 4 r8 f _~  |
                 f 8 f 4  ef 8  f 4  ef 8 ef   |
                 f 8 f f  f f  r ef bf _~  |
                 bf 8 af ( gf ) af af bf  r4  |
-%% 115
                 bf 4 af 8 ( gf ) r2  |
                 r4 r8 bf 4. af 8 ( gf )  |
                 bf 4 af 8 ( gf ) r2  |
                 r4 r8 df' 4. bf 8  bf  |
                 bf 4 af 8 ( gf ) r2  |
-%% 120
                 r2 bf  |
                 bf 4 af 8 ( gf ) r2 |
                 bf 1 ( |
                 af 8 gf ef gf _~ gf 2 ) | 
                 r2 \grace bf 8 ( gf' 2  |
-%% 125
                 ef' 1 )  |
                 \skip 8 r4 r2 
-                % warning: bar too short, padding with rests
-                % 480000 + 3360 < 483840  &&  7/8 < 4/4
                 r8  |
                 R1*9  |
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r  |
                 r2 r4 bf 8  af _~  |
-%% 140
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r8 r r4  |
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r4 r  |
-%% 145
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r2  |
@@ -199,19 +176,16 @@ globalTempo = {
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r  |
                 r2 r4 bf 8  af _~  |
-%% 155
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r  |
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. af 8 gf _~  |
                 gf 2 r  |
-%% 160
                 r2 r4 bf 8 af _~  |
                 af 4 df' 8 c' 4.  df' 4   |
                 ef' 2  r4 df'  |
                 ef' 4 ef' r2  |
                 ef' 4 ef' r2  |
-%% 165
                 ef' 4 ef' r2  |
                 ef' 4 ef'  r2  |
                 R1  \bar "|."
@@ -341,14 +315,14 @@ globalTempo = {
 		f' 1 _~ |
 		f' 1 _~ |
 		f' 1 |
-                ef' 8 ef' ef' ef' ef' d' r ef' _~  |
-%% 5
+               
+		% First chorus
+		ef' 8 \f ef' ef' ef' ef' d' r ef' _~  |
                 ef' 8 ef' 4 d' 8 ef' 4 d' 8 r  |
                 ef' 4 df' c' 8 df' ef' df' _~  |
                 df' 2. r4  |
                 ef' 8 ef' ef' ef' ef' d' r ef' _~  |
                 ef' 8 ef' 4 d' 8 ef' 4 d' 8 ef'  |
-%% 10
                 ef' 4 df' c' 8 df' ef' gf' _~  |
                 gf' 1 _~ 
                 gf' 1 _~  |
@@ -370,61 +344,51 @@ globalTempo = {
                 ef' 4 ef' 8 r2 ef' 8  |
                 < f' ef' > 4 ef' 8 r r2  |
                 < ef' f' > 4 ef' 8 r r2  |
-%% 30
                 < ef' f' > 4 ef' 8 r r2  |
                 df' 4 df' 8 r r2  |
                 r4 df' df' d'  |
                 < f' ef' > 4 ef' 8 r r2  |
                 < f' ef' > 4 ef' 8 r r2  |
-%% 35
                 df' 4 df' 8 r r2  |
                 r4 df' df' d'  |
                 < ef' f' > 4 ef' 8 r r2  |
                 < ef' f' > 4 ef' 8 r r2  |
                 df' 4 df' 8 r r2  |
-%% 40
                 r4 df' df' d'  |
                 < ef' f' > 4 ef' 8 r r2  |
                 < ef' f' > 4 ef' 8 r r2  |
                 df' 4 df' 8 r r2  |
                 df' 4 df' df' df'  |
-%% 45
                 r2 r4 ef'  |
                 r2 r4 df'  |
                 ef' 4 ef' 8 r r2  |
                 ef' 4 ef' 8 r r2  |
                 r2 r4 ef'  |
-%% 50
                 r2 r4 df'  |
                 < f' ef' > 4 ef' 8 r r2  |
                 < f' ef' > 4 ef' 8 r r2  |
                 < f' ef' > 4 ef' 8 r r2  |
                 < f' ef' > 4 ef' 8 r r2  |
-%% 55
                 df' 4 df' 8 r r2  |
                 r8 df' ( ef' df' af'  ef' df' ef' )  |
                 < f' ef' > 4 ef' 8 r r2  |
                 < f' ef' > 4 ef' 8 r r2  |
                 df' 4 df' 8 r r2  |
-%% 60
                 r8 df' ( ef' df' af'  ef' df' ef' )  |
                 < ef' f' > 4 ef' 8 r r2  |
                 < ef' f' > 4 ef' 8 r r2  |
                 df' 4 df' 8 r r2  |
                 r8 df' ( ef' df' af' ef' df' ef' )  |
-%% 65
                 < ef' f' > 4 ef' 8 r r2  |
                 < ef' f' > 4 ef' 8 r r2  |
                 df' 4 df' 8 r r2  |
                 df' 4 df' df' d'  | 
                 r2 r4 ef'  |
-%% 70
                 r2 r4 df'  |
                 ef' 4 ef' 8 r r2  |
                 ef' 4 ef' 8 r r2  |
                 r2 r4 ef'  |
                 r2 r4 df'  |
-%% 75
 		g' 8  g'  g'  g' g'  g'  g'  g'   |
                 g' 8 r r4 r2  |
                 \key gf \lydian
@@ -442,48 +406,40 @@ globalTempo = {
 		R1 | R1 | R1 | R1 | R1 | R1 |
 		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
 		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
-%% 95
                 r1*2 
 		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
 		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
                 R1  |
-%% 100
                 r4 ef'  bf  gf'   |
                 f' 1 _~  |
                 f' 4 df'  bf  gf'   |
                 f' 1 _~  |
                 f' 4 ef'  bf  gf'   |
-%% 105
                 f' 1 _~  |
                 f' 4 df'  bf  gf'   |
                 f' 1 _~  |
                 f' 4 ef'  bf  gf'   |
                 f' 1 _~  |
-%% 110
                 f' 4 df'  bf  gf'   |
                 f' 1 _~  |
                 f' 4 ef'  bf  gf'   |
                 f' 1 _~  |
                 f' 4 df'  bf  gf'   |
-%% 115
                 f' 1 _~  |
                 f' 4 ef'  bf  gf'  |
                 f' 1 _~  |
                 f' 4 df'  bf  gf'   |
                 f' 1 _~  |
-%% 120
                 f' 4 ef'  bf  gf'   |
                 f' 1 _~  |
                 f' 4 r r2  |
                 r2 r4 ef'  |
                 r2 f'  |
-%% 125
                 ef' 4  ef'  r2  |
                 ef' 4  ef'  r2  |
                 r2 r4 gf'  |
                 af' 1  |
                 r2 r4 gf'  |
-%% 130
                 af' 1  |
                 g' 8 g'  g'  g'  g'  g'  g'  g'   |
                 g' 8  g'  g'  g'  g'  r r4  |
@@ -492,38 +448,32 @@ globalTempo = {
                 af' 4 df'' 8 c'' 4. af' 8 gf' _~  |
                 gf' 1 _~  |
                 gf' 2 r4 bf' 8 af' _~ 
-%% 140
                 af' 4 df'' 8 c'' 4. af' 8 gf' _~  |
                 gf' 1 _~  |
                 gf' 2 r4 bf' 8  af' _~ 
                 af' 4 df'' 8  c'' 4. af' 8 gf' _~  |
                 gf' 1 _~  |
-%% 145
                 gf' 2 r4 bf' 8 af' _~  |
                 af' 4 df'' 8  c'' 4. af' 8 gf' _~  |
                 gf' 1 _~  |
                 gf' 2 r8 d' ef' af _~  |
                 af 1 _~  |
-%% 150
                 af 1  |
 		\tuplet 3/2 { af 8 af af af af af } af r r4  |
                 \key gf \lydian
 		R1  |
                 r4 bf' 8 bf' bf' c'' r bf'  |
                 bf' 8 bf' bf' c'' r2  |
-%% 155
                 R1  |
                 r4 bf' 8 bf' bf' c'' r bf'  |
                 bf' 8 bf' bf' c'' r2  |
                 R1  |
                 r4 bf' 8 bf' bf' c'' r bf'  |
-%% 160
                 bf' 8 bf' bf' c'' r2  |
                 R1  |
                 < ef' f' > 4 ef' 8 r r2  |
                 < f' ef' > 4 ef' 8 r r2  |
                 < f' ef' > 4 ef' 8 r r2  |
-%% 165
                 < f' ef' > 4 ef' 8 r r2  |
                 < f' ef' > 4 ef' 8 r r2  |
                 < f' ef' > 4 ef' 8 r r2  \bar "|."
@@ -681,20 +631,19 @@ globalTempo = {
                 f 1 _~  |
 		f 1 _~  |
                 f 1  |
-		bf 8 bf bf bf bf bf r bf _~  |
-%% 5
+		
+		% First chorus
+		bf 8 \f bf bf bf bf bf r bf _~  |
                 bf 8 bf 4 bf 8 bf 4 bf 8 r  |
                 bf 4 bf af 8 af af bf _~  |
                 bf 2. r4  |
                 bf 8 bf bf bf bf bf r bf _~  |
                 bf 8 bf 4 bf 8 bf 4 bf 8 bf  |
-%% 10
                 bf 4 bf af 8 af af df' (  |
                 c' 8 df' c'  df' c' df' c'  df'  |
                 c' 8 df' c'  df' c' df' c'  df'  |
                 c' 8 df' c'  df' c' df' c'  df'   |
                 c' 8  df' c' df' c' ) r r4  |
-%% 15
                 R1  |
                 r4 gf' 8 gf' gf' ef' r gf'  |
                 gf' 8 gf' gf' ef' r2  |
@@ -711,61 +660,51 @@ globalTempo = {
                 bf 4 bf 8 r2 bf 8  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
-%% 30
                 bf 4 bf 8 r r2  |
                 af 4 af 8 r r2  |
                 r4 af af a  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
-%% 35
                 af 4 af 8 r r2  |
                 r4 af af a  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
                 af 4 af 8 r r2  |
-%% 40
                 r4 af af a  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
                 af 4 af 8 r r2  |
                 af 4 af af af  |
-%% 45
                 r4 gf 2.  |
                 r4 af 2.  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
                 r4 gf 2.  |
-%% 50
                 r4 af 2.  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
-%% 55
                 af 4 af 8 r r2  |
                 r4 af af a  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
                 af 4 af 8 r r2  |
-%% 60
                 r4 af af a  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
                 af 4 af 8 r r2  |
                 r4 af af a  |
-%% 65
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
                 af 4 af 8 r r2  |
                 af 4 af af af  |
                 r4 gf 2.  |
-%% 70
                 r4 af 2.  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
                 r4 gf 2.  |
                 r4 af 2.  |
-%% 75
                 bf 8  bf  bf  bf bf  bf  bf  bf   |
                 bf 8 r r4 r2  |
                 \key gf \lydian
@@ -815,13 +754,11 @@ globalTempo = {
                 af 8 af 4 gf 8 af 4 gf 8 r  |
                 cf' 1  |
                 df' 1  |
-%% 125
                 bf 4  bf  r2  |
                 bf 4  bf  r2  |
                 cf' 1  |
                 df' 1  |
                 cf' 1  |
-%% 130
                 df' 1  |
                 bf 8 bf  bf  bf  bf  bf  bf  bf   |
                 bf 8  bf  bf  bf  bf  r r4  |
@@ -848,19 +785,16 @@ globalTempo = {
                 R1  |
                 r4 gf' 8 gf' gf' af' r gf'  |
                 gf' 8 gf' gf' af' r2  |
-%% 155
                 R1  |
                 r4 gf' 8 gf' gf' af' r gf'  |
                 gf' 8 gf' gf' af' r2  |
                 R1  |
                 r4 gf' 8 gf' gf' af' r gf'  |
-%% 160
                 gf' 8 gf' gf' af' r2  |
                 R1  |
                 bf 4 bf 8 r r2  |
                 bf 4  bf 8  r r2  |
                 bf 4  bf 8  r r2  |
-%% 165
                 bf 4  bf 8  r r2  |
                 bf 4  bf 8  r r2  |
                 bf 4  bf 8  r r2 \bar "|."
@@ -1030,20 +964,19 @@ globalTempo = {
 		c 1 _~ |
 		c 1 _~  |
 		c 1  |
-		bf, 8 bf, bf, bf, bf, bf, r bf, _~  |
-%% 5
+		
+		% First chorus
+		bf, 8 \f bf, bf, bf, bf, bf, r bf, _~  |
                 bf, 8 bf, 4 bf, 8 bf, 4 bf, 8 r  |
                 ef 4 df c 8 df ef df _~  |
                 df 2. r4  |
                 bf, 8 bf, bf, bf, bf, bf, r bf, _~  |
                 bf, 8 bf, 4 bf, 8 bf, 4 bf, 8 ef  |
-%% 10
                 ef 4 df c 8 df ef gf _~  |
                 gf 1 _~  |
                 gf 1 _~  |
                 gf 1 _~  |
                 gf 2 _~ gf 8 r r4 |
-%% 15
                 r4 ef 8 ef c 4 af,  |
                 r4 gf 4. f  |
                 ef 4. df r4  |
@@ -1060,61 +993,51 @@ globalTempo = {
                 gf 4  gf 8  r2 gf 8  |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
-%% 30
                 gf 4  gf 8  r r2  |
                 f 4  f 8  r r2  |
                 r4 f f  f   |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
-%% 35
                 f 4  f 8  r r2  |
                 r4 f  f  f   |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
                 f 4  f 8  r r2  |
-%% 40
                 r4 f  f  f   |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
                 f 4  f 8  r r2  |
                 f 4 f f f  |
-%% 45
                 r2 ef  |
                 r2 f  |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
                 r2 ef  |
-%% 50
                 r2 f  |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
-%% 55
                 f 4  f 8  r r2  |
                 r4 f f f  |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
                 f 4 f 8 r r2  |
-%% 60
                 r4 f f f  |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
                 f 4  f 8  r r2  |
                 r4 f f f  |
-%% 65
                 gf 4 gf 8 r r2  |
                 gf 4 gf 8 r r2  |
                 f 4 f 8 r r2  |
                 f 4 f f f  |
                 r2 ef  |
-%% 70
                 r2 f  |
                 gf 4 gf 8 r r2  |
                 gf 4 gf 8 r r2  |
                 r2 ef  |
                 r2 f  |
-%% 75
                 g 8  g  g  g g  g  g  g   |
                 g 8 r r4 r2  | 
                 \key gf \lydian
@@ -1134,49 +1057,41 @@ globalTempo = {
                 f 8 f 4 ef 8 f 4 ef  |
                 f 8 f r4 r2  |
                 f 8 f r4 r2  |
-%% 95
                 f 8 f f ef f 4 ef 8 f _~  |
                 f 8 f 4 ef 8 f 4 ef  |
                 f 8 f r4 r2  |
                 f 8 f r4 r2  |
                 f 8 f f ef f 4 ef 8 f _~  |
-%% 100
                 f 8 f 4 ef 8 f 4 ef 8 r  |
                 f 8 f f ef f 4 ef 8 f _~  |
                 f 8 f 4 ef 8 f 4 ef 8 r  |
                 f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-%% 105
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                f 8 f f ef f 4 ef 8 f 
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                f 8 f f ef f 4 ef 8 f _~  |
-%% 110
                 f 8 f 4 ef 8 f 4 ef 8 r  |
                 f 8 f f ef f 4 ef 8 f _~  |
                 f 8 f 4 ef 8 f 4 ef 8 r  |
                 f 8 f f ef f 4 ef 8 f 
                 f 8 f 4 ef 8 f 4 ef 8 r  |
-%% 115
                 f 8 f f ef f 4 ef 8 f _~  |
                 f 8 f 4 ef 8 f 4 ef 8 r  |
                 f 8 f f ef f 4 ef 8 f _~  |
                 f 8 f 4 ef 8 f 4 ef 8 r  |
+                f 8 f f ef f 4 ef 8 f 
+                f 8 f 4 ef 8 f 4 ef 8 r  |
                 f 8 f f ef f 4 ef 8 f _~  |
-%% 120
+                f 8 f 4 ef 8 f 4 ef 8 r  |
+                f 8 f f ef f 4 ef 8 f _~  |
+                f 8 f 4 ef 8 f 4 ef 8 r  |
+                f 8 f f ef f 4 ef 8 f _~  |
                 f 8 f 4 ef 8 f 4 ef 8 r  |
                 f 8 f f ef f 4 ef 8 f _~  |
                 f 8 f 4 ef 8 f 4 ef 8 r  |
                 r4 cf 2.  |
                 r4 af 2.  |
-%% 125
                 gf 4  gf  r2  |
                 gf 4  gf  r2  |
                 r4 cf 2.  |
                 af 1  |
                 r4 cf 2.  |
-%% 130
                 af 1  |
                 ef 8 ef  ef  ef  ef  ef  ef  ef   |
                 ef 8  ef  ef  ef  ef  r r4  |
@@ -1213,7 +1128,6 @@ globalTempo = {
 		gf 4 gf 8 r r2  |
                 gf 4 gf 8 r r2  |
                 gf 4 gf 8 r r2  |
-%% 165
                 gf 4 gf 8 r r2  |
                 gf 4 gf 8 r r2  |
                 gf 4 gf 8 r r2  \bar "|."
@@ -1381,8 +1295,9 @@ globalTempo = {
 		f, 1  |
 		f, 8 f,  f,  f,  f, 4  f, 8 f, _~  |
                 f, 8 f, 4  f, 8 f, 4  f, 8  r  |
-                f, 1 _~  |
-%% 5
+                
+		% First chorus
+		f, 1 \f _~  |
                 f, 1  |
                 gf, 1 |
 		\override NoteHead.style = #'cross
@@ -1390,13 +1305,11 @@ globalTempo = {
 		\revert NoteHead.style
 		f, 1 _~  |
                 f, 1  |
-%% 10
                 gf, 1  _~ |
                 gf, 2 gf   |
                 gf, 2 gf   |
                 gf, 4 gf  gf,  gf   |
                 gf, 4 gf  gf, 8 r bf, af, _~  |
-%% 15
                 af, 4 df 8  c 4. af, 8  gf, _~ |
                 gf, 4 gf, gf, gf,  |
                 gf, 4. gf, bf, 8  af, _~  |
@@ -1407,7 +1320,6 @@ globalTempo = {
                 gf, 4 gf, gf, gf,  |
                 gf, 4. gf, bf, 8  af, _~  |
                 af, 4 df 8 c 4. df 8 r  |
-%% 25
                 \key ef \aeolian
                 ef 4 ef 8 r r2  |
                 ef 4 ef 8 r r2  |
@@ -1429,13 +1341,11 @@ globalTempo = {
 		gf, 8 gf, 4 gf, 8 gf, 4 af,  |
 		f, 4 f, f, f, |
 		af, af, af, bf, |
-%% 45
                 cf 1  |
                 df 1  |
                 ef 4 ef 8 r r2  |
                 ef 4  ef 8 r r2  |
                 cf 1  |
-%% 50
                 df 1  |
                 ef 4 ef 8  r r2  |
                 ef 4  ef 8  r r8 bf, af, f,  |
@@ -1456,13 +1366,11 @@ globalTempo = {
 		f, 4 f, f, f, |
 		af, af, af, bf, |
                 cf 1  |
-%% 70
                 df 1  |
                 ef 4  ef 8  r r2  |
                 ef 4  ef 8  r r2  |
                 cf 1  |
                 df 1  |
-%% 75
                 ef 8 ef  ef  ef  ef  ef  ef  ef   |
                 ef 8 r r4 r bf, 8 af, _~  |
                 \key gf \lydian
@@ -1480,13 +1388,11 @@ globalTempo = {
                 < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
                 < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
                 < ef, ef > 4 < ef, ef > < ef, ef >  < ef, ef >  |
-%% 90
                 < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
                 < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
                 < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
                 r4 < ef ef, > 8 < ef ef, > r2  |
                 r4 < ef ef, > 8 < ef ef, > r2  |
-%% 95
                 < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
                 < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
                 r4 < ef, ef > 8 < ef, ef > r2  |
@@ -1517,32 +1423,27 @@ globalTempo = {
 		af, 8 af, 4 af, 8 af, gf, f, 4  |
 		r2 gf,  |
                 r2 cf  |
-%% 125
                 ef 4  ef  r2  |
                 ef 4  ef  r2  |
                 r2 gf,  |
                 cf 1  |
                 r2 gf,  |
-%% 130
                 cf 1  |
                 bf, 8 bf,  bf,  bf,  bf,  bf,  bf,  bf,   |
                 bf, 8  bf,  bf,  bf,  bf,  r r4  |
                 r1 r1 r1 r1 r1 
                 r8 bf, af, gf, ef,  bf,  af,  gf,  |
                 ef, 8 bf, af, gf, ef, r r4  |
-%% 140
                 R1  |
                 r8 bf, af, gf, ef, bf, af, gf,  |
                 ef, 8 bf, af, gf, ef, r r4  |
                 R1  |
                 r8 bf, af, gf, ef, bf, af, gf,  |
-%% 145
                 ef, 8 bf, af, gf, ef, r r4  |
                 R1  |
                 r8 bf, af,  gf,  ef,  bf, af, gf,   |
                 ef, 8  bf,  af,  gf, ef, d ef  af, _~  |
                 af, 1 _~  |
-%% 150
                 af, 1  |
 		\tuplet 3/2 { af, 8 af, af, af, af, af, } af, r bf, af, _~  |
                 \key gf \lydian
