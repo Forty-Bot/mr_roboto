@@ -43,156 +43,156 @@ globalTempo = {
                 \clef "treble_8"
                 \key af \mixolydian
 		
-                r2 r4 bf' 8 ( af' \mp _~  |
-                af' 4 df'' 8 c'' 4. af' 8 gf' _~  |
-                gf' 2. ) bf 8 ( af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2. ) bf' 8 ( af' _~  |
-                af' 4 df'' 8 c'' 4. af' 8. gf' 32 af'  |
-                gf' 2. ) bf 8 ( af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2. )< bf' bf> 8 ( < af' af > _~  |
-		< af' af > 4 < df'' df' > 8 < c'' c' > 4. < ef'' ef' > 8 ) < f'' f' > _~  |
-		< f'' f' > 1 _~  |
-		< f'' f' > 1 _~  |
-		< f'' f' > 1 _~  |
-		< f'' f' > 1   |
+                r2 r4 bf' 8 ( af' \mp _~ |
+                af' 4 df'' 8 c'' 4. af' 8 gf' _~ |
+                gf' 2. ) bf 8 ( af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2. ) bf' 8 ( af' _~ |
+                af' 4 df'' 8 c'' 4. af' 8. gf' 32 af' |
+                gf' 2. ) bf 8 ( af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2. )< bf' bf> 8 ( < af' af > _~ |
+		< af' af > 4 < df'' df' > 8 < c'' c' > 4. < ef'' ef' > 8 ) < f'' f' > _~ |
+		< f'' f' > 1 _~ |
+		< f'' f' > 1 _~ |
+		< f'' f' > 1 _~ |
+		< f'' f' > 1  |
 
 		% Initial theme
 		\mark \default
-		R1*10  |
+		R1*10 |
 
 		% First chorus
 		\mark \default
-                r2 r4 bf 8 \f af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 4 r4 r2  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 4 r4 r2  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 4 r4 r2  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. df' 4   |
+                r2 r4 bf 8 \f af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 4 r4 r2 |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 4 r4 r2 |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 4 r4 r2 |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. df' 4  |
 
 		\key ef \aeolian
-                ef' 4 r r2  |
-                R1*3  |
-                r4 r8 df \mf ef  ef df ef  |
-                r2 ef 8  ef df ef   |
-                r2 gf 8  gf f 4   |
-                df 4 r r2  |
-                r4 r8 df ef ef ef ef  |
-                r4 r8 df ef ef  ef ef  |
-                r4 r8 df gf  gf f  df _~  |
-                df 4 r r2  |
-                r4 r8 df ef ef ef ef  |
-                r2 ef 8 ef ef ef  |
-                r2 gf 8 gf  f df _~  |
-                df 4 r r2  |
-                r4 r8 ef bf  bf af gf   |
-                r2 bf 8  bf af gf   |
+                ef' 4 r r2 |
+                R1*3 |
+                r4 r8 df \mf ef  ef df ef |
+                r2 ef 8  ef df ef  |
+                r2 gf 8  gf f 4  |
+                df 4 r r2 |
+                r4 r8 df ef ef ef ef |
+                r4 r8 df ef ef  ef ef |
+                r4 r8 df gf  gf f  df _~ |
+                df 4 r r2 |
+                r4 r8 df ef ef ef ef |
+                r2 ef 8 ef ef ef |
+                r2 gf 8 gf  f df _~ |
+                df 4 r r2 |
+                r4 r8 ef bf  bf af gf  |
+                r2 bf 8  bf af gf  |
                 r4 r8 df f  f ef  f  
-                \skip 8 r8 r ef gf  gf f 4  |
+                \skip 8 r8 r ef gf  gf f 4 |
+                cf 1 |
+                r4 r8 df gf gf f 4 |
+                ef 4 r r2 |
+                r2 gf 8 gf 4  f 8 |
+                cf 2. r4 |
+                r4 r8 df  gf  gf  r f  |
+                ef 2 r |
+                R1 |
+                r4 r8 df 8 ef 16 ef 8 ef 8. ef 8  |
+                r4 r8 ef ef ef ef  ef |
+                r4 r8 df  gf gf  f df _~ |
+                df 4 r r2 |
+                r4 r8 ef ef ef 16 ef 8 ef 8. |
+                r2 ef 8  ef  ef  ef |
+                r4 r8 df gf  gf  f 4  |
+                df 4. r8 r2 |
+                r4 r8 bf bf bf 16 af 8. gf 8 |
+                r4 r8 bf bf  bf af gf |
+                r4 r8 df gf  gf ef f _~ |
+                f 2 r |
+                r4 r8 gf bf  bf  af  gf | 
+                \skip 8 r8 r4 bf 8 bf af gf | 
+                \skip 8 r8 df  df  gf  gf f f _~ |
+		f 4 r8 df  \tuplet 3/2 { gf 4 gf f } |
                 cf 1  |
-                r4 r8 df gf gf f 4  |
-                ef 4 r r2  |
-                r2 gf 8 gf 4  f 8  |
-                cf 2. r4  |
-                r4 r8 df  gf  gf  r f   |
-                ef 2 r  |
-                R1  |
-                r4 r8 df 8 ef 16 ef 8 ef 8. ef 8   |
-                r4 r8 ef ef ef ef  ef  |
-                r4 r8 df  gf gf  f df _~  |
-                df 4 r r2  |
-                r4 r8 ef ef ef 16 ef 8 ef 8.  |
-                r2 ef 8  ef  ef  ef  |
-                r4 r8 df gf  gf  f 4   |
-                df 4. r8 r2  |
-                r4 r8 bf bf bf 16 af 8. gf 8  |
-                r4 r8 bf bf  bf af gf  |
-                r4 r8 df gf  gf ef f _~  |
-                f 2 r  |
-                r4 r8 gf bf  bf  af  gf  | 
-                \skip 8 r8 r4 bf 8 bf af gf  | 
-                \skip 8 r8 df  df  gf  gf f f _~  |
-		f 4 r8 df  \tuplet 3/2 { gf 4 gf f }  |
-                cf 1   |
-		\skip 8 r4 cf 8 \tuplet 3/2 { gf 4 gf f }  |
-                ef 4 ( bf 2. )  |
-		r2 \tuplet 3/2 { gf 4 gf f }  |
-                cf 1  |
-		r4 r8 cf  \tuplet 3/2 { gf 4 gf f }  |
-                ef 1  |
-		r2 r4 bf 8  af _~  |
+		\skip 8 r4 cf 8 \tuplet 3/2 { gf 4 gf f } |
+                ef 4 ( bf 2. ) |
+		r2 \tuplet 3/2 { gf 4 gf f } |
+                cf 1 |
+		r4 r8 cf  \tuplet 3/2 { gf 4 gf f } |
+                ef 1 |
+		r2 r4 bf 8  af _~ |
                 \key gf \lydian
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. df' 4   |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2 r |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2 r |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2 r |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. df' 4  |
                 \key ef \aeolian
-                ef' 4 r r2  |
-                R1*19  |
-                f 8  f  f  f  f 4  r8 f  _~  |
-                f 8 f 4 ef 8 f 4  ef 8 ef  |
-                f 8 f  f f r4 r8 f  _~  |
-                f 4 f 8 ef f 4  ef 8  ef   |
-                f 8 f  f  f f 4 r8 f _~  |
-                f 8 f 4  ef 8  f 4  ef 8 ef   |
-                f 8 f f  f f  r ef bf _~  |
-                bf 8 af ( gf ) af af bf  r4  |
-                bf 4 af 8 ( gf ) r2  |
-                r4 r8 bf 4. af 8 ( gf )  |
-                bf 4 af 8 ( gf ) r2  |
-                r4 r8 df' 4. bf 8  bf  |
-                bf 4 af 8 ( gf ) r2  |
-                r2 bf  |
+                ef' 4 r r2 |
+                R1*19 |
+                f 8  f  f  f  f 4  r8 f  _~ |
+                f 8 f 4 ef 8 f 4  ef 8 ef |
+                f 8 f  f f r4 r8 f  _~ |
+                f 4 f 8 ef f 4  ef 8  ef  |
+                f 8 f  f  f f 4 r8 f _~ |
+                f 8 f 4  ef 8  f 4  ef 8 ef  |
+                f 8 f f  f f  r ef bf _~ |
+                bf 8 af ( gf ) af af bf  r4 |
+                bf 4 af 8 ( gf ) r2 |
+                r4 r8 bf 4. af 8 ( gf ) |
+                bf 4 af 8 ( gf ) r2 |
+                r4 r8 df' 4. bf 8  bf |
+                bf 4 af 8 ( gf ) r2 |
+                r2 bf |
                 bf 4 af 8 ( gf ) r2 |
                 bf 1 ( |
                 af 8 gf ef gf _~ gf 2 ) | 
-                r2 \grace bf 8 ( gf' 2  |
-                ef' 1 )  |
+                r2 \grace bf 8 ( gf' 2 |
+                ef' 1 ) |
                 \skip 8 r4 r2 
-                r8  |
-                R1*9  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r8 r r4  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r4 r  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r2  |
-                R1*3  |
-                r2 r4 bf 8  af _~  |
+                r8 |
+                R1*9 |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2 r |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2 r8 r r4 |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2 r4 r |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2 r2 |
+                R1*3 |
+                r2 r4 bf 8  af _~ |
                 \key gf \lydian
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r  |
-                r2 r4 bf 8  af _~  |
-                af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r  |
-                r2 r4 bf 8 af _~  |
-                af 4 df' 8 c' 4.  df' 4   |
-                ef' 2  r4 df'  |
-                ef' 4 ef' r2  |
-                ef' 4 ef' r2  |
-                ef' 4 ef' r2  |
-                ef' 4 ef'  r2  |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2 r |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2 r |
+                r2 r4 bf 8  af _~ |
+                af 4 df' 8 c' 4. af 8 gf _~ |
+                gf 2 r |
+                r2 r4 bf 8 af _~ |
+                af 4 df' 8 c' 4.  df' 4  |
+                ef' 2  r4 df' |
+                ef' 4 ef' r2 |
+                ef' 4 ef' r2 |
+                ef' 4 ef' r2 |
+                ef' 4 ef'  r2 |
                 R1  \bar "|."
             } % Voice
             \addlyrics{
@@ -322,168 +322,168 @@ globalTempo = {
 		f' 1 |
                
 		% Inital theme
-		ef' 8 \f ef' ef' ef' ef' d' r ef' _~  |
-                ef' 8 ef' 4 d' 8 ef' 4 d' 8 r  |
-                ef' 4 df' c' 8 df' ef' df' _~  |
-                df' 2. r4  |
-                ef' 8 ef' ef' ef' ef' d' r ef' _~  |
-                ef' 8 ef' 4 d' 8 ef' 4 d' 8 ef'  |
-                ef' 4 df' c' 8 df' ef' gf' _~  |
+		ef' 8 \f ef' ef' ef' ef' d' r ef' _~ |
+                ef' 8 ef' 4 d' 8 ef' 4 d' 8 r |
+                ef' 4 df' c' 8 df' ef' df' _~ |
+                df' 2. r4 |
+                ef' 8 ef' ef' ef' ef' d' r ef' _~ |
+                ef' 8 ef' 4 d' 8 ef' 4 d' 8 ef' |
+                ef' 4 df' c' 8 df' ef' gf' _~ |
                 gf' 1 _~ 
-                gf' 1 _~  |
-                gf' 1 _~  |
-                gf' 2 _~ gf' 8 r8 r4  | 
+                gf' 1 _~ |
+                gf' 1 _~ |
+                gf' 2 _~ gf' 8 r8 r4 | 
                 
 		% First chorus
-		R1  |
-                r4 bf' 8 bf' bf' c'' r bf'  |
-                bf' 8 bf' bf' c'' r2  |
-                R1  |
-                r4 bf' 8 bf' bf' c'' r bf'  |
-                bf' 8 bf' bf' c'' r2  |
-                R1  |
-                r4 bf' 8 bf' bf' c'' r bf'  |
-                bf' 8 bf' bf' c'' r2  |
-                R1  |
+		R1 |
+                r4 bf' 8 bf' bf' c'' r bf' |
+                bf' 8 bf' bf' c'' r2 |
+                R1 |
+                r4 bf' 8 bf' bf' c'' r bf' |
+                bf' 8 bf' bf' c'' r2 |
+                R1 |
+                r4 bf' 8 bf' bf' c'' r bf' |
+                bf' 8 bf' bf' c'' r2 |
+                R1 |
                 
 		\key ef \aeolian
-                ef' 4 ef' 8 r r2  |
-                ef' 4 ef' 8 r r2  |
-                ef' 4 ef' 8 r2 ef' 8  |
-                < f' ef' > 4 ef' 8 r r2  |
-                < ef' f' > 4 ef' 8 r r2  |
-                < ef' f' > 4 ef' 8 r r2  |
-                df' 4 df' 8 r r2  |
-                r4 df' df' d'  |
-                < f' ef' > 4 ef' 8 r r2  |
-                < f' ef' > 4 ef' 8 r r2  |
-                df' 4 df' 8 r r2  |
-                r4 df' df' d'  |
-                < ef' f' > 4 ef' 8 r r2  |
-                < ef' f' > 4 ef' 8 r r2  |
-                df' 4 df' 8 r r2  |
-                r4 df' df' d'  |
-                < ef' f' > 4 ef' 8 r r2  |
-                < ef' f' > 4 ef' 8 r r2  |
-                df' 4 df' 8 r r2  |
-                df' 4 df' df' df'  |
-                r2 r4 ef'  |
-                r2 r4 df'  |
-                ef' 4 ef' 8 r r2  |
-                ef' 4 ef' 8 r r2  |
-                r2 r4 ef'  |
-                r2 r4 df'  |
-                < f' ef' > 4 ef' 8 r r2  |
-                < f' ef' > 4 ef' 8 r r2  |
-                < f' ef' > 4 ef' 8 r r2  |
-                < f' ef' > 4 ef' 8 r r2  |
-                df' 4 df' 8 r r2  |
-                r8 df' ( ef' df' af'  ef' df' ef' )  |
-                < f' ef' > 4 ef' 8 r r2  |
-                < f' ef' > 4 ef' 8 r r2  |
-                df' 4 df' 8 r r2  |
-                r8 df' ( ef' df' af'  ef' df' ef' )  |
-                < ef' f' > 4 ef' 8 r r2  |
-                < ef' f' > 4 ef' 8 r r2  |
-                df' 4 df' 8 r r2  |
-                r8 df' ( ef' df' af' ef' df' ef' )  |
-                < ef' f' > 4 ef' 8 r r2  |
-                < ef' f' > 4 ef' 8 r r2  |
-                df' 4 df' 8 r r2  |
-                df' 4 df' df' d'  | 
-                r2 r4 ef'  |
-                r2 r4 df'  |
-                ef' 4 ef' 8 r r2  |
-                ef' 4 ef' 8 r r2  |
-                r2 r4 ef'  |
-                r2 r4 df'  |
-		g' 8  g'  g'  g' g'  g'  g'  g'   |
-                g' 8 r r4 r2  |
+                ef' 4 ef' 8 r r2 |
+                ef' 4 ef' 8 r r2 |
+                ef' 4 ef' 8 r2 ef' 8 |
+                < f' ef' > 4 ef' 8 r r2 |
+                < ef' f' > 4 ef' 8 r r2 |
+                < ef' f' > 4 ef' 8 r r2 |
+                df' 4 df' 8 r r2 |
+                r4 df' df' d' |
+                < f' ef' > 4 ef' 8 r r2 |
+                < f' ef' > 4 ef' 8 r r2 |
+                df' 4 df' 8 r r2 |
+                r4 df' df' d' |
+                < ef' f' > 4 ef' 8 r r2 |
+                < ef' f' > 4 ef' 8 r r2 |
+                df' 4 df' 8 r r2 |
+                r4 df' df' d' |
+                < ef' f' > 4 ef' 8 r r2 |
+                < ef' f' > 4 ef' 8 r r2 |
+                df' 4 df' 8 r r2 |
+                df' 4 df' df' df' |
+                r2 r4 ef' |
+                r2 r4 df' |
+                ef' 4 ef' 8 r r2 |
+                ef' 4 ef' 8 r r2 |
+                r2 r4 ef' |
+                r2 r4 df' |
+                < f' ef' > 4 ef' 8 r r2 |
+                < f' ef' > 4 ef' 8 r r2 |
+                < f' ef' > 4 ef' 8 r r2 |
+                < f' ef' > 4 ef' 8 r r2 |
+                df' 4 df' 8 r r2 |
+                r8 df' ( ef' df' af'  ef' df' ef' ) |
+                < f' ef' > 4 ef' 8 r r2 |
+                < f' ef' > 4 ef' 8 r r2 |
+                df' 4 df' 8 r r2 |
+                r8 df' ( ef' df' af'  ef' df' ef' ) |
+                < ef' f' > 4 ef' 8 r r2 |
+                < ef' f' > 4 ef' 8 r r2 |
+                df' 4 df' 8 r r2 |
+                r8 df' ( ef' df' af' ef' df' ef' ) |
+                < ef' f' > 4 ef' 8 r r2 |
+                < ef' f' > 4 ef' 8 r r2 |
+                df' 4 df' 8 r r2 |
+                df' 4 df' df' d' | 
+                r2 r4 ef' |
+                r2 r4 df' |
+                ef' 4 ef' 8 r r2 |
+                ef' 4 ef' 8 r r2 |
+                r2 r4 ef' |
+                r2 r4 df' |
+		g' 8  g'  g'  g' g'  g'  g'  g'  |
+                g' 8 r r4 r2 |
                 \key gf \lydian
-                R1  |
-                r4 bf' 8 bf' bf' c'' r bf'  |
-                bf' 8 bf' bf' c'' r2  |
-                R1  |
-                r4 bf' 8 bf' bf' c'' r bf'  |
-                bf' 8 bf' bf' c'' r2  |
-                R1  |
-                r4 bf' 8 bf' bf' c'' r bf'  |
-                bf' 8 bf' bf' c'' r2  |
-                R1  |
+                R1 |
+                r4 bf' 8 bf' bf' c'' r bf' |
+                bf' 8 bf' bf' c'' r2 |
+                R1 |
+                r4 bf' 8 bf' bf' c'' r bf' |
+                bf' 8 bf' bf' c'' r2 |
+                R1 |
+                r4 bf' 8 bf' bf' c'' r bf' |
+                bf' 8 bf' bf' c'' r2 |
+                R1 |
                 \key ef \aeolian
 		R1 | R1 | R1 | R1 | R1 | R1 |
-		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
-		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
+		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
+		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
                 r1*2 
-		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
-		r2 \tuplet 3/2 { bf' 4 bf' bf' }  |
-                R1  |
-                r4 ef'  bf  gf'   |
-                f' 1 _~  |
-                f' 4 df'  bf  gf'   |
-                f' 1 _~  |
-                f' 4 ef'  bf  gf'   |
-                f' 1 _~  |
-                f' 4 df'  bf  gf'   |
-                f' 1 _~  |
-                f' 4 ef'  bf  gf'   |
-                f' 1 _~  |
-                f' 4 df'  bf  gf'   |
-                f' 1 _~  |
-                f' 4 ef'  bf  gf'   |
-                f' 1 _~  |
-                f' 4 df'  bf  gf'   |
-                f' 1 _~  |
+		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
+		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
+                R1 |
+                r4 ef'  bf  gf'  |
+                f' 1 _~ |
+                f' 4 df'  bf  gf'  |
+                f' 1 _~ |
                 f' 4 ef'  bf  gf'  |
-                f' 1 _~  |
-                f' 4 df'  bf  gf'   |
-                f' 1 _~  |
-                f' 4 ef'  bf  gf'   |
-                f' 1 _~  |
-                f' 4 r r2  |
-                r2 r4 ef'  |
-                r2 f'  |
-                ef' 4  ef'  r2  |
-                ef' 4  ef'  r2  |
-                r2 r4 gf'  |
-                af' 1  |
-                r2 r4 gf'  |
-                af' 1  |
-                g' 8 g'  g'  g'  g'  g'  g'  g'   |
-                g' 8  g'  g'  g'  g'  r r4  |
+                f' 1 _~ |
+                f' 4 df'  bf  gf'  |
+                f' 1 _~ |
+                f' 4 ef'  bf  gf'  |
+                f' 1 _~ |
+                f' 4 df'  bf  gf'  |
+                f' 1 _~ |
+                f' 4 ef'  bf  gf'  |
+                f' 1 _~ |
+                f' 4 df'  bf  gf'  |
+                f' 1 _~ |
+                f' 4 ef'  bf  gf' |
+                f' 1 _~ |
+                f' 4 df'  bf  gf'  |
+                f' 1 _~ |
+                f' 4 ef'  bf  gf'  |
+                f' 1 _~ |
+                f' 4 r r2 |
+                r2 r4 ef' |
+                r2 f' |
+                ef' 4  ef'  r2 |
+                ef' 4  ef'  r2 |
+                r2 r4 gf' |
+                af' 1 |
+                r2 r4 gf' |
+                af' 1 |
+                g' 8 g'  g'  g'  g'  g'  g'  g'  |
+                g' 8  g'  g'  g'  g'  r r4 |
                 r1 r1 r1
-                r2 r4 bf' 8  af' _~  |
-                af' 4 df'' 8 c'' 4. af' 8 gf' _~  |
-                gf' 1 _~  |
+                r2 r4 bf' 8  af' _~ |
+                af' 4 df'' 8 c'' 4. af' 8 gf' _~ |
+                gf' 1 _~ |
                 gf' 2 r4 bf' 8 af' _~ 
-                af' 4 df'' 8 c'' 4. af' 8 gf' _~  |
-                gf' 1 _~  |
+                af' 4 df'' 8 c'' 4. af' 8 gf' _~ |
+                gf' 1 _~ |
                 gf' 2 r4 bf' 8  af' _~ 
-                af' 4 df'' 8  c'' 4. af' 8 gf' _~  |
-                gf' 1 _~  |
-                gf' 2 r4 bf' 8 af' _~  |
-                af' 4 df'' 8  c'' 4. af' 8 gf' _~  |
-                gf' 1 _~  |
-                gf' 2 r8 d' ef' af _~  |
-                af 1 _~  |
-                af 1  |
-		\tuplet 3/2 { af 8 af af af af af } af r r4  |
+                af' 4 df'' 8  c'' 4. af' 8 gf' _~ |
+                gf' 1 _~ |
+                gf' 2 r4 bf' 8 af' _~ |
+                af' 4 df'' 8  c'' 4. af' 8 gf' _~ |
+                gf' 1 _~ |
+                gf' 2 r8 d' ef' af _~ |
+                af 1 _~ |
+                af 1 |
+		\tuplet 3/2 { af 8 af af af af af } af r r4 |
                 \key gf \lydian
-		R1  |
-                r4 bf' 8 bf' bf' c'' r bf'  |
-                bf' 8 bf' bf' c'' r2  |
-                R1  |
-                r4 bf' 8 bf' bf' c'' r bf'  |
-                bf' 8 bf' bf' c'' r2  |
-                R1  |
-                r4 bf' 8 bf' bf' c'' r bf'  |
-                bf' 8 bf' bf' c'' r2  |
-                R1  |
-                < ef' f' > 4 ef' 8 r r2  |
-                < f' ef' > 4 ef' 8 r r2  |
-                < f' ef' > 4 ef' 8 r r2  |
-                < f' ef' > 4 ef' 8 r r2  |
-                < f' ef' > 4 ef' 8 r r2  |
+		R1 |
+                r4 bf' 8 bf' bf' c'' r bf' |
+                bf' 8 bf' bf' c'' r2 |
+                R1 |
+                r4 bf' 8 bf' bf' c'' r bf' |
+                bf' 8 bf' bf' c'' r2 |
+                R1 |
+                r4 bf' 8 bf' bf' c'' r bf' |
+                bf' 8 bf' bf' c'' r2 |
+                R1 |
+                < ef' f' > 4 ef' 8 r r2 |
+                < f' ef' > 4 ef' 8 r r2 |
+                < f' ef' > 4 ef' 8 r r2 |
+                < f' ef' > 4 ef' 8 r r2 |
+                < f' ef' > 4 ef' 8 r r2 |
                 < f' ef' > 4 ef' 8 r r2  \bar "|."
             } % Voice
 	    \addlyrics{
@@ -625,189 +625,189 @@ globalTempo = {
                 \clef "treble_8"
                 \key af \mixolydian
                 \override Hairpin.circled-tip = ##t
-                df' 1 \< _~  | 
-                df' 1 \! _~  | 
-                df' 1 _~  | 
-                df' 1 _~  | 
-                df' 1 _~  | 
-                df' 1 _~  | 
-                df' 1 _~  | 
-                df' 1 _~  | 
-                df' 1 _~  | 
-                df' 1 _~  | 
-                df' 1  \glissando  | 
-                f 1 _~  |
-		f 1 _~  |
-                f 1  |
+                df' 1 \< _~ | 
+                df' 1 \! _~ | 
+                df' 1 _~ | 
+                df' 1 _~ | 
+                df' 1 _~ | 
+                df' 1 _~ | 
+                df' 1 _~ | 
+                df' 1 _~ | 
+                df' 1 _~ | 
+                df' 1 _~ | 
+                df' 1  \glissando | 
+                f 1 _~ |
+		f 1 _~ |
+                f 1 |
 		
 		% Inital theme
-		bf 8 \f bf bf bf bf bf r bf _~  |
-                bf 8 bf 4 bf 8 bf 4 bf 8 r  |
-                bf 4 bf af 8 af af bf _~  |
-                bf 2. r4  |
-                bf 8 bf bf bf bf bf r bf _~  |
-                bf 8 bf 4 bf 8 bf 4 bf 8 bf  |
-                bf 4 bf af 8 af af df' (  |
+		bf 8 \f bf bf bf bf bf r bf _~ |
+                bf 8 bf 4 bf 8 bf 4 bf 8 r |
+                bf 4 bf af 8 af af bf _~ |
+                bf 2. r4 |
+                bf 8 bf bf bf bf bf r bf _~ |
+                bf 8 bf 4 bf 8 bf 4 bf 8 bf |
+                bf 4 bf af 8 af af df' ( |
+                c' 8 df' c'  df' c' df' c'  df' |
+                c' 8 df' c'  df' c' df' c'  df' |
                 c' 8 df' c'  df' c' df' c'  df'  |
-                c' 8 df' c'  df' c' df' c'  df'  |
-                c' 8 df' c'  df' c' df' c'  df'   |
-                c' 8  df' c' df' c' ) r r4  |
+                c' 8  df' c' df' c' ) r r4 |
                 
 		% First chorus
-		R1  |
-                r4 gf' 8 gf' gf' ef' r gf'  |
-                gf' 8 gf' gf' ef' r2  |
-                R1  |
-                r4 gf' 8 gf' gf' ef' r gf'  |
-                gf' 8 gf' gf' ef' r2  |
-                R1  |
-                r4 gf' 8 gf' gf' ef' r gf'  |
-                gf' 8 gf' gf' ef' r2  |
-                R1  |
+		R1 |
+                r4 gf' 8 gf' gf' ef' r gf' |
+                gf' 8 gf' gf' ef' r2 |
+                R1 |
+                r4 gf' 8 gf' gf' ef' r gf' |
+                gf' 8 gf' gf' ef' r2 |
+                R1 |
+                r4 gf' 8 gf' gf' ef' r gf' |
+                gf' 8 gf' gf' ef' r2 |
+                R1 |
 
 		\key ef \aeolian
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r2 bf 8  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                af 4 af 8 r r2  |
-                r4 af af a  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                af 4 af 8 r r2  |
-                r4 af af a  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                af 4 af 8 r r2  |
-                r4 af af a  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                af 4 af 8 r r2  |
-                af 4 af af af  |
-                r4 gf 2.  |
-                r4 af 2.  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                r4 gf 2.  |
-                r4 af 2.  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                af 4 af 8 r r2  |
-                r4 af af a  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                af 4 af 8 r r2  |
-                r4 af af a  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                af 4 af 8 r r2  |
-                r4 af af a  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                af 4 af 8 r r2  |
-                af 4 af af af  |
-                r4 gf 2.  |
-                r4 af 2.  |
-                bf 4 bf 8 r r2  |
-                bf 4 bf 8 r r2  |
-                r4 gf 2.  |
-                r4 af 2.  |
-                bf 8  bf  bf  bf bf  bf  bf  bf   |
-                bf 8 r r4 r2  |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r2 bf 8 |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                af 4 af 8 r r2 |
+                r4 af af a |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                af 4 af 8 r r2 |
+                r4 af af a |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                af 4 af 8 r r2 |
+                r4 af af a |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                af 4 af 8 r r2 |
+                af 4 af af af |
+                r4 gf 2. |
+                r4 af 2. |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                r4 gf 2. |
+                r4 af 2. |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                af 4 af 8 r r2 |
+                r4 af af a |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                af 4 af 8 r r2 |
+                r4 af af a |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                af 4 af 8 r r2 |
+                r4 af af a |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                af 4 af 8 r r2 |
+                af 4 af af af |
+                r4 gf 2. |
+                r4 af 2. |
+                bf 4 bf 8 r r2 |
+                bf 4 bf 8 r r2 |
+                r4 gf 2. |
+                r4 af 2. |
+                bf 8  bf  bf  bf bf  bf  bf  bf  |
+                bf 8 r r4 r2 |
                 \key gf \lydian
-                R1  |
-                r4 gf' 8 gf' gf' ef' r gf'  |
-                gf' 8 gf' gf' ef' r2  |
-                R1  |
-                r4 gf' 8 gf' gf' ef' r gf'  |
-                gf' 8 gf' gf' ef' r2  |
-                R1  |
-                r4 gf' 8 gf' gf' ef' r gf'  |
-                gf' 8 gf' gf' ef' r2  |
-                R1  |
+                R1 |
+                r4 gf' 8 gf' gf' ef' r gf' |
+                gf' 8 gf' gf' ef' r2 |
+                R1 |
+                r4 gf' 8 gf' gf' ef' r gf' |
+                gf' 8 gf' gf' ef' r2 |
+                R1 |
+                r4 gf' 8 gf' gf' ef' r gf' |
+                gf' 8 gf' gf' ef' r2 |
+                R1 |
                	\key ef \aeolian
                 R1*4 
-		bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af  |
-		bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' }  |
+		bf 8 bf bf af bf 4 af 8 bf _~ |
+                bf 8 bf 4 af 8 bf 4 af |
+		bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
                 bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af  |
+                bf 8 bf bf af bf 4 af 8 bf _~ |
+                bf 8 bf 4 af 8 bf 4 af |
                 bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
                 bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
-		af 8 af af gf af 4 gf 8 af _~  |
-                af 8 af 4 gf 8 af 4 gf 8 r  |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
-		af 8 af af gf af 4 gf 8 af _~  |
-                af 8 af 4 gf 8 af 4 gf 8 r  |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
-		af 8 af af gf af 4 gf 8 af _~  |
-                af 8 af 4 gf 8 af 4 gf 8 r  |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
-		af 8 af af gf af 4 gf 8 af _~  |
-                af 8 af 4 gf 8 af 4 gf 8 r  |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
-		af 8 af af gf af 4 gf 8 af _~  |
-                af 8 af 4 gf 8 af 4 gf 8 r  |
-                bf 8 bf bf af bf 4 af 8 bf _~  |
-                bf 8 bf 4 af 8 bf 4 af 8 r  |
-		af 8 af af gf af 4 gf 8 af _~  |
-                af 8 af 4 gf 8 af 4 gf 8 r  |
-                cf' 1  |
-                df' 1  |
-                bf 4  bf  r2  |
-                bf 4  bf  r2  |
-                cf' 1  |
-                df' 1  |
-                cf' 1  |
-                df' 1  |
-                bf 8 bf  bf  bf  bf  bf  bf  bf   |
-                bf 8  bf  bf  bf  bf  r r4  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' r af r  |
-                af' 8 r af r af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-                af' 8 ef' af af af' ef' af af  |
-		\tuplet 3/2 { af 8 af af af af af } af r r4  |
+                bf 8 bf bf af bf 4 af 8 bf _~ |
+                bf 8 bf 4 af 8 bf 4 af 8 r |
+		af 8 af af gf af 4 gf 8 af _~ |
+                af 8 af 4 gf 8 af 4 gf 8 r |
+                bf 8 bf bf af bf 4 af 8 bf _~ |
+                bf 8 bf 4 af 8 bf 4 af 8 r |
+		af 8 af af gf af 4 gf 8 af _~ |
+                af 8 af 4 gf 8 af 4 gf 8 r |
+                bf 8 bf bf af bf 4 af 8 bf _~ |
+                bf 8 bf 4 af 8 bf 4 af 8 r |
+		af 8 af af gf af 4 gf 8 af _~ |
+                af 8 af 4 gf 8 af 4 gf 8 r |
+                bf 8 bf bf af bf 4 af 8 bf _~ |
+                bf 8 bf 4 af 8 bf 4 af 8 r |
+		af 8 af af gf af 4 gf 8 af _~ |
+                af 8 af 4 gf 8 af 4 gf 8 r |
+                bf 8 bf bf af bf 4 af 8 bf _~ |
+                bf 8 bf 4 af 8 bf 4 af 8 r |
+		af 8 af af gf af 4 gf 8 af _~ |
+                af 8 af 4 gf 8 af 4 gf 8 r |
+                bf 8 bf bf af bf 4 af 8 bf _~ |
+                bf 8 bf 4 af 8 bf 4 af 8 r |
+		af 8 af af gf af 4 gf 8 af _~ |
+                af 8 af 4 gf 8 af 4 gf 8 r |
+                cf' 1 |
+                df' 1 |
+                bf 4  bf  r2 |
+                bf 4  bf  r2 |
+                cf' 1 |
+                df' 1 |
+                cf' 1 |
+                df' 1 |
+                bf 8 bf  bf  bf  bf  bf  bf  bf  |
+                bf 8  bf  bf  bf  bf  r r4 |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' r af r |
+                af' 8 r af r af' ef' af af |
+                af' 8 ef' af af af' ef' af af |
+                af' 8 ef' af af af' ef' af af |
+		\tuplet 3/2 { af 8 af af af af af } af r r4 |
                 \key gf \lydian
-                R1  |
-                r4 gf' 8 gf' gf' af' r gf'  |
-                gf' 8 gf' gf' af' r2  |
-                R1  |
-                r4 gf' 8 gf' gf' af' r gf'  |
-                gf' 8 gf' gf' af' r2  |
-                R1  |
-                r4 gf' 8 gf' gf' af' r gf'  |
-                gf' 8 gf' gf' af' r2  |
-                R1  |
-                bf 4 bf 8 r r2  |
-                bf 4  bf 8  r r2  |
-                bf 4  bf 8  r r2  |
-                bf 4  bf 8  r r2  |
-                bf 4  bf 8  r r2  |
+                R1 |
+                r4 gf' 8 gf' gf' af' r gf' |
+                gf' 8 gf' gf' af' r2 |
+                R1 |
+                r4 gf' 8 gf' gf' af' r gf' |
+                gf' 8 gf' gf' af' r2 |
+                R1 |
+                r4 gf' 8 gf' gf' af' r gf' |
+                gf' 8 gf' gf' af' r2 |
+                R1 |
+                bf 4 bf 8 r r2 |
+                bf 4  bf 8  r r2 |
+                bf 4  bf 8  r r2 |
+                bf 4  bf 8  r r2 |
+                bf 4  bf 8  r r2 |
                 bf 4  bf 8  r r2 \bar "|."
             } % Voice
             \addlyrics{
@@ -961,189 +961,189 @@ globalTempo = {
                 \clef "bass"
                 \key af \mixolydian
                 \override Hairpin.circled-tip = ##t
-                bf 1 \< _~  |
-                bf 1 \! _~  |
-                bf 1 _~  |
-                bf 1 _~  |
-                bf 1 _~  |
-                bf 1 _~  |
-                bf 1 _~  |
-                bf 1 _~  |
-                bf 1 _~  |
-                bf 1 _~  |
+                bf 1 \< _~ |
+                bf 1 \! _~ |
+                bf 1 _~ |
+                bf 1 _~ |
+                bf 1 _~ |
+                bf 1 _~ |
+                bf 1 _~ |
+                bf 1 _~ |
+                bf 1 _~ |
+                bf 1 _~ |
                 bf 1  \glissando |
 		c 1 _~ |
-		c 1 _~  |
-		c 1  |
+		c 1 _~ |
+		c 1 |
 		
 		% Inital theme
-		bf, 8 \f bf, bf, bf, bf, bf, r bf, _~  |
-                bf, 8 bf, 4 bf, 8 bf, 4 bf, 8 r  |
-                ef 4 df c 8 df ef df _~  |
-                df 2. r4  |
-                bf, 8 bf, bf, bf, bf, bf, r bf, _~  |
-                bf, 8 bf, 4 bf, 8 bf, 4 bf, 8 ef  |
-                ef 4 df c 8 df ef gf _~  |
-                gf 1 _~  |
-                gf 1 _~  |
-                gf 1 _~  |
-		gf 2 _~ gf 8 r f ef _~  |
+		bf, 8 \f bf, bf, bf, bf, bf, r bf, _~ |
+                bf, 8 bf, 4 bf, 8 bf, 4 bf, 8 r |
+                ef 4 df c 8 df ef df _~ |
+                df 2. r4 |
+                bf, 8 bf, bf, bf, bf, bf, r bf, _~ |
+                bf, 8 bf, 4 bf, 8 bf, 4 bf, 8 ef |
+                ef 4 df c 8 df ef gf _~ |
+                gf 1 _~ |
+                gf 1 _~ |
+                gf 1 _~ |
+		gf 2 _~ gf 8 r f ef _~ |
 		
 		% First chorus
-		ef 4 gf 8 af 4. ef 8 df 8 _~  |
-                df 4 r4 r2  |
-                r2 r4 f 8 ef _~  |
-                ef 4 gf 8 af 4. ef 8 df 8 _~  |
-                df 4 r4 r2  |
-                r2 r4 f 8 ef _~  |
-                ef 4 gf 8 af 4. ef 8 df 8 _~  |
-                df 4 r4 r2  |
-                r2 r4 f 8 ef _~  |
-                ef 4 gf 8 af 4. gf 4  |
+		ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                df 4 r4 r2 |
+                r2 r4 f 8 ef _~ |
+                ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                df 4 r4 r2 |
+                r2 r4 f 8 ef _~ |
+                ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                df 4 r4 r2 |
+                r2 r4 f 8 ef _~ |
+                ef 4 gf 8 af 4. gf 4 |
                 
 		\key ef \aeolian
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r2 gf 8  |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                f 4  f 8  r r2  |
-                r4 f f  f   |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                f 4  f 8  r r2  |
-                r4 f  f  f   |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                f 4  f 8  r r2  |
-                r4 f  f  f   |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                f 4  f 8  r r2  |
-                f 4 f f f  |
-                r2 ef  |
-                r2 f  |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                r2 ef  |
-                r2 f  |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                f 4  f 8  r r2  |
-                r4 f f f  |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                f 4 f 8 r r2  |
-                r4 f f f  |
-                gf 4  gf 8  r r2  |
-                gf 4  gf 8  r r2  |
-                f 4  f 8  r r2  |
-                r4 f f f  |
-                gf 4 gf 8 r r2  |
-                gf 4 gf 8 r r2  |
-                f 4 f 8 r r2  |
-                f 4 f f f  |
-                r2 ef  |
-                r2 f  |
-                gf 4 gf 8 r r2  |
-                gf 4 gf 8 r r2  |
-                r2 ef  |
-                r2 f  |
-                g 8  g  g  g g  g  g  g   |
-                g 8 r r4 r2  | 
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r2 gf 8 |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                f 4  f 8  r r2 |
+                r4 f f  f  |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                f 4  f 8  r r2 |
+                r4 f  f  f  |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                f 4  f 8  r r2 |
+                r4 f  f  f  |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                f 4  f 8  r r2 |
+                f 4 f f f |
+                r2 ef |
+                r2 f |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                r2 ef |
+                r2 f |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                f 4  f 8  r r2 |
+                r4 f f f |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                f 4 f 8 r r2 |
+                r4 f f f |
+                gf 4  gf 8  r r2 |
+                gf 4  gf 8  r r2 |
+                f 4  f 8  r r2 |
+                r4 f f f |
+                gf 4 gf 8 r r2 |
+                gf 4 gf 8 r r2 |
+                f 4 f 8 r r2 |
+                f 4 f f f |
+                r2 ef |
+                r2 f |
+                gf 4 gf 8 r r2 |
+                gf 4 gf 8 r r2 |
+                r2 ef |
+                r2 f |
+                g 8  g  g  g g  g  g  g  |
+                g 8 r r4 r2 | 
                 \key gf \lydian
-                r4 ef 8 ef c 4 af,  |
-                r4 gf 4. f  |
-                ef 4. df r4  |
-                r4 ef 8 ef c 4 af,  |
-                r4 gf 4. f  |
-                ef 4. df r4  |
-                r4 ef 8 ef c 4 af,  |
-                r4 gf 4. f  |
-                ef 4. df r4  |
-                r4 ef 8 ef c 4 af,  |
+                r4 ef 8 ef c 4 af, |
+                r4 gf 4. f |
+                ef 4. df r4 |
+                r4 ef 8 ef c 4 af, |
+                r4 gf 4. f |
+                ef 4. df r4 |
+                r4 ef 8 ef c 4 af, |
+                r4 gf 4. f |
+                ef 4. df r4 |
+                r4 ef 8 ef c 4 af, |
 		\key ef \aeolian
 		R1*4 
-                f 8 f f f f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef  |
-                f 8 f r4 r2  |
-                f 8 f r4 r2  |
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef  |
-                f 8 f r4 r2  |
-                f 8 f r4 r2  |
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
+                f 8 f f f f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef |
+                f 8 f r4 r2 |
+                f 8 f r4 r2 |
+                f 8 f f ef f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef |
+                f 8 f r4 r2 |
+                f 8 f r4 r2 |
+                f 8 f f ef f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef 8 r |
+                f 8 f f ef f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef 8 r |
+                f 8 f f ef f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef 8 r |
+                f 8 f f ef f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef 8 r |
                 f 8 f f ef f 4 ef 8 f 
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
+                f 8 f 4 ef 8 f 4 ef 8 r |
+                f 8 f f ef f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef 8 r |
+                f 8 f f ef f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef 8 r |
                 f 8 f f ef f 4 ef 8 f 
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                f 8 f f ef f 4 ef 8 f _~  |
-                f 8 f 4 ef 8 f 4 ef 8 r  |
-                r4 cf 2.  |
-                r4 af 2.  |
-                gf 4  gf  r2  |
-                gf 4  gf  r2  |
-                r4 cf 2.  |
-                af 1  |
-                r4 cf 2.  |
-                af 1  |
-                ef 8 ef  ef  ef  ef  ef  ef  ef   |
-                ef 8  ef  ef  ef  ef  r r4  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r ef' r ef  |
-                r 8 ef' r ef r a bf ef _~  |
-                ef 1 _~  |
-                ef 1  |
-		\tuplet 3/2 { ef 8 ef ef ef ef ef } ef r r4  |
+                f 8 f 4 ef 8 f 4 ef 8 r |
+                f 8 f f ef f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef 8 r |
+                f 8 f f ef f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef 8 r |
+                f 8 f f ef f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef 8 r |
+                f 8 f f ef f 4 ef 8 f _~ |
+                f 8 f 4 ef 8 f 4 ef 8 r |
+                r4 cf 2. |
+                r4 af 2. |
+                gf 4  gf  r2 |
+                gf 4  gf  r2 |
+                r4 cf 2. |
+                af 1 |
+                r4 cf 2. |
+                af 1 |
+                ef 8 ef  ef  ef  ef  ef  ef  ef  |
+                ef 8  ef  ef  ef  ef  r r4 |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r ef' r ef |
+                r 8 ef' r ef r a bf ef _~ |
+                ef 1 _~ |
+                ef 1 |
+		\tuplet 3/2 { ef 8 ef ef ef ef ef } ef r r4 |
 		\key gf \lydian
-                r4 ef 8 ef c 4 af,  |
-                r4 gf 4. f  |
-                ef 4. df r4  |
-                r4 ef 8 ef c 4 af,  |
-                r4 gf 4. f  |
-                ef 4. df r4  |
-                r4 ef 8 ef c 4 af,  |
-                r4 gf 4. f  |
-                ef 4. df r4  |
-                R1  |
-		gf 4 gf 8 r r2  |
-                gf 4 gf 8 r r2  |
-                gf 4 gf 8 r r2  |
-                gf 4 gf 8 r r2  |
-                gf 4 gf 8 r r2  |
+                r4 ef 8 ef c 4 af, |
+                r4 gf 4. f |
+                ef 4. df r4 |
+                r4 ef 8 ef c 4 af, |
+                r4 gf 4. f |
+                ef 4. df r4 |
+                r4 ef 8 ef c 4 af, |
+                r4 gf 4. f |
+                ef 4. df r4 |
+                R1 |
+		gf 4 gf 8 r r2 |
+                gf 4 gf 8 r r2 |
+                gf 4 gf 8 r r2 |
+                gf 4 gf 8 r r2 |
+                gf 4 gf 8 r r2 |
                 gf 4 gf 8 r r2  \bar "|."
             } % Voice
             \addlyrics{
@@ -1295,190 +1295,190 @@ globalTempo = {
                 \clef "bass"
                 \key af \mixolydian
                 \override Hairpin.circled-tip = ##t
-                af 1 \< _~  |
-                af 1 \! _~  |
-                af 1 _~  |
-                af 1 _~  |
-                af 1 _~  |
-                af 1 _~  |
-                af 1 _~  |
-                af 1 _~  |
-                af 1 _~  |
-                af 1 _~  |
+                af 1 \< _~ |
+                af 1 \! _~ |
+                af 1 _~ |
+                af 1 _~ |
+                af 1 _~ |
+                af 1 _~ |
+                af 1 _~ |
+                af 1 _~ |
+                af 1 _~ |
+                af 1 _~ |
                 af 1  \glissando |
-		f, 1  |
-		f, 8 f,  f,  f,  f, 4  f, 8 f, _~  |
-                f, 8 f, 4  f, 8 f, 4  f, 8  r  |
+		f, 1 |
+		f, 8 f,  f,  f,  f, 4  f, 8 f, _~ |
+                f, 8 f, 4  f, 8 f, 4  f, 8  r |
                 
 		% Inital theme
-		f, 1 \f _~  |
-                f, 1  |
+		f, 1 \f _~ |
+                f, 1 |
                 gf, 1 |
 		\override NoteHead.style = #'cross
-		\tuplet 3/2 { bf, 8 bf, bf, af, af, af, gf, gf, gf, f, f, f, }  |
+		\tuplet 3/2 { bf, 8 bf, bf, af, af, af, gf, gf, gf, f, f, f, } |
 		\revert NoteHead.style
-		f, 1 _~  |
-                f, 1  |
+		f, 1 _~ |
+                f, 1 |
                 gf, 1  _~ |
-                gf, 2 gf   |
-                gf, 2 gf   |
-                gf, 4 gf  gf,  gf   |
-                gf, 4 gf  gf, 8 r bf, af, _~  |
+                gf, 2 gf  |
+                gf, 2 gf  |
+                gf, 4 gf  gf,  gf  |
+                gf, 4 gf  gf, 8 r bf, af, _~ |
                 
 		% First chorus
 		af, 4 df 8  c 4. af, 8  gf, _~ |
-                gf, 4 gf, gf, gf,  |
-                gf, 4. gf, bf, 8  af, _~  |
+                gf, 4 gf, gf, gf, |
+                gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8  c 4. af, 8  gf, _~ |
-                gf, 4 gf, gf, gf,  |
-                gf, 4. gf, bf, 8  af, _~  |
+                gf, 4 gf, gf, gf, |
+                gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8 c 4. af, 8  gf, _~ |
-                gf, 4 gf, gf, gf,  |
-                gf, 4. gf, bf, 8  af, _~  |
-                af, 4 df 8 c 4. df 4  |
+                gf, 4 gf, gf, gf, |
+                gf, 4. gf, bf, 8  af, _~ |
+                af, 4 df 8 c 4. df 4 |
 
 		\key ef \aeolian
-                ef 4 ef 8 r r2  |
-                ef 4 ef 8 r r2  |
-                ef 4 ef 8 r2 ef 8  |
-                ef 4  ef 8 r4 bf, 8 af, f,  |
-		gf, 4 gf, gf, f, 8 gf, _~  |
-		gf, 8 gf, 4 gf, 8 gf, 4 af,  |
-		f, 4 f, f, f, 8 bf, _~  |
+                ef 4 ef 8 r r2 |
+                ef 4 ef 8 r r2 |
+                ef 4 ef 8 r2 ef 8 |
+                ef 4  ef 8 r4 bf, 8 af, f, |
+		gf, 4 gf, gf, f, 8 gf, _~ |
+		gf, 8 gf, 4 gf, 8 gf, 4 af, |
+		f, 4 f, f, f, 8 bf, _~ |
 		bf, 8 bf, 4 bf, 8 af, gf, f, 4 |
-                gf, 4 gf, gf, f, 8 gf, _~  |
-		gf, 8 gf, 4 gf, 8 gf, 4 af,  |
-		f, 4 f, f, f, 8 bf, _~  |
-		bf, 8 bf, 4 bf, 8 af, gf, f, 4  |
-                gf, 4 gf, gf, f, 8 gf, _~  |
-		gf, 8 gf, 4 gf, 8 gf, 4 af,  |
-		f, 4 f, f, f, 8 bf, _~  |
-		bf, 8 bf, 4 bf, 8 af, gf, f, 4  |
-		gf, 4 gf, gf, f, 8 gf, _~  |
-		gf, 8 gf, 4 gf, 8 gf, 4 af,  |
+                gf, 4 gf, gf, f, 8 gf, _~ |
+		gf, 8 gf, 4 gf, 8 gf, 4 af, |
+		f, 4 f, f, f, 8 bf, _~ |
+		bf, 8 bf, 4 bf, 8 af, gf, f, 4 |
+                gf, 4 gf, gf, f, 8 gf, _~ |
+		gf, 8 gf, 4 gf, 8 gf, 4 af, |
+		f, 4 f, f, f, 8 bf, _~ |
+		bf, 8 bf, 4 bf, 8 af, gf, f, 4 |
+		gf, 4 gf, gf, f, 8 gf, _~ |
+		gf, 8 gf, 4 gf, 8 gf, 4 af, |
 		f, 4 f, f, f, |
 		af, af, af, bf, |
-                cf 1  |
-                df 1  |
-                ef 4 ef 8 r r2  |
-                ef 4  ef 8 r r2  |
-                cf 1  |
-                df 1  |
-                ef 4 ef 8  r r2  |
-                ef 4  ef 8  r r8 bf, af, f,  |
-                gf, 4 gf, gf, f, 8 gf, _~  |
-		gf, 8 gf, 4 gf, 8 gf, 4 af,  |
-		f, 4 f, f, f, 8 bf, _~  |
-		bf, 8 bf, 4 bf, 8 af, gf, f, r  |
-                gf, 4 gf, gf, f, 8 gf, _~  |
-		gf, 8 gf, 4 gf, 8 gf, 4 af,  |
-		f, 4 f, f, f, 8 bf, _~  |
-		bf, 8 bf, 4 bf, 8 af, gf, f, r  |
-                gf, 4 gf, gf, f, 8 gf, _~  |
-		gf, 8 gf, 4 gf, 8 gf, 4 af,  |
-		f, 4 f, f, f, 8 bf, _~  |
-		bf, 8 bf, 4 bf, 8 af, gf, f, r  |
-		gf, 4 gf, gf, f, 8 gf, _~  |
-		gf, 8 gf, 4 gf, 8 gf, 4 af,  |
+                cf 1 |
+                df 1 |
+                ef 4 ef 8 r r2 |
+                ef 4  ef 8 r r2 |
+                cf 1 |
+                df 1 |
+                ef 4 ef 8  r r2 |
+                ef 4  ef 8  r r8 bf, af, f, |
+                gf, 4 gf, gf, f, 8 gf, _~ |
+		gf, 8 gf, 4 gf, 8 gf, 4 af, |
+		f, 4 f, f, f, 8 bf, _~ |
+		bf, 8 bf, 4 bf, 8 af, gf, f, r |
+                gf, 4 gf, gf, f, 8 gf, _~ |
+		gf, 8 gf, 4 gf, 8 gf, 4 af, |
+		f, 4 f, f, f, 8 bf, _~ |
+		bf, 8 bf, 4 bf, 8 af, gf, f, r |
+                gf, 4 gf, gf, f, 8 gf, _~ |
+		gf, 8 gf, 4 gf, 8 gf, 4 af, |
+		f, 4 f, f, f, 8 bf, _~ |
+		bf, 8 bf, 4 bf, 8 af, gf, f, r |
+		gf, 4 gf, gf, f, 8 gf, _~ |
+		gf, 8 gf, 4 gf, 8 gf, 4 af, |
 		f, 4 f, f, f, |
 		af, af, af, bf, |
-                cf 1  |
-                df 1  |
-                ef 4  ef 8  r r2  |
-                ef 4  ef 8  r r2  |
-                cf 1  |
-                df 1  |
-                ef 8 ef  ef  ef  ef  ef  ef  ef   |
-                ef 8 r r4 r bf, 8 af, _~  |
+                cf 1 |
+                df 1 |
+                ef 4  ef 8  r r2 |
+                ef 4  ef 8  r r2 |
+                cf 1 |
+                df 1 |
+                ef 8 ef  ef  ef  ef  ef  ef  ef  |
+                ef 8 r r4 r bf, 8 af, _~ |
                 \key gf \lydian
                 af, 4 df 8  c 4. af, 8  gf, _~ |
-                gf, 4 gf, gf, gf,  |
-                gf, 4. gf, bf, 8  af, _~  |
+                gf, 4 gf, gf, gf, |
+                gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8  c 4. af, 8  gf, _~ |
-                gf, 4 gf, gf, gf,  |
-                gf, 4. gf, bf, 8  af, _~  |
+                gf, 4 gf, gf, gf, |
+                gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8 c 4. af, 8  gf, _~ |
-                gf, 4 gf, gf, gf,  |
-                gf, 4. gf, bf, 8  af, _~  |
-                af, 4 df 8 c 4. df 8 r  |
+                gf, 4 gf, gf, gf, |
+                gf, 4. gf, bf, 8  af, _~ |
+                af, 4 df 8 c 4. df 8 r |
                 \key ef \aeolian
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
-                < ef, ef > 4 < ef, ef > < ef, ef >  < ef, ef >  |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
-                r4 < ef ef, > 8 < ef ef, > r2  |
-                r4 < ef ef, > 8 < ef ef, > r2  |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef >  |
-                r4 < ef, ef > 8 < ef, ef > r2  |
-                r4 < ef, ef > 8 < ef, ef > r2  |
+                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
+                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
+                < ef, ef > 4 < ef, ef > < ef, ef >  < ef, ef > |
+                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
+                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
+                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
+                r4 < ef ef, > 8 < ef ef, > r2 |
+                r4 < ef ef, > 8 < ef ef, > r2 |
+                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
+                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
+                r4 < ef, ef > 8 < ef, ef > r2 |
+                r4 < ef, ef > 8 < ef, ef > r2 |
 		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4  |
+		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
 		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4  |
+		af, 8 af, 4 af, 8 af, gf, f, 4 |
 		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4  |
+		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
 		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4  |
+		af, 8 af, 4 af, 8 af, gf, f, 4 |
 		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4  |
+		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
 		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4  |
+		af, 8 af, 4 af, 8 af, gf, f, 4 |
 		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4  |
+		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
 		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4  |
+		af, 8 af, 4 af, 8 af, gf, f, 4 |
 		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4  |
+		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
 		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4  |
+		af, 8 af, 4 af, 8 af, gf, f, 4 |
 		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4  |
+		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
 		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4  |
-		r2 gf,  |
-                r2 cf  |
-                ef 4  ef  r2  |
-                ef 4  ef  r2  |
-                r2 gf,  |
-                cf 1  |
-                r2 gf,  |
-                cf 1  |
-                bf, 8 bf,  bf,  bf,  bf,  bf,  bf,  bf,   |
-                bf, 8  bf,  bf,  bf,  bf,  r r4  |
+		af, 8 af, 4 af, 8 af, gf, f, 4 |
+		r2 gf, |
+                r2 cf |
+                ef 4  ef  r2 |
+                ef 4  ef  r2 |
+                r2 gf, |
+                cf 1 |
+                r2 gf, |
+                cf 1 |
+                bf, 8 bf,  bf,  bf,  bf,  bf,  bf,  bf,  |
+                bf, 8  bf,  bf,  bf,  bf,  r r4 |
                 r1 r1 r1 r1 r1 
-                r8 bf, af, gf, ef,  bf,  af,  gf,  |
-                ef, 8 bf, af, gf, ef, r r4  |
-                R1  |
-                r8 bf, af, gf, ef, bf, af, gf,  |
-                ef, 8 bf, af, gf, ef, r r4  |
-                R1  |
-                r8 bf, af, gf, ef, bf, af, gf,  |
-                ef, 8 bf, af, gf, ef, r r4  |
-                R1  |
-                r8 bf, af,  gf,  ef,  bf, af, gf,   |
-                ef, 8  bf,  af,  gf, ef, d ef  af, _~  |
-                af, 1 _~  |
-                af, 1  |
-		\tuplet 3/2 { af, 8 af, af, af, af, af, } af, r bf, af, _~  |
+                r8 bf, af, gf, ef,  bf,  af,  gf, |
+                ef, 8 bf, af, gf, ef, r r4 |
+                R1 |
+                r8 bf, af, gf, ef, bf, af, gf, |
+                ef, 8 bf, af, gf, ef, r r4 |
+                R1 |
+                r8 bf, af, gf, ef, bf, af, gf, |
+                ef, 8 bf, af, gf, ef, r r4 |
+                R1 |
+                r8 bf, af,  gf,  ef,  bf, af, gf,  |
+                ef, 8  bf,  af,  gf, ef, d ef  af, _~ |
+                af, 1 _~ |
+                af, 1 |
+		\tuplet 3/2 { af, 8 af, af, af, af, af, } af, r bf, af, _~ |
                 \key gf \lydian
                 af, 4 df 8  c 4. af, 8  gf, _~ |
-                gf, 4 gf, gf, gf,  |
-                gf, 4. gf, bf, 8  af, _~  |
+                gf, 4 gf, gf, gf, |
+                gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8  c 4. af, 8  gf, _~ |
-                gf, 4 gf, gf, gf,  |
-                gf, 4. gf, bf, 8  af, _~  |
+                gf, 4 gf, gf, gf, |
+                gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8 c 4. af, 8  gf, _~ |
-                gf, 4 gf, gf, gf,  |
-                gf, 4. gf, bf, 8  af, _~  |
-                af, 4 df 8 c 4. r 4  |
-                r1  |
-		ef 4 ef r2  |
-                ef 4 ef r2  |
-                ef 4 ef r2  |
-                ef 4  ef  r2  |
+                gf, 4 gf, gf, gf, |
+                gf, 4. gf, bf, 8  af, _~ |
+                af, 4 df 8 c 4. r 4 |
+                r1 |
+		ef 4 ef r2 |
+                ef 4 ef r2 |
+                ef 4 ef r2 |
+                ef 4  ef  r2 |
                 R1 \bar "|."
             } % Voice
 	    \addlyrics{
