@@ -58,20 +58,25 @@ globalTempo = {
 		< f'' f' > 1 _~  |
 		< f'' f' > 1   |
 
+		% Initial theme
 		\mark \default
 		R1*10  |
+
+		% First chorus
+		\mark \default
                 r2 r4 bf 8 \f af _~  |
                 af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r8 r r4  |
+                gf 4 r4 r2  |
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r  |
+                gf 4 r4 r2  |
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. af 8 gf _~  |
-                gf 2 r  |
+                gf 4 r4 r2  |
                 r2 r4 bf 8  af _~  |
                 af 4 df' 8 c' 4. df' 4   |
-                \key ef \aeolian
+
+		\key ef \aeolian
                 ef' 4 r r2  |
                 R1*3  |
                 r4 r8 df \mf ef  ef df ef  |
@@ -316,7 +321,7 @@ globalTempo = {
 		f' 1 _~ |
 		f' 1 |
                
-		% First chorus
+		% Inital theme
 		ef' 8 \f ef' ef' ef' ef' d' r ef' _~  |
                 ef' 8 ef' 4 d' 8 ef' 4 d' 8 r  |
                 ef' 4 df' c' 8 df' ef' df' _~  |
@@ -328,7 +333,9 @@ globalTempo = {
                 gf' 1 _~  |
                 gf' 1 _~  |
                 gf' 2 _~ gf' 8 r8 r4  | 
-                R1  |
+                
+		% First chorus
+		R1  |
                 r4 bf' 8 bf' bf' c'' r bf'  |
                 bf' 8 bf' bf' c'' r2  |
                 R1  |
@@ -338,7 +345,8 @@ globalTempo = {
                 r4 bf' 8 bf' bf' c'' r bf'  |
                 bf' 8 bf' bf' c'' r2  |
                 R1  |
-                \key ef \aeolian
+                
+		\key ef \aeolian
                 ef' 4 ef' 8 r r2  |
                 ef' 4 ef' 8 r r2  |
                 ef' 4 ef' 8 r2 ef' 8  |
@@ -632,7 +640,7 @@ globalTempo = {
 		f 1 _~  |
                 f 1  |
 		
-		% First chorus
+		% Inital theme
 		bf 8 \f bf bf bf bf bf r bf _~  |
                 bf 8 bf 4 bf 8 bf 4 bf 8 r  |
                 bf 4 bf af 8 af af bf _~  |
@@ -644,7 +652,9 @@ globalTempo = {
                 c' 8 df' c'  df' c' df' c'  df'  |
                 c' 8 df' c'  df' c' df' c'  df'   |
                 c' 8  df' c' df' c' ) r r4  |
-                R1  |
+                
+		% First chorus
+		R1  |
                 r4 gf' 8 gf' gf' ef' r gf'  |
                 gf' 8 gf' gf' ef' r2  |
                 R1  |
@@ -654,7 +664,8 @@ globalTempo = {
                 r4 gf' 8 gf' gf' ef' r gf'  |
                 gf' 8 gf' gf' ef' r2  |
                 R1  |
-                \key ef \aeolian
+
+		\key ef \aeolian
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r r2  |
                 bf 4 bf 8 r2 bf 8  |
@@ -965,7 +976,7 @@ globalTempo = {
 		c 1 _~  |
 		c 1  |
 		
-		% First chorus
+		% Inital theme
 		bf, 8 \f bf, bf, bf, bf, bf, r bf, _~  |
                 bf, 8 bf, 4 bf, 8 bf, 4 bf, 8 r  |
                 ef 4 df c 8 df ef df _~  |
@@ -976,18 +987,21 @@ globalTempo = {
                 gf 1 _~  |
                 gf 1 _~  |
                 gf 1 _~  |
-                gf 2 _~ gf 8 r r4 |
-                r4 ef 8 ef c 4 af,  |
-                r4 gf 4. f  |
-                ef 4. df r4  |
-                r4 ef 8 ef c 4 af,  |
-                r4 gf 4. f  |
-                ef 4. df r4  |
-                r4 ef 8 ef c 4 af,  |
-                r4 gf 4. f  |
-                ef 4. df r4  |
-                r4 ef 8 ef c 4 gf  |
-                \key ef \aeolian
+		gf 2 _~ gf 8 r f ef _~  |
+		
+		% First chorus
+		ef 4 gf 8 af 4. ef 8 df 8 _~  |
+                df 4 r4 r2  |
+                r2 r4 f 8 ef _~  |
+                ef 4 gf 8 af 4. ef 8 df 8 _~  |
+                df 4 r4 r2  |
+                r2 r4 f 8 ef _~  |
+                ef 4 gf 8 af 4. ef 8 df 8 _~  |
+                df 4 r4 r2  |
+                r2 r4 f 8 ef _~  |
+                ef 4 gf 8 af 4. gf 4  |
+                
+		\key ef \aeolian
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r r2  |
                 gf 4  gf 8  r2 gf 8  |
@@ -1139,10 +1153,10 @@ globalTempo = {
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 	Hi -- mi -- tsu wo Shi -- ri tai
 
-              Got a sec -- cret Got a sec -- cret
-              Got a sec -- cret Got a sec -- cret
-              Got a sec -- cret Got a sec -- cret
-              Got a sec -- cret
+	      You're won -- d'ring who I am
+	      Mach -- ine or man -- ne -- quin
+	      With parts made in Jap -- an
+	      I am the mod -- ern
 
 	      ee oo
 	      ee oo
@@ -1296,7 +1310,7 @@ globalTempo = {
 		f, 8 f,  f,  f,  f, 4  f, 8 f, _~  |
                 f, 8 f, 4  f, 8 f, 4  f, 8  r  |
                 
-		% First chorus
+		% Inital theme
 		f, 1 \f _~  |
                 f, 1  |
                 gf, 1 |
@@ -1310,7 +1324,9 @@ globalTempo = {
                 gf, 2 gf   |
                 gf, 4 gf  gf,  gf   |
                 gf, 4 gf  gf, 8 r bf, af, _~  |
-                af, 4 df 8  c 4. af, 8  gf, _~ |
+                
+		% First chorus
+		af, 4 df 8  c 4. af, 8  gf, _~ |
                 gf, 4 gf, gf, gf,  |
                 gf, 4. gf, bf, 8  af, _~  |
                 af, 4 df 8  c 4. af, 8  gf, _~ |
@@ -1319,8 +1335,9 @@ globalTempo = {
                 af, 4 df 8 c 4. af, 8  gf, _~ |
                 gf, 4 gf, gf, gf,  |
                 gf, 4. gf, bf, 8  af, _~  |
-                af, 4 df 8 c 4. df 8 r  |
-                \key ef \aeolian
+                af, 4 df 8 c 4. df 4  |
+
+		\key ef \aeolian
                 ef 4 ef 8 r r2  |
                 ef 4 ef 8 r r2  |
                 ef 4 ef 8 r2 ef 8  |
