@@ -76,58 +76,64 @@ globalTempo = {
                 r2 r4 bf 8  af _~ |
                 af 4 df' 8 c' 4. df' 4  |
 
+		% First verse
+		\mark \default
 		\key ef \aeolian
                 ef' 4 r r2 |
                 R1*3 |
-                r4 r8 df \mf ef  ef df ef |
-                r2 ef 8  ef df ef  |
-                r2 gf 8  gf f 4  |
-                df 4 r r2 |
-                r4 r8 df ef ef ef ef |
-                r4 r8 df ef ef  ef ef |
-                r4 r8 df gf  gf f  df _~ |
-                df 4 r r2 |
-                r4 r8 df ef ef ef ef |
-                r2 ef 8 ef ef ef |
-                r2 gf 8 gf  f df _~ |
-                df 4 r r2 |
-                r4 r8 ef bf  bf af gf  |
-                r2 bf 8  bf af gf  |
-                r4 r8 df f  f ef  f  
-                \skip 8 r8 r ef gf  gf f 4 |
-                cf 1 |
-                r4 r8 df gf gf f 4 |
-                ef 4 r r2 |
-                r2 gf 8 gf 4  f 8 |
-                cf 2. r4 |
-                r4 r8 df  gf  gf  r f  |
-                ef 2 r |
-                R1 |
-                r4 r8 df 8 ef 16 ef 8 ef 8. ef 8  |
-                r4 r8 ef ef ef ef  ef |
-                r4 r8 df  gf gf  f df _~ |
-                df 4 r r2 |
-                r4 r8 ef ef ef 16 ef 8 ef 8. |
-                r2 ef 8  ef  ef  ef |
-                r4 r8 df gf  gf  f 4  |
-                df 4. r8 r2 |
-                r4 r8 bf bf bf 16 af 8. gf 8 |
-                r4 r8 bf bf  bf af gf |
-                r4 r8 df gf  gf ef f _~ |
-                f 2 r |
-                r4 r8 gf bf  bf  af  gf | 
-                \skip 8 r8 r4 bf 8 bf af gf | 
-                \skip 8 r8 df  df  gf  gf f f _~ |
-		f 4 r8 df  \tuplet 3/2 { gf 4 gf f } |
-                cf 1  |
-		\skip 8 r4 cf 8 \tuplet 3/2 { gf 4 gf f } |
-                ef 4 ( bf 2. ) |
-		r2 \tuplet 3/2 { gf 4 gf f } |
-                cf 1 |
-		r4 r8 cf  \tuplet 3/2 { gf 4 gf f } |
-                ef 1 |
-		r2 r4 bf 8  af _~ |
-                \key gf \lydian
+                r4 r8 df' \mf ef' ef' df' ef' |
+                r2 ef' 8  ef' df' ef'  |
+                r2 gf' 8  gf' f' 4  |
+                df' 4 r r2 |
+                r4 r8 df' ef' ef' ef' ef' |
+                r4 r8 df' ef' ef'  ef' ef' |
+                r4 r8 df' gf'  gf' f'  df' _~ |
+                df' 4 r r2 |
+                r4 r8 df' ef' ef' ef' ef' |
+                r2 ef' 8 ef' ef' ef' |
+                r2 gf' 8 gf'  f' df' _~ |
+                df' 4 r r2 |
+                r4 r8 ef' bf'  bf' af' gf'  |
+                r2 bf' 8  bf' af' gf'  |
+                r4 r8 df' f'  f' ef'  f'  
+                r4 r8 ef' gf'  gf' f' 4 |
+                cf' 1 |
+                r4 r8 df' gf' gf' f' 4 |
+                ef' 4 r r2 |
+                r2 gf' 8 gf' 4  f' 8 |
+                cf' 2. r4 |
+                r4 r8 df' gf' gf' f' 4 |
+                ef' 2 r |
+		R1 |
+
+		% Second verse
+                \mark \default
+		r4 r8 df' 8 ef' 16 ef' 8 ef' 8. ef' 8  |
+                r4 r8 ef' ef' ef' ef'  ef' |
+                r4 r8 df' gf' gf' f' df' _~ |
+                df' 4 r r2 |
+                r4 r8 ef' ef' ef' 16 ef' 8 ef' 8. |
+                r2 ef' 8 ef' ef' ef' |
+		r4 r8 df' \tuplet 3/2 { gf' 4 gf' f' } |
+                df' 4 r4 r2 |
+                r4 r8 bf' bf' bf' 16 af' 8. gf' 8 |
+                r4 r8 bf' bf' bf' af' gf' |
+                r4 r8 df' gf' gf' ef' f' _~ |
+                f' 2 r |
+                r4 r8 gf' bf' bf' af' gf' | 
+                r2 bf' 8 bf' af' gf' | 
+                r4 df' 8 df' gf' gf' f' f' _~ |
+		f' 4 r8 df'  \tuplet 3/2 { gf' 4 gf' f' } |
+                cf' 1 |
+		r4 r8 cf' 8 \tuplet 3/2 { gf' 4 gf' f' } |
+                ef' 4 ( bf' 2. ) |
+		r2 \tuplet 3/2 { gf' 4 gf' f' } |
+                cf' 1 |
+		r4 r8 cf'  \tuplet 3/2 { gf' 4 gf' f' } |
+                ef' 1 |
+		r2 r4 bf 8 af _~ |
+                
+		\key gf \lydian
                 af 4 df' 8 c' 4. af 8 gf _~ |
                 gf 2 r |
                 r2 r4 bf 8  af _~ |
@@ -238,7 +244,7 @@ globalTempo = {
 
 	      I'm just a man whose
 	      Cir -- cum -- stan -- ces
-	      When be -- yond his con -- trol
+	      Went be -- yond his con -- trol
 
 	      Be -- yond my con -- trol
 	      We all need con -- trol
@@ -347,59 +353,62 @@ globalTempo = {
                 R1 |
                 
 		\key ef \aeolian
-                ef' 4 ef' 8 r r2 |
-                ef' 4 ef' 8 r r2 |
-                ef' 4 ef' 8 r2 ef' 8 |
-                < f' ef' > 4 ef' 8 r r2 |
-                < ef' f' > 4 ef' 8 r r2 |
-                < ef' f' > 4 ef' 8 r r2 |
-                df' 4 df' 8 r r2 |
+                ef' 4 ef' -. r2 |
+                ef' 4 ef' -. r2 |
+                ef' 4 ef' -. r4 r8 ef' 8 |
+                < f' ef' > 4 ef' -. r2 |
+                < ef' f' > 4 ef' -. r2 |
+                < ef' f' > 4 ef' -. r2 |
+                df' 4 df' -. r2 |
                 r4 df' df' d' |
-                < f' ef' > 4 ef' 8 r r2 |
-                < f' ef' > 4 ef' 8 r r2 |
-                df' 4 df' 8 r r2 |
+                < f' ef' > 4 ef' -. r2 |
+                < f' ef' > 4 ef' -. r2 |
+                df' 4 df' -. r2 |
                 r4 df' df' d' |
-                < ef' f' > 4 ef' 8 r r2 |
-                < ef' f' > 4 ef' 8 r r2 |
-                df' 4 df' 8 r r2 |
+                < ef' f' > 4 ef' -. r2 |
+                < ef' f' > 4 ef' -. r2 |
+                df' 4 df' -. r2 |
                 r4 df' df' d' |
-                < ef' f' > 4 ef' 8 r r2 |
-                < ef' f' > 4 ef' 8 r r2 |
-                df' 4 df' 8 r r2 |
+                < ef' f' > 4 ef' -. r2 |
+                < ef' f' > 4 ef' -. r2 |
+                df' 4 df' -. r2 |
                 df' 4 df' df' df' |
                 r2 r4 ef' |
                 r2 r4 df' |
-                ef' 4 ef' 8 r r2 |
-                ef' 4 ef' 8 r r2 |
+                ef' 4 ef' -. r2 |
+                ef' 4 ef' -. r2 |
                 r2 r4 ef' |
                 r2 r4 df' |
-                < f' ef' > 4 ef' 8 r r2 |
-                < f' ef' > 4 ef' 8 r r2 |
-                < f' ef' > 4 ef' 8 r r2 |
-                < f' ef' > 4 ef' 8 r r2 |
-                df' 4 df' 8 r r2 |
+		< f' ef' > 4 ef' -. r2 |
+                < f' ef' > 4 ef' -. r2 |
+                
+		% Second verse
+		< f' ef' > 4 ef' -. r2 |
+                < f' ef' > 4 ef' -. r2 |
+                df' 4 df' -. r2 |
                 r8 df' ( ef' df' af'  ef' df' ef' ) |
-                < f' ef' > 4 ef' 8 r r2 |
-                < f' ef' > 4 ef' 8 r r2 |
-                df' 4 df' 8 r r2 |
+                < f' ef' > 4 ef' -. r2 |
+                < f' ef' > 4 ef' -. r2 |
+                df' 4 df' -. r2 |
                 r8 df' ( ef' df' af'  ef' df' ef' ) |
-                < ef' f' > 4 ef' 8 r r2 |
-                < ef' f' > 4 ef' 8 r r2 |
-                df' 4 df' 8 r r2 |
+                < ef' f' > 4 ef' -. r2 |
+                < ef' f' > 4 ef' -. r2 |
+                df' 4 df' -. r2 |
                 r8 df' ( ef' df' af' ef' df' ef' ) |
-                < ef' f' > 4 ef' 8 r r2 |
-                < ef' f' > 4 ef' 8 r r2 |
-                df' 4 df' 8 r r2 |
+                < ef' f' > 4 ef' -. r2 |
+                < ef' f' > 4 ef' -. r2 |
+                df' 4 df' -. r2 |
                 df' 4 df' df' d' | 
                 r2 r4 ef' |
                 r2 r4 df' |
-                ef' 4 ef' 8 r r2 |
-                ef' 4 ef' 8 r r2 |
+                ef' 4 ef' -. r2 |
+                ef' 4 ef' -. r2 |
                 r2 r4 ef' |
                 r2 r4 df' |
 		g' 8  g'  g'  g' g'  g'  g'  g'  |
-                g' 8 r r4 r2 |
-                \key gf \lydian
+                g' 4 -. r4 r2 |
+
+		\key gf \lydian
                 R1 |
                 r4 bf' 8 bf' bf' c'' r bf' |
                 bf' 8 bf' bf' c'' r2 |
@@ -665,60 +674,64 @@ globalTempo = {
                 gf' 8 gf' gf' ef' r2 |
                 R1 |
 
+		% First verse
 		\key ef \aeolian
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r2 bf 8 |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                af 4 af 8 r r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r4 r8 bf 8 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
+                af 4 af -. r2 |
                 r4 af af a |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                af 4 af 8 r r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
+                af 4 af -. r2 |
                 r4 af af a |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                af 4 af 8 r r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
+                af 4 af -. r2 |
                 r4 af af a |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                af 4 af 8 r r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
+                af 4 af -. r2 |
                 af 4 af af af |
                 r4 gf 2. |
                 r4 af 2. |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
                 r4 gf 2. |
                 r4 af 2. |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                af 4 af 8 r r2 |
+		bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
+                
+		% Second verse
+		bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
+                af 4 af -. r2 |
                 r4 af af a |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                af 4 af 8 r r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
+                af 4 af -. r2 |
                 r4 af af a |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                af 4 af 8 r r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
+                af 4 af -. r2 |
                 r4 af af a |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
-                af 4 af 8 r r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
+                af 4 af -. r2 |
                 af 4 af af af |
                 r4 gf 2. |
                 r4 af 2. |
-                bf 4 bf 8 r r2 |
-                bf 4 bf 8 r r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
                 r4 gf 2. |
                 r4 af 2. |
                 bf 8  bf  bf  bf bf  bf  bf  bf  |
-                bf 8 r r4 r2 |
-                \key gf \lydian
+                bf 4 -. r4 r2 |
+                
+		\key gf \lydian
                 R1 |
                 r4 gf' 8 gf' gf' ef' r gf' |
                 gf' 8 gf' gf' ef' r2 |
@@ -1001,60 +1014,64 @@ globalTempo = {
                 r2 r4 f 8 ef _~ |
                 ef 4 gf 8 af 4. gf 4 |
                 
+		% First verse
 		\key ef \aeolian
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r2 gf 8 |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
-                f 4  f 8  r r2 |
-                r4 f f  f  |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
-                f 4  f 8  r r2 |
-                r4 f  f  f  |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
-                f 4  f 8  r r2 |
-                r4 f  f  f  |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
-                f 4  f 8  r r2 |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r4 r8 gf 8 |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
+                f 4 f -. r2 |
+                r4 f f f |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
+                f 4 f -. r2 |
+                r4 f f f |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
+                f 4 f -. r2 |
+                r4 f f f |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
+                f 4 f -. r2 |
                 f 4 f f f |
                 r2 ef |
                 r2 f |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
                 r2 ef |
                 r2 f |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
-                f 4  f 8  r r2 |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
+                
+		% Second verse
+		gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
+                f 4 f -. r2 |
                 r4 f f f |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
-                f 4 f 8 r r2 |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
+                f 4 f -. r2 |
                 r4 f f f |
-                gf 4  gf 8  r r2 |
-                gf 4  gf 8  r r2 |
-                f 4  f 8  r r2 |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
+                f 4 f -. r2 |
                 r4 f f f |
-                gf 4 gf 8 r r2 |
-                gf 4 gf 8 r r2 |
-                f 4 f 8 r r2 |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
+                f 4 f -. r2 |
                 f 4 f f f |
                 r2 ef |
                 r2 f |
-                gf 4 gf 8 r r2 |
-                gf 4 gf 8 r r2 |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
                 r2 ef |
                 r2 f |
-                g 8  g  g  g g  g  g  g  |
-                g 8 r r4 r2 | 
-                \key gf \lydian
+                g 8 g g g g g  g  g  |
+                g 4 -. r4 r2 | 
+
+		\key gf \lydian
                 r4 ef 8 ef c 4 af, |
                 r4 gf 4. f |
                 ef 4. df r4 |
