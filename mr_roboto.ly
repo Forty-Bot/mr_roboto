@@ -56,7 +56,7 @@ globalTempo = {
 		< f'' f' > 1 _~ |
 		< f'' f' > 1 _~ |
 		< f'' f' > 1 _~ |
-		< f'' f' > 1  |
+		< f'' f' > 1 |
 
 		% Initial theme
 		\mark \default
@@ -74,7 +74,7 @@ globalTempo = {
                 af 4 df' 8 c' 4. af 8 gf _~ |
                 gf 4 r4 r2 |
                 r2 r4 bf 8  af _~ |
-                af 4 df' 8 c' 4. df' 4  |
+                af 4 df' 8 c' 4. df' 4 |
 
 		% First verse
 		\mark \default
@@ -82,8 +82,8 @@ globalTempo = {
                 ef' 4 r r2 |
                 R1*3 |
                 r4 r8 df' ef' ef' df' ef' |
-                r2 ef' 8  ef' df' ef'  |
-                r2 gf' 8  gf' f' 4  |
+                r2 ef' 8  ef' df' ef' |
+                r2 gf' 8  gf' f' 4 |
                 df' 4 r r2 |
                 r4 r8 df' ef' ef' ef' ef' |
                 r4 r8 df' ef' ef'  ef' ef' |
@@ -93,8 +93,8 @@ globalTempo = {
                 r4 r8 ef' 8 ef' ef' 4 ef' 8 |
                 r2 gf' 8 gf'  f' df' _~ |
                 df' 4 r r2 |
-                r4 r8 ef' bf'  bf' af' gf'  |
-                r2 bf' 8  bf' af' gf'  |
+                r4 r8 ef' bf'  bf' af' gf' |
+                r2 bf' 8  bf' af' gf' |
                 r4 r8 df' f'  f' ef'  f'  
                 r4 r8 ef' gf'  gf' f' 4 |
                 cf' 1 |
@@ -108,7 +108,7 @@ globalTempo = {
 
 		% Second verse
                 \mark \default
-		r4 r8 df' 8 ef' 16 ef' 8 ef' 8. ef' 8  |
+		r4 r8 df' 8 ef' 16 ef' 8 ef' 8. ef' 8 |
                 r4 r8 ef' ef' ef' ef'  ef' |
                 r4 r8 df' gf' gf' f' df' _~ |
                 df' 4 r r2 |
@@ -145,35 +145,37 @@ globalTempo = {
                 af 4 df' 8 c' 4. af 8 gf _~ |
                 gf 4 r4 r2 |
                 r2 r4 bf 8  af _~ |
-                af 4 df' 8 c' 4. df' 4  |
+                af 4 df' 8 c' 4. df' 4 |
                 
 		% Bridge
 		\mark \default
 		\key ef \aeolian
                 ef' 4 r r2 |
                 R1*19 |
-                f 8  f  f  f  f 4  r8 f  _~ |
-                f 8 f 4 ef 8 f 4  ef 8 ef |
-                f 8 f  f f r4 r8 f  _~ |
-                f 4 f 8 ef f 4  ef 8  ef  |
-                f 8 f  f  f f 4 r8 f _~ |
-                f 8 f 4  ef 8  f 4  ef 8 ef  |
-                f 8 f f  f f  r ef bf _~ |
-                bf 8 af ( gf ) af af bf  r4 |
-                bf 4 af 8 ( gf ) r2 |
-                r4 r8 bf 4. af 8 ( gf ) |
-                bf 4 af 8 ( gf ) r2 |
-                r4 r8 df' 4. bf 8  bf |
-                bf 4 af 8 ( gf ) r2 |
-                r2 bf |
-                bf 4 af 8 ( gf ) r2 |
-                bf 1 ( |
-                af 8 gf ef gf _~ gf 2 ) | 
-                r2 \grace bf 8 ( gf' 2 |
-                ef' 1 ) |
-                \skip 8 r4 r2 
-                r8 |
-                R1*9 |
+                f' 8  f'  f'  f'  f' 4  r8 f'  _~ |
+                f' 8 f' 4 ef' 8 f' 4  ef' 8 ef' |
+                f' 8 f'  f' f' r4 r8 f'  _~ |
+                f' 4 f' 8 ef' f' 4  ef' 8  ef' |
+                f' 8 f'  f'  f' f' 4 r8 f' _~ |
+                f' 8 f' 4  ef' 8  f' 4  ef' 8 ef' |
+                f' 8 f' f'  f' f'  r ef' bf' _~ |
+                bf' 8 af' ( gf' ) af' af' bf'  r4 |
+                bf' 4 af' 8 ( gf' ) r2 |
+                r4 r8 bf' 4. af' 8 ( gf' ) |
+                bf' 4 af' 8 ( gf' ) r2 |
+                r4 r8 df'' 4. bf' 8  bf' |
+                bf' 4 af' 8 ( gf' ) r2 |
+                r2 bf' |
+                bf' 4 af' 8 ( gf' ) r2 |
+                bf' 1 ( |
+                af' 8 gf' ef' gf' _~ gf' 2 ) | 
+                r2 \grace bf' 8 ( gf'' 2 |
+                ef'' 1 ) |
+		R1*7 |
+
+		% Second bridge
+		\mark \default
+		R1*3 |
                 r2 r4 bf 8  af _~ |
                 af 4 df' 8 c' 4. af 8 gf _~ |
                 gf 2 r |
@@ -198,7 +200,7 @@ globalTempo = {
                 af 4 df' 8 c' 4. af 8 gf _~ |
                 gf 2 r |
                 r2 r4 bf 8 af _~ |
-                af 4 df' 8 c' 4.  df' 4  |
+                af 4 df' 8 c' 4.  df' 4 |
                 ef' 2  r4 df' |
                 ef' 4 ef' r2 |
                 ef' 4 ef' r2 |
@@ -430,47 +432,58 @@ globalTempo = {
 
 		% Bridge
                 \key ef \aeolian
-		R1 | R1 | R1 | R1 | R1 | R1 |
+		\override NoteHead.style = #'cross
+		r4 bf ^\markup{ \italic stomp } r2 |
+		r4 bf r2 |
+		r4 bf r2 |
+		r4 bf r2 |
+		\revert NoteHead.style
+		r1 |
+		r1 |
 		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
 		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
                 r1*2 
 		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
 		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
                 R1 |
-                r4 ef'  bf  gf'  |
+                r4 ef'  bf  gf' |
                 f' 1 _~ |
-                f' 4 df'  bf  gf'  |
-                f' 1 _~ |
-                f' 4 ef'  bf  gf'  |
-                f' 1 _~ |
-                f' 4 df'  bf  gf'  |
-                f' 1 _~ |
-                f' 4 ef'  bf  gf'  |
-                f' 1 _~ |
-                f' 4 df'  bf  gf'  |
-                f' 1 _~ |
-                f' 4 ef'  bf  gf'  |
-                f' 1 _~ |
-                f' 4 df'  bf  gf'  |
+                f' 4 df'  bf  gf' |
                 f' 1 _~ |
                 f' 4 ef'  bf  gf' |
                 f' 1 _~ |
-                f' 4 df'  bf  gf'  |
+                f' 4 df'  bf  gf' |
                 f' 1 _~ |
-                f' 4 ef'  bf  gf'  |
+                f' 4 ef'  bf  gf' |
+                f' 1 _~ |
+                f' 4 df'  bf  gf' |
+                f' 1 _~ |
+                f' 4 ef'  bf  gf' |
+                f' 1 _~ |
+                f' 4 df'  bf  gf' |
+                f' 1 _~ |
+                f' 4 ef'  bf  gf' |
+                f' 1 _~ |
+                f' 4 df'  bf  gf' |
+                f' 1 _~ |
+                f' 4 ef'  bf  gf' |
                 f' 1 _~ |
                 f' 4 r r2 |
                 r2 r4 ef' |
                 r2 f' |
-                ef' 4  ef'  r2 |
-                ef' 4  ef'  r2 |
+                ef' 4 ef' -. r2 |
+                ef' 4 ef' -. r2 |
                 r2 r4 gf' |
                 af' 1 |
                 r2 r4 gf' |
                 af' 1 |
-                g' 8 g'  g'  g'  g'  g'  g'  g'  |
+                g' 8 g'  g'  g'  g'  g'  g'  g' |
                 g' 8  g'  g'  g'  g'  r r4 |
-                r1 r1 r1
+                
+		% Second bridge
+		r1 |
+		r1 |
+		r1 |
                 r2 r4 bf' 8  af' _~ |
                 af' 4 df'' 8 c'' 4. af' 8 gf' _~ |
                 gf' 1 _~ |
@@ -574,6 +587,7 @@ globalTempo = {
 	      Sec -- ret, sec -- ret, I got a sec -- ret
 	      Sec -- ret, sec -- ret, I got a sec -- ret
 
+	      _ _ _ _
 	      oo oo oo
 	      oo oo oo
 	      oo oo oo
@@ -635,10 +649,9 @@ globalTempo = {
             \new Voice \globalTempo
 
             \context Voice = "voice 3" {
-                % Segment: Imported MIDI (copied) (split) (copied)
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
-                \once \override Staff.TimeSignature #'style = #'() 
+                \override Staff.TimeSignature #'style = #'() 
                 \time 4/4
                 
                 \clef "treble_8"
@@ -670,7 +683,7 @@ globalTempo = {
                 bf 4 bf af 8 af af df' ( |
                 c' 8 df' c'  df' c' df' c'  df' |
                 c' 8 df' c'  df' c' df' c'  df' |
-                c' 8 df' c'  df' c' df' c'  df'  |
+                c' 8 df' c'  df' c' df' c'  df' |
                 c' 8  df' c' df' c' ) r r4 |
                 
 		% First chorus
@@ -739,7 +752,7 @@ globalTempo = {
                 bf 4 bf -. r2 |
                 r4 gf 2. |
                 r4 af 2. |
-                bf 8 \< bf  bf  bf bf  bf  bf  bf  |
+                bf 8 \< bf  bf  bf bf  bf  bf  bf |
                 bf 4 -. \! \f r4 r2 |
                 
 		% Second chorus
@@ -757,7 +770,12 @@ globalTempo = {
 
 		% Bridge
                	\key ef \aeolian
-                R1*4 
+		\override NoteHead.style = #'cross
+		r4 bf ^\markup{ \italic stomp } r2 |
+		r4 bf r2 |
+		r4 bf r2 |
+		r4 bf r2 |
+		\revert NoteHead.style
 		bf 8 bf bf af bf 4 af 8 bf _~ |
                 bf 8 bf 4 af 8 bf 4 af |
 		bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
@@ -792,15 +810,17 @@ globalTempo = {
                 af 8 af 4 gf 8 af 4 gf 8 r |
                 cf' 1 |
                 df' 1 |
-                bf 4  bf  r2 |
-                bf 4  bf  r2 |
+                bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
                 cf' 1 |
                 df' 1 |
                 cf' 1 |
                 df' 1 |
-                bf 8 bf  bf  bf  bf  bf  bf  bf  |
+                bf 8 bf  bf  bf  bf  bf  bf  bf |
                 bf 8  bf  bf  bf  bf  r r4 |
-                af' 8 r af r af' r af r |
+                
+		% Second bridge
+		af' 8 r af r af' r af r |
                 af' 8 r af r af' r af r |
                 af' 8 r af r af' r af r |
                 af' 8 r af r af' r af r |
@@ -906,6 +926,7 @@ globalTempo = {
 	      Sec -- ret, sec -- ret, I got a sec -- ret
 	      Sec -- ret, sec -- ret, I got a sec -- ret
 
+	      _ _ _ _
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 	      Do -- mo oo oo oo
 	      Do -- mo oo oo oo
@@ -1101,8 +1122,13 @@ globalTempo = {
 
 		% Bridge
 		\key ef \aeolian
-		R1*4 
-                f 8 f f f f 4 ef 8 f _~ |
+		\override NoteHead.style = #'cross
+		r4 df^\markup{ \italic stomp } r2 |
+		r4 df r2 |
+		r4 df r2 |
+		r4 df r2 |
+		\revert NoteHead.style
+		f 8 f f f f 4 ef 8 f _~ |
                 f 8 f 4 ef 8 f 4 ef |
                 f 8 f r4 r2 |
                 f 8 f r4 r2 |
@@ -1136,15 +1162,17 @@ globalTempo = {
                 f 8 f 4 ef 8 f 4 ef 8 r |
                 r4 cf 2. |
                 r4 af 2. |
-                gf 4  gf  r2 |
-                gf 4  gf  r2 |
+                gf 4 gf -. r2 |
+                gf 4 gf -. r2 |
                 r4 cf 2. |
                 af 1 |
                 r4 cf 2. |
                 af 1 |
-                ef 8 ef  ef  ef  ef  ef  ef  ef  |
+                ef 8 ef  ef  ef  ef  ef  ef  ef |
                 ef 8  ef  ef  ef  ef  r r4 |
-                r 8 ef' r ef r ef' r ef |
+                
+		% Second bridge
+		r 8 ef' r ef r ef' r ef |
                 r 8 ef' r ef r ef' r ef |
                 r 8 ef' r ef r ef' r ef |
                 r 8 ef' r ef r ef' r ef |
@@ -1251,6 +1279,7 @@ globalTempo = {
 	      So no one else can see
 	      My true i -- den -- ti
 
+	      _ _ _ _
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 	      Do -- mo Do -- mo
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
@@ -1314,7 +1343,7 @@ globalTempo = {
         \context Staff = "track 18, Bass" << 
             \set Staff.instrumentName = \markup { \center-column { "Bass " } }
             \set Staff.shortInstrumentName = #"B"
-	    \set Staff.midiInstrument = "contrabass"
+	    \set Staff.midiInstrument = "grand piano"
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
@@ -1356,9 +1385,9 @@ globalTempo = {
 		f, 1 _~ |
                 f, 1 |
                 gf, 1  _~ |
-                gf, 2 gf  |
-                gf, 2 gf  |
-                gf, 4 gf  gf,  gf  |
+                gf, 2 gf |
+                gf, 2 gf |
+                gf, 4 gf  gf,  gf |
                 gf, 4 gf  gf, 8 r bf, af, _~ |
                 
 		% First chorus
@@ -1427,7 +1456,7 @@ globalTempo = {
                 ef 4 ef -. r2 |
                 cf 1 |
                 df 1 |
-                ef 8 \< ef ef ef ef ef ef ef  |
+                ef 8 \< ef ef ef ef ef ef ef |
                 ef 4 -. \! \f r4 r bf, 8 af, _~ |
 
                 % Second Chorus
@@ -1445,53 +1474,59 @@ globalTempo = {
 
 		% Bridge
                 \key ef \aeolian
-                ef 4 ef ef ef |
-                ef 4 ef ef ef |
-                ef 4 ef ef ef |
-                ef 4 ef ef ef |
-                ef 4 ef ef ef |
-                ef 4 ef ef ef |
-                r4 ef 8 ef r2 |
-                r4 ef 8 ef r2 |
-                ef 4 ef ef ef |
-                ef 4 ef ef ef |
-                r4 ef 8 ef r2 |
-                r4 ef 8 ef r2 |
-		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
-		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4 |
-		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
-		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4 |
-		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
-		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4 |
-		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
-		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4 |
-		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
-		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4 |
-		bf, 4 bf, bf, af, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
-		af, 4 af, af, gf, 8 af, _~ |
-		af, 8 af, 4 af, 8 af, gf, f, 4 |
+                ef, 4 ef, ef, ef, |
+                ef, 4 ef, ef, ef, |
+                ef, 4 ef, ef, ef, |
+                ef, 4 ef, ef, ef, |
+                ef, 4 ef, ef, ef, |
+                ef, 4 ef, ef, ef, |
+                r4 ef, 8 ef, r2 |
+                r4 ef, 8 ef, r2 |
+                ef, 4 ef, ef, ef, |
+                ef, 4 ef, ef, ef, |
+                r4 ef, 8 ef, r2 |
+                r4 ef, 8 ef, r2 |
+		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+		f, 8 f, f, f, f, 4 f, 8 f, _~ |
+		f, 8 f, 4 f, 8 f, 4 f, 8 r |
+		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+		f, 8 f, f, f, f, 4 f, 8 f, _~ |
+		f, 8 f, 4 f, 8 f, 4 f, 8 r |
+		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+		f, 8 f, f, f, f, 4 f, 8 f, _~ |
+		f, 8 f, 4 f, 8 f, 4 f, 8 r |
+		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+		f, 8 f, f, f, f, 4 f, 8 f, _~ |
+		f, 8 f, 4 f, 8 f, 4 f, 8 r |
+		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+		f, 8 f, f, f, f, 4 f, 8 f, _~ |
+		f, 8 f, 4 f, 8 f, 4 f, 8 r |
+		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+		f, 8 f, f, f, f, 4 f, 8 f, _~ |
+		f, 8 f, 4 f, 8 f, 4 f, 8 r |
 		r2 gf, |
                 r2 cf |
-                ef 4  ef  r2 |
-                ef 4  ef  r2 |
+                ef 4 ef -. r2 |
+                ef 4 ef -. r2 |
                 r2 gf, |
                 cf 1 |
                 r2 gf, |
                 cf 1 |
-                bf, 8 bf,  bf,  bf,  bf,  bf,  bf,  bf,  |
+                bf, 8 bf,  bf,  bf,  bf,  bf,  bf,  bf, |
                 bf, 8  bf,  bf,  bf,  bf,  r r4 |
-                r1 r1 r1 r1 r1 
+                
+		% Second bridge
+		r1 |
+		r1 |
+		r1 |
+		r1 |
+		r1 |
                 r8 bf, af, gf, ef,  bf,  af,  gf, |
                 ef, 8 bf, af, gf, ef, r r4 |
                 R1 |
@@ -1501,7 +1536,7 @@ globalTempo = {
                 r8 bf, af, gf, ef, bf, af, gf, |
                 ef, 8 bf, af, gf, ef, r r4 |
                 R1 |
-                r8 bf, af,  gf,  ef,  bf, af, gf,  |
+                r8 bf, af,  gf,  ef,  bf, af, gf, |
                 ef, 8  bf,  af,  gf, ef, d ef  af, _~ |
                 af, 1 _~ |
                 af, 1 |
@@ -1607,33 +1642,22 @@ globalTempo = {
 	      Do -- mo Do -- mo Do -- mo Do -- mo
 	      Do -- mo Do -- mo Do -- mo Do -- mo
 	      Do -- mo Do -- mo
-	      oo -- mo Do -- mo Do -- mo Do -- mo
-              Do -- mo Do -- mo
+	      Do -- mo Do -- mo Do -- mo Do -- mo
+	      Do -- mo Do -- mo
 
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da da
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+
 	      
 	      ah ah
 	      ee oo
