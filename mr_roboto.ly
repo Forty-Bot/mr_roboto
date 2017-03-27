@@ -6,7 +6,7 @@
     title = "Mr. Roboto"
     poet = "Words and Music by Dennis DeYoung"
     composer = "Arranged by Sean Anderson"
-    tagline = "v0.1"
+    tagline = "v0.2"
 }
 #(set-global-staff-size 12)
 #(set-default-paper-size "letter")
@@ -133,18 +133,23 @@ globalTempo = {
                 ef' 1 |
 		r2 r4 bf 8 af _~ |
                 
+		% Second chorus
+		\mark \default
 		\key gf \lydian
                 af 4 df' 8 c' 4. af 8 gf _~ |
-                gf 2 r |
+                gf 4 r4 r2 |
                 r2 r4 bf 8  af _~ |
                 af 4 df' 8 c' 4. af 8 gf _~ |
-                gf 2 r |
+                gf 4 r4 r2 |
                 r2 r4 bf 8  af _~ |
                 af 4 df' 8 c' 4. af 8 gf _~ |
-                gf 2 r |
+                gf 4 r4 r2 |
                 r2 r4 bf 8  af _~ |
                 af 4 df' 8 c' 4. df' 4  |
-                \key ef \aeolian
+                
+		% Bridge
+		\mark \default
+		\key ef \aeolian
                 ef' 4 r r2 |
                 R1*19 |
                 f 8  f  f  f  f 4  r8 f  _~ |
@@ -314,6 +319,7 @@ globalTempo = {
                 \override Hairpin.circled-tip = ##t
 		gf' 1 \< _~ |
                 gf' 1 \! _~ |
+                \revert Hairpin.circled-tip
                 gf' 1 _~ |
                 gf' 1 _~ |
                 gf' 1 _~ |
@@ -406,9 +412,10 @@ globalTempo = {
                 ef' 4 ef' -. r2 |
                 r2 r4 ef' |
                 r2 r4 df' |
-		g' 8  g'  g'  g' g'  g'  g'  g'  |
-                g' 4 -. r4 r2 |
+		g' 8 \< g' g' g' g' g' g' g' |
+                g' 4 -. \! \f r4 r2 |
 
+		% Second chorus
 		\key gf \lydian
                 R1 |
                 r4 bf' 8 bf' bf' c'' r bf' |
@@ -420,6 +427,8 @@ globalTempo = {
                 r4 bf' 8 bf' bf' c'' r bf' |
                 bf' 8 bf' bf' c'' r2 |
                 R1 |
+
+		% Bridge
                 \key ef \aeolian
 		R1 | R1 | R1 | R1 | R1 | R1 |
 		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
@@ -637,6 +646,7 @@ globalTempo = {
                 \override Hairpin.circled-tip = ##t
                 df' 1 \< _~ | 
                 df' 1 \! _~ | 
+                \revert Hairpin.circled-tip
                 df' 1 _~ | 
                 df' 1 _~ | 
                 df' 1 _~ | 
@@ -729,9 +739,10 @@ globalTempo = {
                 bf 4 bf -. r2 |
                 r4 gf 2. |
                 r4 af 2. |
-                bf 8  bf  bf  bf bf  bf  bf  bf  |
-                bf 4 -. r4 r2 |
+                bf 8 \< bf  bf  bf bf  bf  bf  bf  |
+                bf 4 -. \! \f r4 r2 |
                 
+		% Second chorus
 		\key gf \lydian
                 R1 |
                 r4 gf' 8 gf' gf' ef' r gf' |
@@ -743,6 +754,8 @@ globalTempo = {
                 r4 gf' 8 gf' gf' ef' r gf' |
                 gf' 8 gf' gf' ef' r2 |
                 R1 |
+
+		% Bridge
                	\key ef \aeolian
                 R1*4 
 		bf 8 bf bf af bf 4 af 8 bf _~ |
@@ -977,6 +990,7 @@ globalTempo = {
                 \override Hairpin.circled-tip = ##t
                 bf 1 \< _~ |
                 bf 1 \! _~ |
+                \revert Hairpin.circled-tip
                 bf 1 _~ |
                 bf 1 _~ |
                 bf 1 _~ |
@@ -1069,20 +1083,23 @@ globalTempo = {
                 gf 4 gf -. r2 |
                 r2 ef |
                 r2 f |
-                g 8 g g g g g g g |
-                g 4 -. r4 r2 | 
-
+                g 8 \< g g g g g g g |
+                g 4 -. \! \f r4 r4 f 8 ef _~ |
+		
+		% Second chorus
 		\key gf \lydian
-                r4 ef 8 ef c 4 af, |
-                r4 gf 4. f |
-                ef 4. df r4 |
-                r4 ef 8 ef c 4 af, |
-                r4 gf 4. f |
-                ef 4. df r4 |
-                r4 ef 8 ef c 4 af, |
-                r4 gf 4. f |
-                ef 4. df r4 |
-                r4 ef 8 ef c 4 af, |
+		ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                df 4 r4 r2 |
+                r2 r4 f 8 ef _~ |
+                ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                df 4 r4 r2 |
+                r2 r4 f 8 ef _~ |
+                ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                df 4 r4 r2 |
+                r2 r4 f 8 ef _~ |
+                ef 4 gf 8 af 4. gf 4 |
+
+		% Bridge
 		\key ef \aeolian
 		R1*4 
                 f 8 f f f f 4 ef 8 f _~ |
@@ -1229,10 +1246,10 @@ globalTempo = {
 	      ba ba ba ba
 	      ba
 
-              Got a sec -- cret Got a sec -- cret
-              Got a sec -- cret Got a sec -- cret
-              Got a sec -- cret Got a sec -- cret
-              Got a sec -- cret
+              I am the mod -- ern man
+	      Who hides be -- hind a mask
+	      So no one else can see
+	      My true i -- den -- ti
 
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 	      Do -- mo Do -- mo
@@ -1315,6 +1332,7 @@ globalTempo = {
                 \override Hairpin.circled-tip = ##t
                 af 1 \< _~ |
                 af 1 \! _~ |
+                \revert Hairpin.circled-tip
                 af 1 _~ |
                 af 1 _~ |
                 af 1 _~ |
@@ -1409,10 +1427,11 @@ globalTempo = {
                 ef 4 ef -. r2 |
                 cf 1 |
                 df 1 |
-                ef 8 ef ef ef ef ef ef ef  |
-                ef 4 -. r4 r bf, 8 af, _~ |
+                ef 8 \< ef ef ef ef ef ef ef  |
+                ef 4 -. \! \f r4 r bf, 8 af, _~ |
 
-                \key gf \lydian
+                % Second Chorus
+		\key gf \lydian
                 af, 4 df 8  c 4. af, 8  gf, _~ |
                 gf, 4 gf, gf, gf, |
                 gf, 4. gf, bf, 8  af, _~ |
@@ -1422,20 +1441,22 @@ globalTempo = {
                 af, 4 df 8 c 4. af, 8  gf, _~ |
                 gf, 4 gf, gf, gf, |
                 gf, 4. gf, bf, 8  af, _~ |
-                af, 4 df 8 c 4. df 8 r |
+                af, 4 df 8 c 4. df 4 |
+
+		% Bridge
                 \key ef \aeolian
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
-                < ef, ef > 4 < ef, ef > < ef, ef >  < ef, ef > |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
-                r4 < ef ef, > 8 < ef ef, > r2 |
-                r4 < ef ef, > 8 < ef ef, > r2 |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
-                < ef, ef > 4 < ef, ef > < ef, ef > < ef, ef > |
-                r4 < ef, ef > 8 < ef, ef > r2 |
-                r4 < ef, ef > 8 < ef, ef > r2 |
+                ef 4 ef ef ef |
+                ef 4 ef ef ef |
+                ef 4 ef ef ef |
+                ef 4 ef ef ef |
+                ef 4 ef ef ef |
+                ef 4 ef ef ef |
+                r4 ef 8 ef r2 |
+                r4 ef 8 ef r2 |
+                ef 4 ef ef ef |
+                ef 4 ef ef ef |
+                r4 ef 8 ef r2 |
+                r4 ef 8 ef r2 |
 		bf, 4 bf, bf, af, 8 bf, _~ |
 		bf, 8 bf, 4 bf, 8 bf, af, gf, 4 |
 		af, 4 af, af, gf, 8 af, _~ |
