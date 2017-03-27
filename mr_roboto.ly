@@ -27,7 +27,7 @@ globalTempo = {
 
         \context Staff = "track 14, Solo" << 
             \set Staff.instrumentName = #"Solo"
-	    \set Staff.midiInstrument = "violin"
+	    %\set Staff.midiInstrument = "violin"
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
@@ -189,23 +189,27 @@ globalTempo = {
                 af 4 df' 8 c' 4. af 8 gf _~ |
                 gf 2 r2 |
                 R1*3 |
-                r2 r4 bf 8  af _~ |
-                \key gf \lydian
-                af 4 df' 8 c' 4. af 8 gf _~ |
-                gf 2 r |
-                r2 r4 bf 8  af _~ |
-                af 4 df' 8 c' 4. af 8 gf _~ |
-                gf 2 r |
-                r2 r4 bf 8  af _~ |
-                af 4 df' 8 c' 4. af 8 gf _~ |
-                gf 2 r |
-                r2 r4 bf 8 af _~ |
-                af 4 df' 8 c' 4.  df' 4 |
-                ef' 2  r4 df' |
-                ef' 4 ef' r2 |
-                ef' 4 ef' r2 |
-                ef' 4 ef' r2 |
-                ef' 4 ef'  r2 |
+                r2 r4 bf' 8 \f af' _~ |
+                
+		% Third chorus
+		\mark \default
+		\key gf \lydian
+                af' 4 df'' 8 c'' 4. af' 8 gf' _~ |
+                gf' 4 r r2 |
+                r2 r4 bf' 8  af' _~ |
+                af' 4 df'' 8 c'' 4. af' 8 gf' _~ |
+                gf' 4 r r2 |
+                r2 r4 bf' 8  af' _~ |
+                af' 4 df'' 8 c'' 4. af' 8 gf' _~ |
+                gf' 4 r r2 |
+                r2 r4 bf' 8 af' _~ |
+                af' 4 df'' 8 c'' 4.  df' 4 |
+                ef' 4 r r df' |
+		\override NoteHead.style = #'cross
+		ef' 4 -> \dim ef' -> r2 |
+		ef' 4 -> ef' -> r2 |
+		ef' 4 -> ef' -> r2 |
+		ef' 4 \mp ef' r2 |
                 R1  \bar "|."
             } % Voice
             \addlyrics{
@@ -303,7 +307,7 @@ globalTempo = {
 	\context Staff = "track 15, Tenor 1" << 
             \set Staff.instrumentName = #"Tenor 1 "
 	    \set Staff.shortInstrumentName = #"T"
-            \set Staff.midiInstrument = "violin"
+            %\set Staff.midiInstrument = "violin"
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
@@ -446,27 +450,27 @@ globalTempo = {
 		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
 		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
                 R1 |
-                r4 ef'  bf  gf' |
+                r4 ef' \mf bf gf' |
                 f' 1 _~ |
-                f' 4 df'  bf  gf' |
+                f' 4 df' bf gf' |
                 f' 1 _~ |
-                f' 4 ef'  bf  gf' |
+                f' 4 ef' bf gf' |
                 f' 1 _~ |
-                f' 4 df'  bf  gf' |
+                f' 4 df' bf gf' |
                 f' 1 _~ |
-                f' 4 ef'  bf  gf' |
+                f' 4 ef' bf gf' |
                 f' 1 _~ |
-                f' 4 df'  bf  gf' |
+                f' 4 df' bf gf' |
                 f' 1 _~ |
-                f' 4 ef'  bf  gf' |
+                f' 4 ef' bf gf' |
                 f' 1 _~ |
-                f' 4 df'  bf  gf' |
+                f' 4 df' bf gf' |
                 f' 1 _~ |
-                f' 4 ef'  bf  gf' |
+                f' 4 ef' bf gf' |
                 f' 1 _~ |
-                f' 4 df'  bf  gf' |
+                f' 4 df' bf gf' |
                 f' 1 _~ |
-                f' 4 ef'  bf  gf' |
+                f' 4 ef' bf gf' |
                 f' 1 _~ |
                 f' 4 r r2 |
                 r2 \cresc r4 ef' |
@@ -500,7 +504,9 @@ globalTempo = {
                 af 1 _~ |
                 af 1 |
 		\tuplet 3/2 { af 8 af af af af af } af r r4 |
-                \key gf \lydian
+                
+		% Thir chorus
+		\key gf \lydian
 		R1 |
                 r4 bf' 8 bf' bf' c'' r bf' |
                 bf' 8 bf' bf' c'' r2 |
@@ -511,12 +517,12 @@ globalTempo = {
                 r4 bf' 8 bf' bf' c'' r bf' |
                 bf' 8 bf' bf' c'' r2 |
                 R1 |
-                < ef' f' > 4 ef' 8 r r2 |
-                < f' ef' > 4 ef' 8 r r2 |
-                < f' ef' > 4 ef' 8 r r2 |
-                < f' ef' > 4 ef' 8 r r2 |
-                < f' ef' > 4 ef' 8 r r2 |
-                < f' ef' > 4 ef' 8 r r2  \bar "|."
+		< ef' f' > 4 -> \mf ef' -> r2 |
+		< f' ef' > 4 -> ef' -> r2 |
+                < f' ef' > 4 -> ef' -> r2 |
+                < f' ef' > 4 -> ef' -> r2 |
+                < f' ef' > 4 -> ef' -> r2 |
+                < f' ef' > 4 -> ef' -> r2  \bar "|."
             } % Voice
 	    \addlyrics{
 	      zh ee
@@ -650,7 +656,7 @@ globalTempo = {
         \context Staff = "track 16, Tenor 2" << 
             \set Staff.instrumentName = #"Tenor 2"
 	    \set Staff.shortInstrumentName = #"T"
-            \set Staff.midiInstrument = "viola"
+            %\set Staff.midiInstrument = "viola"
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
@@ -860,12 +866,12 @@ globalTempo = {
                 r4 gf' 8 gf' gf' af' r gf' |
                 gf' 8 gf' gf' af' r2 |
                 R1 |
-                bf 4 bf 8 r r2 |
-                bf 4  bf 8  r r2 |
-                bf 4  bf 8  r r2 |
-                bf 4  bf 8  r r2 |
-                bf 4  bf 8  r r2 |
-                bf 4  bf 8  r r2 \bar "|."
+		bf 4 -> \mf bf -> r2 |
+		bf 4 -> bf -> r2 |
+                bf 4 -> bf -> r2 |
+                bf 4 -> bf -> r2 |
+                bf 4 -> bf -> r2 |
+                bf 4 -> bf -> r2 \bar "|."
             } % Voice
             \addlyrics{
 	      zh ee
@@ -1003,7 +1009,7 @@ globalTempo = {
         \context Staff = "track 17, Baritone" << 
             \set Staff.instrumentName = #"Baritone "
 	    \set Staff.shortInstrumentName = #"B"
-            \set Staff.midiInstrument = "cello"
+            %\set Staff.midiInstrument = "cello"
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
@@ -1200,24 +1206,26 @@ globalTempo = {
                 r4 af 8 ef r a \f bf ef _~ |
                 ef 1 _~ |
                 ef 1 |
-		\tuplet 3/2 { ef 8 ef ef ef ef ef } ef r r4 |
+		\tuplet 3/2 { ef 8 ef ef ef ef ef } ef r f ef _~ |
+		
+		% Third chorus
 		\key gf \lydian
-                r4 ef 8 ef c 4 af, |
-                r4 gf 4. f |
-                ef 4. df r4 |
-                r4 ef 8 ef c 4 af, |
-                r4 gf 4. f |
-                ef 4. df r4 |
-                r4 ef 8 ef c 4 af, |
-                r4 gf 4. f |
-                ef 4. df r4 |
-                R1 |
-		gf 4 gf 8 r r2 |
-                gf 4 gf 8 r r2 |
-                gf 4 gf 8 r r2 |
-                gf 4 gf 8 r r2 |
-                gf 4 gf 8 r r2 |
-                gf 4 gf 8 r r2  \bar "|."
+		ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                df 4 r4 r2 |
+                r2 r4 f 8 ef _~ |
+                ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                df 4 r4 r2 |
+                r2 r4 f 8 ef _~ |
+                ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                df 4 r4 r2 |
+                r2 r4 f 8 ef _~ |
+                ef 4 gf 8 af 4. r4 |
+		gf 4 -> \mf gf -> r2 |
+		gf 4 -> gf -> r2 |
+                gf 4 -> gf -> r2 |
+                gf 4 -> gf -> r2 |
+                gf 4 -> gf -> r2 |
+                gf 4 -> gf -> r2  \bar "|."
             } % Voice
             \addlyrics{
 	      zh ee
@@ -1337,9 +1345,10 @@ globalTempo = {
 	      ra ba ba ba ba ba
 	      ba
 	      
-	      Got a sec -- cret Got a sec -- cret
-              Got a sec -- cret Got a sec -- cret
-              Got a sec -- cret Got a sec -- cret
+              The time has come at last
+	      To throw a -- way the mask
+	      Now ev -- rey -- one can see
+	      My true i -- den 
 
 	      ee oo
 	      ee oo
@@ -1353,7 +1362,7 @@ globalTempo = {
         \context Staff = "track 18, Bass" << 
             \set Staff.instrumentName = \markup { \center-column { "Bass " } }
             \set Staff.shortInstrumentName = #"B"
-	    \set Staff.midiInstrument = "grand piano"
+	    %\set Staff.midiInstrument = "percussive organ"
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
@@ -1537,7 +1546,7 @@ globalTempo = {
 		r1 |
 		r1 |
 		r1 |
-                r8 bf, [ af, gf, ef, ] bf, [ af,  gf, |
+                r8 bf, \p [ af, gf, ef, ] bf, [ af,  gf, |
                 ef, 8 ] bf, [ af, gf, ef, ] r r4 |
                 R1 |
                 r8 bf, [ af, gf, ef, ] bf, [ af,  gf, |
@@ -1563,11 +1572,12 @@ globalTempo = {
                 gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8 c 4. r 4 |
                 r1 |
-		ef 4 ef r2 |
-                ef 4 ef r2 |
-                ef 4 ef r2 |
-                ef 4  ef  r2 |
-                R1 \bar "|."
+		\override NoteHead.style = #'cross
+		ef 4 -> ef -> r2 |
+                ef 4 -> ef -> r2 |
+                ef 4 -> ef -> r2 |
+                r1 |
+                r1 \bar "|."
             } % Voice
 	    \addlyrics{
 	      zh ee
