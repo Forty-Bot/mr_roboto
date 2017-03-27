@@ -81,7 +81,7 @@ globalTempo = {
 		\key ef \aeolian
                 ef' 4 r r2 |
                 R1*3 |
-                r4 r8 df' \mf ef' ef' df' ef' |
+                r4 r8 df' ef' ef' df' ef' |
                 r2 ef' 8  ef' df' ef'  |
                 r2 gf' 8  gf' f' 4  |
                 df' 4 r r2 |
@@ -90,7 +90,7 @@ globalTempo = {
                 r4 r8 df' gf'  gf' f'  df' _~ |
                 df' 4 r r2 |
                 r4 r8 df' ef' ef' ef' ef' |
-                r2 ef' 8 ef' ef' ef' |
+                r4 r8 ef' 8 ef' ef' 4 ef' 8 |
                 r2 gf' 8 gf'  f' df' _~ |
                 df' 4 r r2 |
                 r4 r8 ef' bf'  bf' af' gf'  |
@@ -352,8 +352,9 @@ globalTempo = {
                 bf' 8 bf' bf' c'' r2 |
                 R1 |
                 
+		% First verse
 		\key ef \aeolian
-                ef' 4 ef' -. r2 |
+                ef' 4 \mp ef' -. r2 |
                 ef' 4 ef' -. r2 |
                 ef' 4 ef' -. r4 r8 ef' 8 |
                 < f' ef' > 4 ef' -. r2 |
@@ -676,7 +677,7 @@ globalTempo = {
 
 		% First verse
 		\key ef \aeolian
-                bf 4 bf -. r2 |
+                bf 4 \mp bf -. r2 |
                 bf 4 bf -. r2 |
                 bf 4 bf -. r4 r8 bf 8 |
                 bf 4 bf -. r2 |
@@ -1016,7 +1017,7 @@ globalTempo = {
                 
 		% First verse
 		\key ef \aeolian
-                gf 4 gf -. r2 |
+                gf 4 \mp gf -. r2 |
                 gf 4 gf -. r2 |
                 gf 4 gf -. r4 r8 gf 8 |
                 gf 4 gf -. r2 |
@@ -1068,7 +1069,7 @@ globalTempo = {
                 gf 4 gf -. r2 |
                 r2 ef |
                 r2 f |
-                g 8 g g g g g  g  g  |
+                g 8 g g g g g g g |
                 g 4 -. r4 r2 | 
 
 		\key gf \lydian
@@ -1354,59 +1355,63 @@ globalTempo = {
                 gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8 c 4. df 4 |
 
+		% First verse
 		\key ef \aeolian
-                ef 4 ef 8 r r2 |
-                ef 4 ef 8 r r2 |
-                ef 4 ef 8 r2 ef 8 |
-                ef 4  ef 8 r4 bf, 8 af, f, |
-		gf, 4 gf, gf, f, 8 gf, _~ |
-		gf, 8 gf, 4 gf, 8 gf, 4 af, |
-		f, 4 f, f, f, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 af, gf, f, 4 |
-                gf, 4 gf, gf, f, 8 gf, _~ |
-		gf, 8 gf, 4 gf, 8 gf, 4 af, |
-		f, 4 f, f, f, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 af, gf, f, 4 |
-                gf, 4 gf, gf, f, 8 gf, _~ |
-		gf, 8 gf, 4 gf, 8 gf, 4 af, |
-		f, 4 f, f, f, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 af, gf, f, 4 |
-		gf, 4 gf, gf, f, 8 gf, _~ |
-		gf, 8 gf, 4 gf, 8 gf, 4 af, |
-		f, 4 f, f, f, |
-		af, af, af, bf, |
+                ef 4 \mp ef -. r2 |
+                ef 4 ef -. r2 |
+                ef 4 ef -. r4 r8 ef |
+                ef 4 ef 8 r4 bf 8 af f |
+		ef 4 ef ef bf, 8 ef _~ |
+		ef 8 ef 4 bf, 8 ef 4 bf, |
+		df 4 df df af, 8 df _~ |
+		df 8 df 4 af, 8 c df d 4 |
+		ef 4 ef ef bf, 8 ef _~ |
+		ef 8 ef 4 bf, 8 ef 4 bf, |
+		df 4 df df af, 8 df _~ |
+		df 8 df 4 af, 8 c df d 4 |
+		ef 4 ef ef bf, 8 ef _~ |
+		ef 8 ef 4 bf, 8 ef 4 bf, |
+		df 4 df df af, 8 df _~ |
+		df 8 df 4 af, 8 c df d 4 |
+		ef 4 ef ef bf, 8 ef _~ |
+		ef 8 ef 4 bf, 8 ef 4 bf, |
+		df 4 df df af, 8 df _~ |
+		df 8 df 4 af, 8 c df d 4 |
+		cf 1 |
+                df 1 |
+                ef 4 ef -. r2 |
+                ef 4 ef -. r2 |
                 cf 1 |
                 df 1 |
-                ef 4 ef 8 r r2 |
-                ef 4  ef 8 r r2 |
+                ef 4 ef -. r2 |
+                ef 4 ef -. r8 bf af f |
+		
+		% Second verse
+		ef 4 ef ef bf, 8 ef _~ |
+		ef 8 ef 4 bf, 8 ef 4 bf, |
+		df 4 df df af, 8 df _~ |
+		df 8 df 4 af, 8 c df d 4 |
+		ef 4 ef ef bf, 8 ef _~ |
+		ef 8 ef 4 bf, 8 ef 4 bf, |
+		df 4 df df af, 8 df _~ |
+		df 8 df 4 af, 8 c df d 4 |
+		ef 4 ef ef bf, 8 ef _~ |
+		ef 8 ef 4 bf, 8 ef 4 bf, |
+		df 4 df df af, 8 df _~ |
+		df 8 df 4 af, 8 c df d 4 |
+		ef 4 ef ef bf, 8 ef _~ |
+		ef 8 ef 4 bf, 8 ef 4 bf, |
+		df 4 df df af, 8 df _~ |
+		df 8 df 4 af, 8 c df d 4 |
+		cf 1 |
+                df 1 |
+                ef 4 ef -. r2 |
+                ef 4 ef -. r2 |
                 cf 1 |
                 df 1 |
-                ef 4 ef 8  r r2 |
-                ef 4  ef 8  r r8 bf, af, f, |
-                gf, 4 gf, gf, f, 8 gf, _~ |
-		gf, 8 gf, 4 gf, 8 gf, 4 af, |
-		f, 4 f, f, f, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 af, gf, f, r |
-                gf, 4 gf, gf, f, 8 gf, _~ |
-		gf, 8 gf, 4 gf, 8 gf, 4 af, |
-		f, 4 f, f, f, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 af, gf, f, r |
-                gf, 4 gf, gf, f, 8 gf, _~ |
-		gf, 8 gf, 4 gf, 8 gf, 4 af, |
-		f, 4 f, f, f, 8 bf, _~ |
-		bf, 8 bf, 4 bf, 8 af, gf, f, r |
-		gf, 4 gf, gf, f, 8 gf, _~ |
-		gf, 8 gf, 4 gf, 8 gf, 4 af, |
-		f, 4 f, f, f, |
-		af, af, af, bf, |
-                cf 1 |
-                df 1 |
-                ef 4  ef 8  r r2 |
-                ef 4  ef 8  r r2 |
-                cf 1 |
-                df 1 |
-                ef 8 ef  ef  ef  ef  ef  ef  ef  |
-                ef 8 r r4 r bf, 8 af, _~ |
+                ef 8 ef ef ef ef ef ef ef  |
+                ef 4 -. r4 r bf, 8 af, _~ |
+
                 \key gf \lydian
                 af, 4 df 8  c 4. af, 8  gf, _~ |
                 gf, 4 gf, gf, gf, |
@@ -1520,22 +1525,22 @@ globalTempo = {
 	      ee oo
 	   oo ee oo 
 
-   da da -- n dn da da da -- n
-	      da da da da
-	      dn da da da -- n
-	      da da da da da 
-	      dn da da da -- n
-	      da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      dn da da da
-	      dn da da da
-	      oo oo oo oo
+  thm thm thm thm thm thm thm thm
+	      thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
 
 	      ah ah
 	      ee oo
@@ -1544,22 +1549,22 @@ globalTempo = {
 	      ee oo
 	      ee oo
 
-   da da -- n dn da da da -- n
-	      da da da da
-	      dn da da da -- n
-	      da da da da da 
-	      dn da da da -- n
-	      da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      da da da da
-	      dn da da da -- n
-	      da da da da da
-	      dn da da da -- n
-	      dn da da da
-	      dn da da da
-	      oo oo oo oo
+  thm thm thm thm thm thm thm thm
+	      thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm
+	      thm thm thm thm thm
+	      thm thm thm thm thm
 	      	      
 	      ah ah
 	      ee oo
