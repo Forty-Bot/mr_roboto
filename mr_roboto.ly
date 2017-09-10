@@ -6,17 +6,18 @@
     title = "Mr. Roboto"
     poet = "Words and Music by Dennis DeYoung"
     composer = "Arranged by Sean Anderson"
-    tagline = "v0.2"
+    tagline = "Made with GNU LilyPond."
 }
 #(set-global-staff-size 12)
 #(set-default-paper-size "letter")
-global = { 
+global = {
+    \time 4/2
+    \skip 1*14
     \time 4/4
-    \skip 1*167 
 }
 globalTempo = {
-    \tempo "Freely" 4 = 100
-    \skip 1*12
+    \tempo "Freely" 2 = 50
+    \skip 1*14
     \tempo "Rock" 4 = 145
 }
 \score {
@@ -34,27 +35,23 @@ globalTempo = {
             \new Voice \globalTempo
 
             \context Voice = "voice 1" {
-                % Segment: Imported MIDI (copied) (split)
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
-                \once \override Staff.TimeSignature #'style = #'() 
-                \time 4/4
+                \set Score.markFormatter = #format-mark-box-letters
+		\dynamicUp
+		\override DynamicTextSpanner.style = #'none
+		\override Staff.TimeSignature #'style = #'() 
                 
                 \clef "treble_8"
                 \key af \mixolydian
 		
-                r2 r4 bf' 8 ( af' \mp _~ |
-                af' 4 df'' 8 c'' 4. af' 8 gf' _~ |
-                gf' 2. ) bf 8 ( af _~ |
-                af 4 df' 8 c' 4. af 8 gf _~ |
-                gf 2. ) bf' 8 ( af' _~ |
-                af' 4 df'' 8 c'' 4. af' 8. gf' 32 af' |
-                gf' 2. ) bf 8 ( af _~ |
-                af 4 df' 8 c' 4. af 8 gf _~ |
-                gf 2. )< bf' bf> 8 ( < af' af > _~ |
-		< af' af > 4 < df'' df' > 8 < c'' c' > 4. < ef'' ef' > 8 ) < f'' f' > _~ |
-		< f'' f' > 1 _~ |
-		< f'' f' > 1 _~ |
+                r1 r2 r4 r8 bf' 8 ( |
+                af' 4. \mp df'' 8 c'' 4. af' 8 gf' 2. ) r8 bf 8 ( |
+                af 4. df' 8 c' 4. af 8 gf 2. ) r8 bf' 8 ( |
+                af' 4. df'' 8 c'' 4. af' 8 \grace { gf' af' } gf' 2. ) r8 bf 8 ( |
+                af 4. df' 8 c' 4. af 8 gf 2. ) r8 < bf' bf> 8 ( |
+		< af' af > 4. < df'' df' > 8 < c'' c' > 4. < ef'' ef' > 8 ) < f'' f' > 1 _~ |
+		< f'' f' > \breve _~ |
 		< f'' f' > 1 _~ |
 		< f'' f' > 1 |
 
@@ -63,7 +60,6 @@ globalTempo = {
 		R1*10 |
 
 		% First chorus
-		\mark \default
                 r2 r4 bf 8 \f af _~ |
                 af 4 df' 8 c' 4. af 8 gf _~ |
                 gf 4 r4 r2 |
@@ -175,6 +171,7 @@ globalTempo = {
 
 		% Second bridge
 		\mark \default
+		\key gf \lydian
 		R1*3 |
                 r2 r4 bf 8 \p af _~ |
                 af 4 df' 8 c' 4. af 8 gf _~ |
@@ -193,7 +190,6 @@ globalTempo = {
                 
 		% Third chorus
 		\mark \default
-		\key gf \lydian
                 af' 4 df'' 8 c'' 4. af' 8 gf' _~ |
                 gf' 4 r r2 |
                 r2 r4 bf' 8  af' _~ |
@@ -317,27 +313,28 @@ globalTempo = {
                 % Segment: Imported MIDI (copied) (split)
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
-                \once \override Staff.TimeSignature #'style = #'() 
-                \time 4/4
+		\dynamicUp
+		\override DynamicTextSpanner.style = #'none
+                \override Staff.TimeSignature #'style = #'() 
                 
                 \clef "treble_8"
                 \key af \mixolydian
-                \override Hairpin.circled-tip = ##t
-		gf' 1 \< _~ |
-                gf' 1 \! _~ |
+	        \override Hairpin.circled-tip = ##t
+	        
+	        \footnote " " #'(0.0 . 0) \markup {
+	          \wordwrap {\super 1 Imitate a band-pass sweep and blend each transition together, as if performing a glissando with vowels. The note heads mark where one should reach the zenith of each vowel.
+	          Spend more time singing "\"oo\"" than "\"ee.\""}
+	        } 
+	        gf' \breve \< \( |
+                gf' \breve \! |
                 \revert Hairpin.circled-tip
-                gf' 1 _~ |
-                gf' 1 _~ |
-                gf' 1 _~ |
-                gf' 1 _~ |
-                gf' 1 _~ |
-                gf' 1 _~ |
-                gf' 1 _~ |
-                gf' 1 _~ |
-                gf' 1  \glissando |
-		f' 1 _~ |
-		f' 1 _~ |
-		f' 1 |
+                gf' \breve |
+                gf' \breve |
+                gf' \breve |
+                gf' \breve _~ |
+	        gf' 1 \glissando f' _~ |
+                f' 1 _~ |
+                f' 1 \) |
                
 		% Inital theme
 		ef' 8 \f ef' ef' ef' ef' d' r ef' _~ |
@@ -385,7 +382,7 @@ globalTempo = {
                 < ef' f' > 4 ef' -. r2 |
                 < ef' f' > 4 ef' -. r2 |
                 df' 4 df' -. r2 |
-                df' 4 df' df' df' |
+                df' 4 df' df' d' |
                 r2 r4 ef' |
                 r2 r4 df' |
                 ef' 4 ef' -. r2 |
@@ -437,7 +434,7 @@ globalTempo = {
 		% Bridge
                 \key ef \aeolian
 		\override NoteHead.style = #'cross
-		r4 bf ^\markup{ \italic stomp } r2 |
+		r4 bf ^\markup{ \italic (stomp) } r2 |
 		r4 bf r2 |
 		r4 bf r2 |
 		r4 bf r2 |
@@ -450,29 +447,29 @@ globalTempo = {
 		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
 		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
                 R1 |
-                r4 ef' \mf bf gf' |
+                r4 ef' ( \mf bf gf' |
                 f' 1 _~ |
-                f' 4 df' bf gf' |
+                f' 4 ) df' ( bf gf' |
                 f' 1 _~ |
-                f' 4 ef' bf gf' |
+                f' 4 ) ef' ( bf gf' |
                 f' 1 _~ |
-                f' 4 df' bf gf' |
+                f' 4 ) df' ( bf gf' |
                 f' 1 _~ |
-                f' 4 ef' bf gf' |
+                f' 4 ) ef' ( bf gf' |
                 f' 1 _~ |
-                f' 4 df' bf gf' |
+                f' 4 ) df' ( bf gf' |
                 f' 1 _~ |
-                f' 4 ef' bf gf' |
+                f' 4 ) ef' ( bf gf' |
                 f' 1 _~ |
-                f' 4 df' bf gf' |
+                f' 4 ) df' ( bf gf' |
                 f' 1 _~ |
-                f' 4 ef' bf gf' |
+                f' 4 ) ef' ( bf gf' |
                 f' 1 _~ |
-                f' 4 df' bf gf' |
+                f' 4 ) df' ( bf gf' |
                 f' 1 _~ |
-                f' 4 ef' bf gf' |
+                f' 4 ) ef' ( bf gf' |
                 f' 1 _~ |
-                f' 4 r r2 |
+                f' 4 ) r r2 |
                 r2 \cresc r4 ef' |
                 r2 f' |
                 ef' 4 ef' -. r2 |
@@ -485,6 +482,7 @@ globalTempo = {
                 g' 8 g' g' g' g' r r4 |
                 
 		% Second bridge
+		\key gf \lydian
 		r1 |
 		r1 |
 		r1 |
@@ -505,8 +503,7 @@ globalTempo = {
                 af 1 |
 		\tuplet 3/2 { af 8 af af af af af } af r r4 |
                 
-		% Thir chorus
-		\key gf \lydian
+		% Third chorus
 		R1 |
                 r4 bf' 8 bf' bf' c'' r bf' |
                 bf' 8 bf' bf' c'' r2 |
@@ -525,7 +522,7 @@ globalTempo = {
                 < f' ef' > 4 -> ef' -> r2  \bar "|."
             } % Voice
 	    \addlyrics{
-	      zh ee
+	      \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
 
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 	      Ma -- ta Aho Hi -- ma de
@@ -543,19 +540,19 @@ globalTempo = {
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo oo
+	      ee oo ee oo
 	      
 	      ah ah
 	      ee oo
@@ -567,19 +564,19 @@ globalTempo = {
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo
+	         oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo
+	         oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo
+	         oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo oo
+	      ee oo ee oo
 	      
 	      ah ah
 	      ee oo
@@ -594,24 +591,24 @@ globalTempo = {
 	      Sec -- ret, sec -- ret, I got a sec -- ret
 
 	      _ _ _ _
-	      oo oo oo
-	      oo oo oo
-	      oo oo oo
-	      oo oo oo
+	      oo ee oo
+	      oo ee oo
+	      oo ee oo
+	      oo ee oo
 	     
-	      oh oh ee oo
-	      oh oh ee oo
-	      oh oh ee oo
-	      oh oh ee oo
+	      ah
+	      ah
+	      ah
+	      ah
 	      
-	      oh oh ee oo
-	      oh oh ee oo
-	      oh oh ee oo
-	      oh oh ee oo
+	      ah
+	      ah
+	      ah
+	      ah
 
-	      oh oh ee oo
-	      oh oh ee oo
-	      oh oh ee oo
+	      ah
+	      ah
+	      ah
 	      
 	      ah ah
 	      ee oo
@@ -665,27 +662,23 @@ globalTempo = {
             \context Voice = "voice 3" {
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
+		\dynamicUp
+		\override DynamicTextSpanner.style = #'none
                 \override Staff.TimeSignature #'style = #'() 
-                \time 4/4
                 
                 \clef "treble_8"
                 \key af \mixolydian
                 \override Hairpin.circled-tip = ##t
-                df' 1 \< _~ | 
-                df' 1 \! _~ | 
+                df' \breve \< \( | 
+                df' \breve \! | 
                 \revert Hairpin.circled-tip
-                df' 1 _~ | 
-                df' 1 _~ | 
-                df' 1 _~ | 
-                df' 1 _~ | 
-                df' 1 _~ | 
-                df' 1 _~ | 
-                df' 1 _~ | 
-                df' 1 _~ | 
-                df' 1  \glissando | 
-                f 1 _~ |
-		f 1 _~ |
-                f 1 |
+                df' \breve | 
+                df' \breve | 
+                df' \breve | 
+                df' \breve _~ |
+                df' 1  \glissando f _~ |
+	        f 1 _~ |
+                f 1 \) |
 		
 		% Inital theme
 		bf 8 \f bf bf bf bf bf r bf _~ |
@@ -702,14 +695,14 @@ globalTempo = {
                 
 		% First chorus
 		R1 |
-                r4 gf' 8 gf' gf' ef' r gf' |
-                gf' 8 gf' gf' ef' r2 |
+                r4 gf' 8 gf' gf' af' r gf' |
+                gf' 8 gf' gf' af' r2 |
                 R1 |
-                r4 gf' 8 gf' gf' ef' r gf' |
-                gf' 8 gf' gf' ef' r2 |
+                r4 gf' 8 gf' gf' af' r gf' |
+                gf' 8 gf' gf' af' r2 |
                 R1 |
-                r4 gf' 8 gf' gf' ef' r gf' |
-                gf' 8 gf' gf' ef' r2 |
+                r4 gf' 8 gf' gf' af' r gf' |
+                gf' 8 gf' gf' af' r2 |
                 R1 |
 
 		% First verse
@@ -733,7 +726,7 @@ globalTempo = {
                 bf 4 bf -. r2 |
                 bf 4 bf -. r2 |
                 af 4 af -. r2 |
-                af 4 af af af |
+                af 4 af af a |
                 r4 gf 2. |
                 r4 af 2. |
                 bf 4 bf -. r2 |
@@ -759,7 +752,7 @@ globalTempo = {
                 bf 4 bf -. r2 |
                 bf 4 bf -. r2 |
                 af 4 af -. r2 |
-                af 4 af af af |
+                af 4 af af a |
                 r4 gf 2. |
                 r4 af 2. |
                 bf 4 bf -. r2 |
@@ -772,26 +765,26 @@ globalTempo = {
 		% Second chorus
 		\key gf \lydian
                 R1 |
-                r4 gf' 8 gf' gf' ef' r gf' |
-                gf' 8 gf' gf' ef' r2 |
+                r4 gf' 8 gf' gf' af' r gf' |
+                gf' 8 gf' gf' af' r2 |
                 R1 |
-                r4 gf' 8 gf' gf' ef' r gf' |
-                gf' 8 gf' gf' ef' r2 |
+                r4 gf' 8 gf' gf' af' r gf' |
+                gf' 8 gf' gf' af' r2 |
                 R1 |
-                r4 gf' 8 gf' gf' ef' r gf' |
-                gf' 8 gf' gf' ef' r2 |
+                r4 gf' 8 gf' gf' af' r gf' |
+                gf' 8 gf' gf' af' r2 |
                 R1 |
 
 		% Bridge
                	\key ef \aeolian
 		\override NoteHead.style = #'cross
-		r4 bf ^\markup{ \italic stomp } r2 |
+		r4 bf ^\markup{ \italic (stomp) } r2 |
 		r4 bf r2 |
 		r4 bf r2 |
 		r4 bf r2 |
 		\revert NoteHead.style
-		bf 8 \mp bf bf af bf 4 af 8 bf _~ |
-                bf 8 bf 4 af 8 bf 4 af |
+		cf' 8 \mp cf' cf' cf' cf' 4 cf' 8 cf' _~ |
+                cf' 8 cf' 4 cf' 8 cf' 4 cf' |
 		bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
                 bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
                 bf 8 bf bf af bf 4 af 8 bf _~ |
@@ -834,6 +827,7 @@ globalTempo = {
                 bf 8 bf bf bf bf r r4 |
                 
 		% Second bridge
+		\key gf \lydian
 		af' 8 \p ef' r4 af' 8 ef' r4 |
                 af' 8 ef' r4 af' 8 ef' r4 |
                 af' 8 ef' r4 af' 8 ef' r4 |
@@ -855,7 +849,6 @@ globalTempo = {
 		\tuplet 3/2 { af 8 \f af af af af af } af r r4 |
                 
 		% Third chorus
-		\key gf \lydian
                 R1 |
                 r4 gf' 8 gf' gf' af' r gf' |
                 gf' 8 gf' gf' af' r2 |
@@ -874,7 +867,7 @@ globalTempo = {
                 bf 4 -> bf -> r2 \bar "|."
             } % Voice
             \addlyrics{
-	      zh ee
+	      \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
 
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 	      Ma -- ta Aho Hi -- ma de
@@ -892,19 +885,19 @@ globalTempo = {
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo oo
+	      ee oo ee oo
 	      
 	      ah ah
 	      ee oo
@@ -916,19 +909,19 @@ globalTempo = {
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo oo
+	      ee oo ee oo
 	      
 	      ah ah
 	      ee oo
@@ -944,11 +937,11 @@ globalTempo = {
 
 	      _ _ _ _
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo oo oo oo
-	      Do -- mo oo oo oo
+	      Do -- mo    oo ee oo
+	      Do -- mo    oo ee oo
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo oo oo oo
-	      Do -- mo oo oo oo
+	      Do -- mo    oo ee oo
+	      Do -- mo    oo ee oo
 
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
@@ -1019,27 +1012,24 @@ globalTempo = {
                 % Segment: Imported MIDI (copied) (split)
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
-                \once \override Staff.TimeSignature #'style = #'() 
-                \time 4/4
+		\dynamicUp
+		\override DynamicTextSpanner.style = #'none
+                \override Staff.TimeSignature #'style = #'() 
+
                 
                 \clef "bass"
                 \key af \mixolydian
                 \override Hairpin.circled-tip = ##t
-                bf 1 \< _~ |
-                bf 1 \! _~ |
+                bf \breve \< \( |
+                bf \breve \! |
                 \revert Hairpin.circled-tip
-                bf 1 _~ |
-                bf 1 _~ |
-                bf 1 _~ |
-                bf 1 _~ |
-                bf 1 _~ |
-                bf 1 _~ |
-                bf 1 _~ |
-                bf 1 _~ |
-                bf 1  \glissando |
+                bf \breve |
+                bf \breve |
+                bf \breve |
+                bf \breve _~ |
+                bf 1 \glissando c _~ |
 		c 1 _~ |
-		c 1 _~ |
-		c 1 |
+		c 1 \) |
 		
 		% Inital theme
 		bf, 8 \f bf, bf, bf, bf, bf, r bf, _~ |
@@ -1139,12 +1129,12 @@ globalTempo = {
 		% Bridge
 		\key ef \aeolian
 		\override NoteHead.style = #'cross
-		r4 df^\markup{ \italic stomp } r2 |
+		r4 df^\markup{ \italic (stomp) } r2 |
 		r4 df r2 |
 		r4 df r2 |
 		r4 df r2 |
 		\revert NoteHead.style
-		f 8 \mp f f f f 4 ef 8 f _~ |
+		f 8 \mp f f ef f 4 ef 8 f _~ |
                 f 8 f 4 ef 8 f 4 ef |
                 f 8 f r4 r2 |
                 f 8 f r4 r2 |
@@ -1188,6 +1178,7 @@ globalTempo = {
                 ef 8 ef ef ef ef r r4 |
                 
 		% Second bridge
+		\key gf \lydian
 		r4 af 8 \p ef r4 af 8 ef |
                 r4 af 8 ef r4 af 8 ef |
                 r4 af 8 ef r4 af 8 ef |
@@ -1209,7 +1200,6 @@ globalTempo = {
 		\tuplet 3/2 { ef 8 ef ef ef ef ef } ef r f ef _~ |
 		
 		% Third chorus
-		\key gf \lydian
 		ef 4 gf 8 af 4. ef 8 df 8 _~ |
                 df 4 r4 r2 |
                 r2 r4 f 8 ef _~ |
@@ -1228,7 +1218,7 @@ globalTempo = {
                 gf 4 -> gf -> r2  \bar "|."
             } % Voice
             \addlyrics{
-	      zh ee
+	      \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 	      Ma -- ta Aho Hi -- ma de
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
@@ -1246,19 +1236,19 @@ globalTempo = {
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo oo
+	      ee oo ee oo
 	      
 	      ah ah
 	      ee oo
@@ -1270,19 +1260,19 @@ globalTempo = {
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo
+	         oo ee oo
 	      ee oo
 	      ee oo
 	      ee oo
-	      oo oo oo oo
+	      ee oo ee oo
 	      
 	      ah ah
 	      ee oo
@@ -1372,25 +1362,21 @@ globalTempo = {
                 % Segment: Imported MIDI (copied) (split)
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
-                \once \override Staff.TimeSignature #'style = #'() 
-                \time 4/4
+		\dynamicUp
+		\override DynamicTextSpanner.style = #'none
+                \override Staff.TimeSignature #'style = #'() 
                 
                 \clef "bass"
                 \key af \mixolydian
                 \override Hairpin.circled-tip = ##t
-                af 1 \< _~ |
-                af 1 \! _~ |
+                af \breve \< \( |
+                af \breve \! |
                 \revert Hairpin.circled-tip
-                af 1 _~ |
-                af 1 _~ |
-                af 1 _~ |
-                af 1 _~ |
-                af 1 _~ |
-                af 1 _~ |
-                af 1 _~ |
-                af 1 _~ |
-                af 1  \glissando |
-		f, 1 |
+                af \breve |
+                af \breve |
+                af \breve |
+                af \breve _~ |
+                af 1  \glissando f, 1 \) |
 		f, 8 f,  f,  f,  f, 4  f, 8 f, _~ |
                 f, 8 f, 4  f, 8 f, 4  f, 8  r |
                 
@@ -1541,6 +1527,7 @@ globalTempo = {
                 bf, 8 bf, bf, bf, bf, r r4 |
                 
 		% Second bridge
+		\key gf \lydian
 		r1 |
 		r1 |
 		r1 |
@@ -1560,7 +1547,8 @@ globalTempo = {
                 af, 1 _~ |
                 af, 1 |
 		\tuplet 3/2 { af, 8 af, af, af, af, af, } af, r bf, af, _~ |
-                \key gf \lydian
+                
+		% Third chorus
                 af, 4 df 8  c 4. af, 8  gf, _~ |
                 gf, 4 gf, gf, gf, |
                 gf, 4. gf, bf, 8  af, _~ |
@@ -1580,11 +1568,11 @@ globalTempo = {
                 r1 \bar "|."
             } % Voice
 	    \addlyrics{
-	      zh ee
+	      \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
 
 	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 	      jmm jmm
-	      b' p' t' b' p' t' b' p' t' b' p' ta
+	      b' p' t' b' b' p' t' b' p' t' p' ta
 	      jmm jmm
 	      jmm jmm jmm jmm jmm jmm jmm jmm jmm jmm
 	      
