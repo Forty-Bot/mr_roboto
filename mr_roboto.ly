@@ -28,7 +28,7 @@ globalTempo = {
 
         \context Staff = "track 14, Solo" << 
             \set Staff.instrumentName = #"Solo"
-	    %\set Staff.midiInstrument = "violin"
+            \set Staff.midiInstrument = "percussive organ"
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
@@ -38,28 +38,28 @@ globalTempo = {
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
                 \set Score.markFormatter = #format-mark-box-letters
-		\dynamicUp
-		\override DynamicTextSpanner.style = #'none
-		\override Staff.TimeSignature #'style = #'() 
+                \dynamicUp
+                \override DynamicTextSpanner.style = #'none
+                \override Staff.TimeSignature #'style = #'() 
                 
-                \clef "treble_8"
+                \clef treble
                 \key af \mixolydian
-		
+                
                 r1 r2 r4 r8 bf' 8 ( |
                 af' 4. \mp df'' 8 c'' 4. af' 8 gf' 2. ) r8 bf 8 ( |
                 af 4. df' 8 c' 4. af 8 gf 2. ) r8 bf' 8 ( |
                 af' 4. df'' 8 c'' 4. af' 8 \grace { gf' af' } gf' 2. ) r8 bf 8 ( |
                 af 4. df' 8 c' 4. af 8 gf 2. ) r8 < bf' bf> 8 ( |
-		< af' af > 4. < df'' df' > 8 < c'' c' > 4. < ef'' ef' > 8 ) < f'' f' > 1 _~ |
-		< f'' f' > \breve _~ |
-		< f'' f' > 1 _~ |
-		< f'' f' > 1 |
+                < af' af > 4. < df'' df' > 8 < c'' c' > 4. < ef'' ef' > 8 ) < f'' f' > 1 _~ |
+                < f'' f' > \breve _~ |
+                < f'' f' > 1 _~ |
+                < f'' f' > 1 |
 
-		% Initial theme
-		\mark \default
-		R1*10 |
+                % Initial theme
+                \mark \default
+                R1*10 |
 
-		% First chorus
+                % First chorus
                 r2 r4 bf 8 \f af _~ |
                 af 4 df' 8 c' 4. af 8 gf _~ |
                 gf 4 r4 r2 |
@@ -72,9 +72,9 @@ globalTempo = {
                 r2 r4 bf 8  af _~ |
                 af 4 df' 8 c' 4. df' 4 |
 
-		% First verse
-		\mark \default
-		\key ef \aeolian
+                % First verse
+                \mark \default
+                \key ef \aeolian
                 ef' 4 r r2 |
                 R1*3 |
                 r4 r8 df' ef' ef' df' ef' |
@@ -100,17 +100,17 @@ globalTempo = {
                 cf' 2. r4 |
                 r4 r8 df' gf' gf' f' 4 |
                 ef' 2 r |
-		R1 |
+                R1 |
 
-		% Second verse
+                % Second verse
                 \mark \default
-		r4 r8 df' 8 ef' 16 ef' 8 ef' 8. ef' 8 |
+                r4 r8 df' 8 ef' 16 ef' 8 ef' 8. ef' 8 |
                 r4 r8 ef' ef' ef' ef'  ef' |
                 r4 r8 df' gf' gf' f' df' _~ |
                 df' 4 r r2 |
                 r4 r8 ef' ef' ef' 16 ef' 8 ef' 8. |
                 r2 ef' 8 ef' ef' ef' |
-		r4 r8 df' \tuplet 3/2 { gf' 4 gf' f' } |
+                r4 r8 df' \tuplet 3/2 { gf' 4 gf' f' } |
                 df' 4 r4 r2 |
                 r4 r8 bf' bf' bf' 16 af' 8. gf' 8 |
                 r4 r8 bf' bf' bf' af' gf' |
@@ -119,19 +119,19 @@ globalTempo = {
                 r4 r8 gf' bf' bf' af' gf' | 
                 r2 bf' 8 bf' af' gf' | 
                 r4 df' 8 df' gf' gf' f' f' _~ |
-		f' 4 r8 df'  \tuplet 3/2 { gf' 4 gf' f' } |
+                f' 4 r8 df'  \tuplet 3/2 { gf' 4 gf' f' } |
                 cf' 1 |
-		r4 r8 cf' 8 \tuplet 3/2 { gf' 4 gf' f' } |
+                r4 r8 cf' 8 \tuplet 3/2 { gf' 4 gf' f' } |
                 ef' 4 ( bf' 2. ) |
-		r2 \tuplet 3/2 { gf' 4 gf' f' } |
+                r2 \tuplet 3/2 { gf' 4 gf' f' } |
                 cf' 1 |
-		r4 r8 cf'  \tuplet 3/2 { gf' 4 gf' f' } |
+                r4 r8 cf'  \tuplet 3/2 { gf' 4 gf' f' } |
                 ef' 1 |
-		r2 r4 bf 8 af _~ |
+                r2 r4 bf 8 af _~ |
                 
-		% Second chorus
-		\mark \default
-		\key gf \lydian
+                % Second chorus
+                \mark \default
+                \key gf \lydian
                 af 4 df' 8 c' 4. af 8 gf _~ |
                 gf 4 r4 r2 |
                 r2 r4 bf 8  af _~ |
@@ -143,9 +143,9 @@ globalTempo = {
                 r2 r4 bf 8  af _~ |
                 af 4 df' 8 c' 4. df' 4 |
                 
-		% Bridge
-		\mark \default
-		\key ef \aeolian
+                % Bridge
+                \mark \default
+                \key ef \aeolian
                 ef' 4 r r2 |
                 R1*19 |
                 f' 8 \mf f' f' f' f' 4 r8 f' _~ |
@@ -167,13 +167,13 @@ globalTempo = {
                 af' 8 gf' ef' gf' _~ gf' 2 ) | 
                 r2 \grace bf' 8 ( gf'' 2 |
                 ef'' 1 ) |
-		R1*7 |
+                R1*7 |
 
-		% Second bridge
-		\mark \default
-		\key gf \lydian
-		R1*3 |
-                r2 r4 bf 8 \p af _~ |
+                % Second bridge
+                \mark \default
+                \key gf \lydian
+                R1*3 |
+                r2 r4 bf 8 \mp af _~ |
                 af 4 df' 8 c' 4. af 8 gf _~ |
                 gf 2 r |
                 r2 r4 bf 8  af _~ |
@@ -188,8 +188,8 @@ globalTempo = {
                 R1*3 |
                 r2 r4 bf' 8 \f af' _~ |
                 
-		% Third chorus
-		\mark \default
+                % Third chorus
+                \mark \default
                 af' 4 df'' 8 c'' 4. af' 8 gf' _~ |
                 gf' 4 r r2 |
                 r2 r4 bf' 8  af' _~ |
@@ -201,109 +201,109 @@ globalTempo = {
                 r2 r4 bf' 8 af' _~ |
                 af' 4 df'' 8 c'' 4.  df' 4 |
                 ef' 4 r r df' |
-		\override NoteHead.style = #'cross
-		ef' 4 -> \dim ef' -> r2 |
-		ef' 4 -> ef' -> r2 |
-		ef' 4 -> ef' -> r2 |
-		ef' 4 \mp ef' r2 |
+                \override NoteHead.style = #'cross
+                ef' 4 -> \dim ef' -> r2 |
+                ef' 4 -> ef' -> r2 |
+                ef' 4 -> ef' -> r2 |
+                ef' 4 \mp ef' r2 |
                 R1  \bar "|."
             } % Voice
             \addlyrics{
-	      ah ah ah ah ah ee
+              ah ah ah ah ah ee
 
-	      You're won -- d'ring who I am
-	      Mach -- ine or man -- ne -- quin
-	      With parts made in Jap -- an
-	      I am the mod -- ern man
-	     
-	      I've got a sec -- ret
-	      I've been hid -- ing
-	      Un -- der my skin
-
-	      My heart is hu -- man
-	      My blood is boil -- ing
-	      My brain I B M
-
-	      So if you see me
-	      Act -- ing strang -- ly
-	      Don't be sur -- prised
-
-	      I'm just a man who
-	      Need -- ed some -- one
-	      And some -- where to hide
-
-	      To keep me a -- live
-	      Just keep me a -- live
-	      Some -- where to hide
-	      To keep me a -- live
-
-	      I'm not a ro -- bot
-	      With -- out e -- mo -- tion
-	      I'm not what you see
-
-	      I've come to help you
-	      With your prob -- lems
-	      So we can be free
-
-	      I'm not a he -- ro
-	      I'm not a sav -- ior
-	      For -- get what you know
-
-	      I'm just a man whose
-	      Cir -- cum -- stan -- ces
-	      Went be -- yond his con -- trol
-
-	      Be -- yond my con -- trol
-	      We all need con -- trol
-	      I need con -- trol
-	      We all need con -- trol
-	      
+              You're won -- d'ring who I am
+              Mach -- ine or man -- ne -- quin
+              With parts made in Jap -- an
               I am the mod -- ern man
-	      Who hides be -- hind a mask
-	      So no one else can see
-	      My true i -- den -- ti -- ty
+             
+              I've got a sec -- ret
+              I've been hid -- ing
+              Un -- der my skin
 
-	      Thank you ve -- ry much
-	      Mis -- ter Ro -- bo -- to
-	      For do -- ing the jobs
-	      No -- bod -- y wants to
-	  and Thank you ve -- ry much
-	      Mis -- ter Ro -- bo -- to
-	      For help -- ing me es -- cape
-	      Just when I need -- ed to
+              My heart is hu -- man
+              My blood is boil -- ing
+              My brain I B M
 
-	      Thank you
-	      Thank you
-	      Thank you
-	      I wan -- na thank you
-	      Please, thank you
+              So if you see me
+              Act -- ing strang -- ly
+              Don't be sur -- prised
 
-	      Oh
-	      Yeah
+              I'm just a man who
+              Need -- ed some -- one
+              And some -- where to hide
 
-	      The prob -- lem's plain to see
-	      Too much tech -- nol -- o -- gy
-	      Mach -- ines to save our lives
-	      Mach -- ines de -- hu -- man -- ize
+              To keep me a -- live
+              Just keep me a -- live
+              Some -- where to hide
+              To keep me a -- live
 
-	      The time has come at last
-	      To throw a -- way the mask
-	      Now ev -- rey -- one can see
-	      My true i -- den -- ti -- ty
+              I'm not a ro -- bot
+              With -- out e -- mo -- tion
+              I'm not what you see
 
-	  I'm Kil -- roy
-	      Kil -- roy
-	      Kil -- roy
-	      Kil -- roy
-	      Kil -- roy
-	    }
+              I've come to help you
+              With your prob -- lems
+              So we can be free
+
+              I'm not a he -- ro
+              I'm not a sav -- ior
+              For -- get what you know
+
+              I'm just a man whose
+              Cir -- cum -- stan -- ces
+              Went be -- yond his con -- trol
+
+              Be -- yond my con -- trol
+              We all need con -- trol
+              I need con -- trol
+              We all need con -- trol
+              
+              I am the mod -- ern man
+              Who hides be -- hind a mask
+              So no one else can see
+              My true i -- den -- ti -- ty
+
+              Thank you ve -- ry much
+              Mis -- ter Ro -- bo -- to
+              For do -- ing the jobs
+              No -- bod -- y wants to
+          and Thank you ve -- ry much
+              Mis -- ter Ro -- bo -- to
+              For help -- ing me es -- cape
+              Just when I need -- ed to
+
+              Thank you
+              Thank you
+              Thank you
+              I wan -- na thank you
+              Please, thank you
+
+              Oh
+              Yeah
+
+              The prob -- lem's plain to see
+              Too much tech -- nol -- o -- gy
+              Mach -- ines to save our lives
+              Mach -- ines de -- hu -- man -- ize
+
+              The time has come at last
+              To throw a -- way the mask
+              Now ev -- rey -- one can see
+              My true i -- den -- ti -- ty
+
+          I'm Kil -- roy
+              Kil -- roy
+              Kil -- roy
+              Kil -- roy
+              Kil -- roy
+            }
         >> % Staff ends
 
-	\new ChoirStaff <<
-	\context Staff = "track 15, Tenor 1" << 
+        \new ChoirStaff <<
+        \context Staff = "track 15, Tenor 1" << 
             \set Staff.instrumentName = #"Tenor 1 "
-	    \set Staff.shortInstrumentName = #"T"
-            %\set Staff.midiInstrument = "violin"
+            \set Staff.shortInstrumentName = #"T"
+            \set Staff.midiInstrument = "percussive organ"
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
@@ -313,31 +313,31 @@ globalTempo = {
                 % Segment: Imported MIDI (copied) (split)
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
-		\dynamicUp
-		\override DynamicTextSpanner.style = #'none
+                \dynamicUp
+                \override DynamicTextSpanner.style = #'none
                 \override Staff.TimeSignature #'style = #'() 
                 
-                \clef "treble_8"
+                \clef treble
                 \key af \mixolydian
-	        \override Hairpin.circled-tip = ##t
-	        
-	        \footnote " " #'(0.0 . 0) \markup {
-	          \wordwrap {\super 1 Imitate a band-pass sweep and blend each transition together, as if performing a glissando with vowels. The note heads mark where one should reach the zenith of each vowel.
-	          Spend more time singing "\"oo\"" than "\"ee.\""}
-	        } 
-	        gf' \breve \< \( |
+                \override Hairpin.circled-tip = ##t
+                
+                \footnote " " #'(0.0 . 0) \markup {
+                  \wordwrap {\super 1 Imitate a band-pass sweep and blend each transition together, as if performing a glissando with vowels. The note heads mark where one should reach the zenith of each vowel.
+                  Spend more time singing "\"oo\"" than "\"ee.\""}
+                } 
+                gf' \breve \< \( |
                 gf' \breve \! |
                 \revert Hairpin.circled-tip
                 gf' \breve |
                 gf' \breve |
                 gf' \breve |
                 gf' \breve _~ |
-	        gf' 1 \glissando f' _~ |
+                gf' 1 \glissando f' _~ |
                 f' 1 _~ |
                 f' 1 \) |
                
-		% Inital theme
-		ef' 8 \f ef' ef' ef' ef' d' r ef' _~ |
+                % Inital theme
+                ef' 8 \f ef' ef' ef' ef' d' r ef' _~ |
                 ef' 8 ef' 4 d' 8 ef' 4 d' 8 r |
                 ef' 4 df' c' 8 df' ef' df' _~ |
                 df' 2. r4 |
@@ -349,8 +349,8 @@ globalTempo = {
                 gf' 1 _~ |
                 gf' 2 _~ gf' 8 r8 r4 | 
                 
-		% First chorus
-		R1 |
+                % First chorus
+                R1 |
                 r4 bf' 8 bf' bf' c'' r bf' |
                 bf' 8 bf' bf' c'' r2 |
                 R1 |
@@ -361,8 +361,8 @@ globalTempo = {
                 bf' 8 bf' bf' c'' r2 |
                 R1 |
                 
-		% First verse
-		\key ef \aeolian
+                % First verse
+                \key ef \aeolian
                 ef' 4 \mp ef' -. r2 |
                 ef' 4 ef' -. r2 |
                 ef' 4 ef' -. r4 r8 ef' 8 |
@@ -389,11 +389,11 @@ globalTempo = {
                 ef' 4 ef' -. r2 |
                 r2 r4 ef' |
                 r2 r4 df' |
-		< f' ef' > 4 ef' -. r2 |
+                < f' ef' > 4 ef' -. r2 |
                 < f' ef' > 4 ef' -. r2 |
                 
-		% Second verse
-		< f' ef' > 4 ef' -. r2 |
+                % Second verse
+                < f' ef' > 4 ef' -. r2 |
                 < f' ef' > 4 ef' -. r2 |
                 df' 4 df' -. r2 |
                 r8 df' ( ef' df' af'  ef' df' ef' ) |
@@ -415,11 +415,11 @@ globalTempo = {
                 ef' 4 ef' -. r2 |
                 r2 r4 ef' |
                 r2 r4 df' |
-		g' 8 \< g' g' g' g' g' g' g' |
+                g' 8 \< g' g' g' g' g' g' g' |
                 g' 4 -. \! \f r4 r2 |
 
-		% Second chorus
-		\key gf \lydian
+                % Second chorus
+                \key gf \lydian
                 R1 |
                 r4 bf' 8 bf' bf' c'' r bf' |
                 bf' 8 bf' bf' c'' r2 |
@@ -431,46 +431,50 @@ globalTempo = {
                 bf' 8 bf' bf' c'' r2 |
                 R1 |
 
-		% Bridge
+                % Bridge
                 \key ef \aeolian
-		\override NoteHead.style = #'cross
-		r4 bf ^\markup{ \italic (stomp) } r2 |
-		r4 bf r2 |
-		r4 bf r2 |
-		r4 bf r2 |
-		\revert NoteHead.style
-		r1 |
-		r1 |
-		r2 \tuplet 3/2 { bf' 4 \mp bf' bf' } |
-		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
+                \override NoteHead.style = #'cross
+                \override TextScript.extra-offset = #'(0 . -1.5)
+                r4 bf' ^\markup{ \italic (stomp) } r2 |
+                \revert TextScript.extra-offset
+                r4 bf' r2 |
+                r4 bf' r2 |
+                r4 bf' r2 |
+                \revert NoteHead.style
+                r1 |
+                r1 |
+                r2 \tuplet 3/2 { bf' 4 \mp bf' bf' } |
+                r2 \tuplet 3/2 { bf' 4 bf' bf' } |
                 r1*2 
-		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
-		r2 \tuplet 3/2 { bf' 4 bf' bf' } |
+                r2 \tuplet 3/2 { bf' 4 bf' bf' } |
+                r2 \tuplet 3/2 { bf' 4 bf' bf' } |
                 R1 |
-                r4 ef' ( \mf bf gf' |
-                f' 1 _~ |
-                f' 4 ) df' ( bf gf' |
-                f' 1 _~ |
-                f' 4 ) ef' ( bf gf' |
-                f' 1 _~ |
-                f' 4 ) df' ( bf gf' |
-                f' 1 _~ |
-                f' 4 ) ef' ( bf gf' |
-                f' 1 _~ |
-                f' 4 ) df' ( bf gf' |
-                f' 1 _~ |
-                f' 4 ) ef' ( bf gf' |
-                f' 1 _~ |
-                f' 4 ) df' ( bf gf' |
-                f' 1 _~ |
-                f' 4 ) ef' ( bf gf' |
-                f' 1 _~ |
-                f' 4 ) df' ( bf gf' |
-                f' 1 _~ |
-                f' 4 ) ef' ( bf gf' |
-                f' 1 _~ |
-                f' 4 ) r r2 |
-                r2 \cresc r4 ef' |
+                r4 ef''^\markup \italic "optional solo, may be whistled" ( \p bf' gf'' |
+                f'' 1 _~ |
+                f'' 4 ) df'' ( bf' gf'' |
+                f'' 1 _~ |
+                f'' 4 ) ef'' ( bf' gf'' |
+                f'' 1 _~ |
+                f'' 4 ) df'' ( bf' gf'' |
+                f'' 1 _~ |
+                f'' 4 ) ef'' ( bf' gf'' |
+                f'' 1 _~ |
+                f'' 4 ) df'' ( bf' gf'' |
+                f'' 1 _~ |
+                f'' 4 ) ef'' ( bf' gf'' |
+                f'' 1 _~ |
+                f'' 4 ) df'' ( bf' gf'' |
+                f'' 1 _~ |
+                f'' 4 ) ef'' ( bf' gf'' |
+                f'' 1 _~ |
+                f'' 4 ) df'' ( bf' gf'' |
+                f'' 1 _~ |
+                f'' 4 ) ef'' ( bf' gf'' |
+                f'' 1 _~ |
+                f'' 4 ) r r2 |
+                \override TextScript.extra-offset = #'(0 . -1.5)
+                r2 \cresc r4 ef'^\markup \italic "(tutti)" |
+                \revert TextScript.extra-offset
                 r2 f' |
                 ef' 4 ef' -. r2 |
                 ef' 4 ef' -. r2 |
@@ -481,32 +485,29 @@ globalTempo = {
                 g' 8 \f g' g' g' g' g' g' g' |
                 g' 8 g' g' g' g' r r4 |
                 
-		% Second bridge
-		\key gf \lydian
-		r1 |
-		r1 |
-		r1 |
+                % Second bridge
+                \key gf \lydian
                 r1 |
                 r1 |
-		r8 af' [ \p ef' df' af ] af' [ ef' df' |
-		af ] af' [ ef' df' af ] r r4 |
                 r1 |
-		r8 af' [ ef' df' af ] af' [ ef' df' |
-		af ] af' [ ef' df' af ] r r4 |
                 r1 |
-		r8 af' [ ef' df' af ] af' [ ef' df' |
-		af ] af' [ ef' df' af ] r r4 |
                 r1 |
-		r8 af' [ ef' df' af ] af' [ ef' df' |
-		af ] af' [ ef' df' af ] d' [ \f ef' af ] _~ |
+                r8 af' [ \p ef' df' af ] af' [ ef' df' |
+                af ] af' [ ef' df' af ] r r4 |
+                r1 |
+                r8 af' [ ef' df' af ] af' [ ef' df' |
+                af ] af' [ ef' df' af ] r r4 |
+                r1 |
+                r8 af' [ ef' df' af ] af' [ ef' df' |
+                af ] af' [ ef' df' af ] r r4 |
+                r1 |
+                r8 af' [ ef' df' af ] af' [ ef' df' |
+                af ] af' [ ef' df' af ] d' [ \f ef' af ] _~ |
                 af 1 _~ |
                 af 1 |
-		\tuplet 3/2 { af 8 af af af af af } af r r4 |
+                \tuplet 3/2 { af 8 af af af af af } af r r4 |
                 
-		% Third chorus
-		R1 |
-                r4 bf' 8 bf' bf' c'' r bf' |
-                bf' 8 bf' bf' c'' r2 |
+                % Third chorus
                 R1 |
                 r4 bf' 8 bf' bf' c'' r bf' |
                 bf' 8 bf' bf' c'' r2 |
@@ -514,146 +515,149 @@ globalTempo = {
                 r4 bf' 8 bf' bf' c'' r bf' |
                 bf' 8 bf' bf' c'' r2 |
                 R1 |
-		< ef' f' > 4 -> \mf ef' -> r2 |
-		< f' ef' > 4 -> ef' -> r2 |
-                < f' ef' > 4 -> ef' -> r2 |
-                < f' ef' > 4 -> ef' -> r2 |
-                < f' ef' > 4 -> ef' -> r2 |
-                < f' ef' > 4 -> ef' -> r2  \bar "|."
+                r4 bf' 8 bf' bf' c'' r bf' |
+                bf' 8 bf' bf' c'' r2 |
+                R1 |
+                < ef' f' > 4 -> \mf ef' -> r2 |
+                < f' ef' > 4 -> ef' -. r2 |
+                < f' ef' > 4 -> ef' -. r2 |
+                < f' ef' > 4 -> ef' -. r2 |
+                < f' ef' > 4 -> ef' -. r2 |
+                < f' ef' > 4 -> ef' -. r2  \bar "|."
             } % Voice
-	    \addlyrics{
-	      \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
+            \addlyrics{
+              \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
 
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Ma -- ta Aho Hi -- ma de
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	Hi -- mi -- tsu wo Shi -- ri tai
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Ma -- ta Aho Hi -- ma de
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+        Hi -- mi -- tsu wo Shi -- ri tai
 
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      
-	      ee oo
-	      ee oo
-	      ee oo
-	   oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo ee oo
-	      
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ee oo
-	      ee oo
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
               
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo ee oo
-	      
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ba ba ba ba
-	      ba ba ba ba
-	      ba
+              ee oo
+              ee oo
+              ee oo
+           oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo ee oo
+              
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ee oo
+              ee oo
+              
+              ee oo
+              ee oo
+              ee oo
+                 oo
+              ee oo
+              ee oo
+              ee oo
+                 oo
+              ee oo
+              ee oo
+              ee oo
+                 oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo ee oo
+              
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ba ba ba ba
+              ba ba ba ba
+              ba
 
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
 
-	      _ _ _ _
-	      oo ee oo
-	      oo ee oo
-	      oo ee oo
-	      oo ee oo
-	     
-	      ah
-	      ah
-	      ah
-	      ah
-	      
-	      ah
-	      ah
-	      ah
-	      ah
+              _ _ _ _
+              oo ee oo
+              oo ee oo
+              oo ee oo
+              oo ee oo
+             
+              ah
+              ah
+              ah
+              ah
+              
+              ah
+              ah
+              ah
+              ah
 
-	      ah
-	      ah
-	      ah
-	      
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ah ah
-	      na na na na
-	      na na na na
-	      na na na na
-	      na
+              ah
+              ah
+              ah
+              
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ah ah
+              na na na na
+              na na na na
+              na na na na
+              na
 
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
 
-	      ba dam ba 
-	      ra ba ba ba ba ba
-	      ba
+              ba dam ba 
+              ra ba ba ba ba ba
+              ba
 
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
 
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	    }
+              ee oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo
+            }
         >> % Staff ends
 
         \context Staff = "track 16, Tenor 2" << 
             \set Staff.instrumentName = #"Tenor 2"
-	    \set Staff.shortInstrumentName = #"T"
-            %\set Staff.midiInstrument = "viola"
+            \set Staff.shortInstrumentName = #"T"
+            \set Staff.midiInstrument = "percussive organ"
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
@@ -662,8 +666,8 @@ globalTempo = {
             \context Voice = "voice 3" {
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
-		\dynamicUp
-		\override DynamicTextSpanner.style = #'none
+                \dynamicUp
+                \override DynamicTextSpanner.style = #'none
                 \override Staff.TimeSignature #'style = #'() 
                 
                 \clef "treble_8"
@@ -677,11 +681,11 @@ globalTempo = {
                 df' \breve | 
                 df' \breve _~ |
                 df' 1  \glissando f _~ |
-	        f 1 _~ |
+                f 1 _~ |
                 f 1 \) |
-		
-		% Inital theme
-		bf 8 \f bf bf bf bf bf r bf _~ |
+                
+                % Inital theme
+                bf 8 \f bf bf bf bf bf r bf _~ |
                 bf 8 bf 4 bf 8 bf 4 bf 8 r |
                 bf 4 bf af 8 af af bf _~ |
                 bf 2. r4 |
@@ -693,8 +697,8 @@ globalTempo = {
                 c' 8 df' c'  df' c' df' c'  df' |
                 c' 8  df' c' df' c' ) r r4 |
                 
-		% First chorus
-		R1 |
+                % First chorus
+                R1 |
                 r4 gf' 8 gf' gf' af' r gf' |
                 gf' 8 gf' gf' af' r2 |
                 R1 |
@@ -705,8 +709,8 @@ globalTempo = {
                 gf' 8 gf' gf' af' r2 |
                 R1 |
 
-		% First verse
-		\key ef \aeolian
+                % First verse
+                \key ef \aeolian
                 bf 4 \mp bf -. r2 |
                 bf 4 bf -. r2 |
                 bf 4 bf -. r4 r8 bf 8 |
@@ -733,11 +737,11 @@ globalTempo = {
                 bf 4 bf -. r2 |
                 r4 gf 2. |
                 r4 af 2. |
-		bf 4 bf -. r2 |
+                bf 4 bf -. r2 |
                 bf 4 bf -. r2 |
                 
-		% Second verse
-		bf 4 bf -. r2 |
+                % Second verse
+                bf 4 bf -. r2 |
                 bf 4 bf -. r2 |
                 af 4 af -. r2 |
                 r4 af af a |
@@ -762,8 +766,8 @@ globalTempo = {
                 bf 8 \< bf  bf  bf bf  bf  bf  bf |
                 bf 4 -. \! \f r4 r2 |
                 
-		% Second chorus
-		\key gf \lydian
+                % Second chorus
+                \key gf \lydian
                 R1 |
                 r4 gf' 8 gf' gf' af' r gf' |
                 gf' 8 gf' gf' af' r2 |
@@ -775,46 +779,48 @@ globalTempo = {
                 gf' 8 gf' gf' af' r2 |
                 R1 |
 
-		% Bridge
-               	\key ef \aeolian
-		\override NoteHead.style = #'cross
-		r4 bf ^\markup{ \italic (stomp) } r2 |
-		r4 bf r2 |
-		r4 bf r2 |
-		r4 bf r2 |
-		\revert NoteHead.style
-		cf' 8 \mp cf' cf' cf' cf' 4 cf' 8 cf' _~ |
-                cf' 8 cf' 4 cf' 8 cf' 4 cf' |
-		bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
-                bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
-                bf 8 bf bf af bf 4 af 8 bf _~ |
-                bf 8 bf 4 af 8 bf 4 af |
-                bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
-                bf 8 bf r4 \tuplet 3/2 { f' 4 f' f' } |
-                bf 8 bf bf af bf 4 af 8 bf _~ |
-                bf 8 bf 4 af 8 bf 4 af 8 r |
-		af 8 af af gf af 4 gf 8 af _~ |
-                af 8 af 4 gf 8 af 4 gf 8 r |
-                bf 8 bf bf af bf 4 af 8 bf _~ |
-                bf 8 bf 4 af 8 bf 4 af 8 r |
-		af 8 af af gf af 4 gf 8 af _~ |
-                af 8 af 4 gf 8 af 4 gf 8 r |
-                bf 8 bf bf af bf 4 af 8 bf _~ |
-                bf 8 bf 4 af 8 bf 4 af 8 r |
-		af 8 af af gf af 4 gf 8 af _~ |
-                af 8 af 4 gf 8 af 4 gf 8 r |
-                bf 8 bf bf af bf 4 af 8 bf _~ |
-                bf 8 bf 4 af 8 bf 4 af 8 r |
-		af 8 af af gf af 4 gf 8 af _~ |
-                af 8 af 4 gf 8 af 4 gf 8 r |
-                bf 8 bf bf af bf 4 af 8 bf _~ |
-                bf 8 bf 4 af 8 bf 4 af 8 r |
-		af 8 af af gf af 4 gf 8 af _~ |
-                af 8 af 4 gf 8 af 4 gf 8 r |
-                bf 8 bf bf af bf 4 af 8 bf _~ |
-                bf 8 bf 4 af 8 bf 4 af 8 r |
-		af 8 af af gf af 4 gf 8 af _~ |
-                af 8 af 4 gf 8 af 4 gf 8 r |
+                % Bridge
+                \key ef \aeolian
+                \override NoteHead.style = #'cross
+                \override TextScript.extra-offset = #'(0 . -1.5)
+                r4 bf ^\markup{ \italic (stomp) } r2 |
+                \revert TextScript.extra-offset
+                r4 bf r2 |
+                r4 bf r2 |
+                r4 bf r2 |
+                \revert NoteHead.style
+                f' 8 \mf f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' |
+                f' 8 f' r4 \tuplet 3/2 { f' 4 f' f' } |
+                f' 8 f' r4 \tuplet 3/2 { f' 4 f' f' } |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' |
+                f' 8 f' r4 \tuplet 3/2 { f' 4 f' f' } |
+                f' 8 f' r4 \tuplet 3/2 { f' 4 f' f' } |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
+                f' 8 f' f' ef' f' 4 ef' 8 f' _~ |
+                f' 8 f' 4 ef' 8 f' 4 ef' 8 r |
                 cf' 1 \cresc |
                 df' 1 |
                 bf 4 bf -. r2 |
@@ -826,9 +832,9 @@ globalTempo = {
                 bf 8 \f bf bf bf bf bf bf bf |
                 bf 8 bf bf bf bf r r4 |
                 
-		% Second bridge
-		\key gf \lydian
-		af' 8 \p ef' r4 af' 8 ef' r4 |
+                % Second bridge
+                \key gf \lydian
+                af' 8 \p ef' r4 af' 8 ef' r4 |
                 af' 8 ef' r4 af' 8 ef' r4 |
                 af' 8 ef' r4 af' 8 ef' r4 |
                 af' 8 ef' r4 af' 8 ef' r4 |
@@ -846,9 +852,9 @@ globalTempo = {
                 af' 8 ef' r4 af' 8 ef' af af |
                 af' 8 ef' af af af' ef' af af |
                 af' 8 ef' af af af' ef' af af |
-		\tuplet 3/2 { af 8 \f af af af af af } af r r4 |
+                \tuplet 3/2 { af 8 \f af af af af af } af r r4 |
                 
-		% Third chorus
+                % Third chorus
                 R1 |
                 r4 gf' 8 gf' gf' af' r gf' |
                 gf' 8 gf' gf' af' r2 |
@@ -859,112 +865,112 @@ globalTempo = {
                 r4 gf' 8 gf' gf' af' r gf' |
                 gf' 8 gf' gf' af' r2 |
                 R1 |
-		bf 4 -> \mf bf -> r2 |
-		bf 4 -> bf -> r2 |
-                bf 4 -> bf -> r2 |
-                bf 4 -> bf -> r2 |
-                bf 4 -> bf -> r2 |
-                bf 4 -> bf -> r2 \bar "|."
+                bf 4 -> \mf bf -> r2 |
+                bf 4 -> bf -. r2 |
+                bf 4 -> bf -. r2 |
+                bf 4 -> bf -. r2 |
+                bf 4 -> bf -.r2 |
+                bf 4 -> bf -. r2 \bar "|."
             } % Voice
             \addlyrics{
-	      \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
+              \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
 
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Ma -- ta Aho Hi -- ma de
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	Hi -- mi -- tsu wo Shi -- ri tai
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Ma -- ta Aho Hi -- ma de
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+        Hi -- mi -- tsu wo Shi -- ri tai
 
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      
-	      ee oo
-	      ee oo
-	      ee oo
-	   oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo ee oo
-	      
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ee oo
-	      ee oo
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
               
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo ee oo
-	      
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ba ba ba ba
-	      ba ba ba ba
-	      ba
+              ee oo
+              ee oo
+              ee oo
+           oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo ee oo
+              
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ee oo
+              ee oo
+              
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo ee oo
+              
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ba ba ba ba
+              ba ba ba ba
+              ba
 
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
 
-	      _ _ _ _
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo    oo ee oo
-	      Do -- mo    oo ee oo
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo    oo ee oo
-	      Do -- mo    oo ee oo
+              _ _ _ _
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo    oo ee oo
+              Do -- mo    oo ee oo
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo    oo ee oo
+              Do -- mo    oo ee oo
 
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ah ah
-	      na na na na
-	      na na na na
-	      na na na na
-	      na
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ah ah
+              na na na na
+              na na na na
+              na na na na
+              na
 
               dee deh         dee deh
               dee deh         dee deh
@@ -984,25 +990,25 @@ globalTempo = {
               dee deh         dee deh doo doo
               dee deh doo doo dee deh doo doo
               dee deh doo doo dee deh doo doo
-	      ra ba ba ba ba ba ba
+              ra ba ba ba ba ba ba
 
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
-	      Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
+              Sec -- ret, sec -- ret, I got a sec -- ret
 
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	    }
+              ee oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo
+            }
         >> % Staff ends
 
         \context Staff = "track 17, Baritone" << 
             \set Staff.instrumentName = #"Baritone "
-	    \set Staff.shortInstrumentName = #"B"
-            %\set Staff.midiInstrument = "cello"
+            \set Staff.shortInstrumentName = #"B"
+            \set Staff.midiInstrument = "percussive organ"
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
@@ -1012,8 +1018,8 @@ globalTempo = {
                 % Segment: Imported MIDI (copied) (split)
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
-		\dynamicUp
-		\override DynamicTextSpanner.style = #'none
+                \dynamicUp
+                \override DynamicTextSpanner.style = #'none
                 \override Staff.TimeSignature #'style = #'() 
 
                 
@@ -1028,11 +1034,11 @@ globalTempo = {
                 bf \breve |
                 bf \breve _~ |
                 bf 1 \glissando c _~ |
-		c 1 _~ |
-		c 1 \) |
-		
-		% Inital theme
-		bf, 8 \f bf, bf, bf, bf, bf, r bf, _~ |
+                c 1 _~ |
+                c 1 \) |
+                
+                % Inital theme
+                bf, 8 \f bf, bf, bf, bf, bf, r bf, _~ |
                 bf, 8 bf, 4 bf, 8 bf, 4 bf, 8 r |
                 ef 4 df c 8 df ef df _~ |
                 df 2. r4 |
@@ -1042,10 +1048,10 @@ globalTempo = {
                 gf 1 _~ |
                 gf 1 _~ |
                 gf 1 _~ |
-		gf 2 _~ gf 8 r f ef _~ |
-		
-		% First chorus
-		ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                gf 2 _~ gf 8 r f ef _~ |
+                
+                % First chorus
+                ef 4 gf 8 af 4. ef 8 df 8 _~ |
                 df 4 r4 r2 |
                 r2 r4 f 8 ef _~ |
                 ef 4 gf 8 af 4. ef 8 df 8 _~ |
@@ -1056,8 +1062,8 @@ globalTempo = {
                 r2 r4 f 8 ef _~ |
                 ef 4 gf 8 af 4. gf 4 |
                 
-		% First verse
-		\key ef \aeolian
+                % First verse
+                \key ef \aeolian
                 gf 4 \mp gf -. r2 |
                 gf 4 gf -. r2 |
                 gf 4 gf -. r4 r8 gf 8 |
@@ -1087,8 +1093,8 @@ globalTempo = {
                 gf 4 gf -. r2 |
                 gf 4 gf -. r2 |
                 
-		% Second verse
-		gf 4 gf -. r2 |
+                % Second verse
+                gf 4 gf -. r2 |
                 gf 4 gf -. r2 |
                 f 4 f -. r2 |
                 r4 f f f |
@@ -1112,10 +1118,10 @@ globalTempo = {
                 r2 f |
                 g 8 \< g g g g g g g |
                 g 4 -. \! \f r4 r4 f 8 ef _~ |
-		
-		% Second chorus
-		\key gf \lydian
-		ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                
+                % Second chorus
+                \key gf \lydian
+                ef 4 gf 8 af 4. ef 8 df 8 _~ |
                 df 4 r4 r2 |
                 r2 r4 f 8 ef _~ |
                 ef 4 gf 8 af 4. ef 8 df 8 _~ |
@@ -1126,46 +1132,48 @@ globalTempo = {
                 r2 r4 f 8 ef _~ |
                 ef 4 gf 8 af 4. gf 4 |
 
-		% Bridge
-		\key ef \aeolian
-		\override NoteHead.style = #'cross
-		r4 df^\markup{ \italic (stomp) } r2 |
-		r4 df r2 |
-		r4 df r2 |
-		r4 df r2 |
-		\revert NoteHead.style
-		f 8 \mp f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef |
-                f 8 f r4 r2 |
-                f 8 f r4 r2 |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef |
-                f 8 f r4 r2 |
-                f 8 f r4 r2 |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
-                f 8 f f ef f 4 ef 8 f _~ |
-                f 8 f 4 ef 8 f 4 ef 8 r |
+                % Bridge
+                \key ef \aeolian
+                \override NoteHead.style = #'cross
+                \override TextScript.extra-offset = #'(0 . -1.5)
+                r4 df^\markup{ \italic (stomp) } r2 |
+                \revert TextScript.extra-offset
+                r4 df r2 |
+                r4 df r2 |
+                r4 df r2 |
+                \revert NoteHead.style
+                ef 8 \mf ef ef ef ef 4 ef 8 ef _~ |
+                ef 8 ef 4 ef 8 ef 4 ef |
+                bf 8 bf r4 r2 |
+                bf 8 bf r4 r2 |
+                ef 8 ef ef ef ef 4 ef 8 ef _~ |
+                ef 8 ef 4 ef 8 ef 4 ef |
+                bf 8 bf r4 r2 |
+                bf 8 bf r4 r2 |
+                ef 8 ef ef ef ef 4 ef 8 ef _~ |
+                ef 8 ef 4 ef 8 ef 4 ef 8 r |
+                df 8 df df df df 4 df 8 df _~ |
+                df 8 df 4 df 8 df 4 df 8 r |
+                ef 8 ef ef ef ef 4 ef 8 ef _~ |
+                ef 8 ef 4 ef 8 ef 4 ef 8 r |
+                df 8 df df df df 4 df 8 df _~ |
+                df 8 df 4 df 8 df 4 df 8 r |
+                ef 8 ef ef ef ef 4 ef 8 ef _~ |
+                ef 8 ef 4 ef 8 ef 4 ef 8 r |
+                df 8 df df df df 4 df 8 df _~ |
+                df 8 df 4 df 8 df 4 df 8 r |
+                ef 8 ef ef ef ef 4 ef 8 ef _~ |
+                ef 8 ef 4 ef 8 ef 4 ef 8 r |
+                df 8 df df df df 4 df 8 df _~ |
+                df 8 df 4 df 8 df 4 df 8 r |
+                ef 8 ef ef ef ef 4 ef 8 ef _~ |
+                ef 8 ef 4 ef 8 ef 4 ef 8 r |
+                df 8 df df df df 4 df 8 df _~ |
+                df 8 df 4 df 8 df 4 df 8 r |
+                ef 8 ef ef ef ef 4 ef 8 ef _~ |
+                ef 8 ef 4 ef 8 ef 4 ef 8 r |
+                df 8 df df df df 4 df 8 df _~ |
+                df 8 df 4 df 8 df 4 df 8 r |
                 r4 \cresc cf 2. |
                 r4 af 2. |
                 gf 4 gf -. r2 |
@@ -1177,9 +1185,9 @@ globalTempo = {
                 ef 8 \f ef ef ef ef ef ef ef |
                 ef 8 ef ef ef ef r r4 |
                 
-		% Second bridge
-		\key gf \lydian
-		r4 af 8 \p ef r4 af 8 ef |
+                % Second bridge
+                \key gf \lydian
+                r4 af 8 \p ef r4 af 8 ef |
                 r4 af 8 ef r4 af 8 ef |
                 r4 af 8 ef r4 af 8 ef |
                 r4 af 8 ef r4 af 8 ef |
@@ -1197,10 +1205,10 @@ globalTempo = {
                 r4 af 8 ef r a \f bf ef _~ |
                 ef 1 _~ |
                 ef 1 |
-		\tuplet 3/2 { ef 8 ef ef ef ef ef } ef r f ef _~ |
-		
-		% Third chorus
-		ef 4 gf 8 af 4. ef 8 df 8 _~ |
+                \tuplet 3/2 { ef 8 ef ef ef ef ef } ef r f ef _~ |
+                
+                % Third chorus
+                ef 4 gf 8 af 4. ef 8 df 8 _~ |
                 df 4 r4 r2 |
                 r2 r4 f 8 ef _~ |
                 ef 4 gf 8 af 4. ef 8 df 8 _~ |
@@ -1210,111 +1218,111 @@ globalTempo = {
                 df 4 r4 r2 |
                 r2 r4 f 8 ef _~ |
                 ef 4 gf 8 af 4. r4 |
-		gf 4 -> \mf gf -> r2 |
-		gf 4 -> gf -> r2 |
-                gf 4 -> gf -> r2 |
-                gf 4 -> gf -> r2 |
-                gf 4 -> gf -> r2 |
-                gf 4 -> gf -> r2  \bar "|."
+                gf 4 -> \mf gf -> r2 |
+                gf 4 -> gf -. r2 |
+                gf 4 -> gf -. r2 |
+                gf 4 -> gf -. r2 |
+                gf 4 -> gf -. r2 |
+                gf 4 -> gf -. r2  \bar "|."
             } % Voice
             \addlyrics{
-	      \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Ma -- ta Aho Hi -- ma de
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	Hi -- mi -- tsu wo Shi -- ri tai
+              \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Ma -- ta Aho Hi -- ma de
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+        Hi -- mi -- tsu wo Shi -- ri tai
 
-	      You're won -- d'ring who I am
-	      Mach -- ine or man -- ne -- quin
-	      With parts made in Jap -- an
-	      I am the mod -- ern
+              You're won -- d'ring who I am
+              Mach -- ine or man -- ne -- quin
+              With parts made in Jap -- an
+              I am the mod -- ern
 
-	      ee oo
-	      ee oo
-	      ee oo
-	   oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo ee oo
-	      
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ee oo
-	      ee oo
+              ee oo
+              ee oo
+              ee oo
+           oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo ee oo
               
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	         oo ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo ee oo
-	      
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ba ba ba ba
-	      ba ba ba ba
-	      ba
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ee oo
+              ee oo
+              
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+                 oo ee oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo ee oo
+              
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ba ba ba ba
+              ba ba ba ba
+              ba
 
               I am the mod -- ern man
-	      Who hides be -- hind a mask
-	      So no one else can see
-	      My true i -- den -- ti
+              Who hides be -- hind a mask
+              So no one else can see
+              My true i -- den -- ti
 
-	      _ _ _ _
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo Do -- mo
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo Do -- mo
+              _ _ _ _
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo Do -- mo
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo Do -- mo
 
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ah ah
-	      na na na na
-	      na na na na
-	      na na na na
-	      na
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ah ah
+              na na na na
+              na na na na
+              na na na na
+              na
 
               doo doo doo doo
               doo doo doo doo
@@ -1332,27 +1340,27 @@ globalTempo = {
               doo doo doo doo
               doo doo doo doo
               doo doo ba dam ba
-	      ra ba ba ba ba ba
-	      ba
-	      
+              ra ba ba ba ba ba
+              ba
+              
               The time has come at last
-	      To throw a -- way the mask
-	      Now ev -- rey -- one can see
-	      My true i -- den 
+              To throw a -- way the mask
+              Now ev -- rey -- one can see
+              My true i -- den 
 
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	      ee oo
-	    }
+              ee oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo
+              ee oo
+            }
         >> % Staff ends
 
         \context Staff = "track 18, Bass" << 
             \set Staff.instrumentName = \markup { \center-column { "Bass " } }
             \set Staff.shortInstrumentName = #"B"
-	    %\set Staff.midiInstrument = "percussive organ"
+            \set Staff.midiInstrument = "percussive organ"
             \set Score.skipBars = ##t
             \set Staff.printKeyCancellation = ##f
             \new Voice \global
@@ -1362,8 +1370,8 @@ globalTempo = {
                 % Segment: Imported MIDI (copied) (split)
                 \override Voice.TextScript #'padding = #2.0
                 \override MultiMeasureRest #'expand-limit = 1
-		\dynamicUp
-		\override DynamicTextSpanner.style = #'none
+                \dynamicUp
+                \override DynamicTextSpanner.style = #'none
                 \override Staff.TimeSignature #'style = #'() 
                 
                 \clef "bass"
@@ -1377,17 +1385,17 @@ globalTempo = {
                 af \breve |
                 af \breve _~ |
                 af 1  \glissando f, 1 \) |
-		f, 8 f,  f,  f,  f, 4  f, 8 f, _~ |
+                f, 8 f,  f,  f,  f, 4  f, 8 f, _~ |
                 f, 8 f, 4  f, 8 f, 4  f, 8  r |
                 
-		% Inital theme
-		f, 1 \f _~ |
+                % Inital theme
+                f, 1 \f _~ |
                 f, 1 |
                 gf, 1 |
-		\override NoteHead.style = #'cross
-		\tuplet 3/2 { bf, 8 bf, bf, af, af, af, gf, gf, gf, f, f, f, } |
-		\revert NoteHead.style
-		f, 1 _~ |
+                \override NoteHead.style = #'cross
+                \tuplet 3/2 { bf, 8 bf, bf, af, af, af, gf, gf, gf, f, f, f, } |
+                \revert NoteHead.style
+                f, 1 _~ |
                 f, 1 |
                 gf, 1  _~ |
                 gf, 2 gf |
@@ -1395,8 +1403,8 @@ globalTempo = {
                 gf, 4 gf  gf,  gf |
                 gf, 4 gf  gf, 8 r bf, af, _~ |
                 
-		% First chorus
-		af, 4 df 8  c 4. af, 8  gf, _~ |
+                % First chorus
+                af, 4 df 8  c 4. af, 8  gf, _~ |
                 gf, 4 gf, gf, gf, |
                 gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8  c 4. af, 8  gf, _~ |
@@ -1407,29 +1415,29 @@ globalTempo = {
                 gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8 c 4. df 4 |
 
-		% First verse
-		\key ef \aeolian
+                % First verse
+                \key ef \aeolian
                 ef 4 \mp ef -. r2 |
                 ef 4 ef -. r2 |
                 ef 4 ef -. r4 r8 ef |
                 ef 4 ef 8 r4 bf 8 af f |
-		ef 4 ef ef bf, 8 ef _~ |
-		ef 8 ef 4 bf, 8 ef 4 bf, |
-		df 4 df df af, 8 df _~ |
-		df 8 df 4 af, 8 c df d 4 |
-		ef 4 ef ef bf, 8 ef _~ |
-		ef 8 ef 4 bf, 8 ef 4 bf, |
-		df 4 df df af, 8 df _~ |
-		df 8 df 4 af, 8 c df d 4 |
-		ef 4 ef ef bf, 8 ef _~ |
-		ef 8 ef 4 bf, 8 ef 4 bf, |
-		df 4 df df af, 8 df _~ |
-		df 8 df 4 af, 8 c df d 4 |
-		ef 4 ef ef bf, 8 ef _~ |
-		ef 8 ef 4 bf, 8 ef 4 bf, |
-		df 4 df df af, 8 df _~ |
-		df 8 df 4 af, 8 c df d 4 |
-		cf 1 |
+                ef 4 ef ef bf, 8 ef _~ |
+                ef 8 ef 4 bf, 8 ef 4 bf, |
+                df 4 df df af, 8 df _~ |
+                df 8 df 4 af, 8 c df d 4 |
+                ef 4 ef ef bf, 8 ef _~ |
+                ef 8 ef 4 bf, 8 ef 4 bf, |
+                df 4 df df af, 8 df _~ |
+                df 8 df 4 af, 8 c df d 4 |
+                ef 4 ef ef bf, 8 ef _~ |
+                ef 8 ef 4 bf, 8 ef 4 bf, |
+                df 4 df df af, 8 df _~ |
+                df 8 df 4 af, 8 c df d 4 |
+                ef 4 ef ef bf, 8 ef _~ |
+                ef 8 ef 4 bf, 8 ef 4 bf, |
+                df 4 df df af, 8 df _~ |
+                df 8 df 4 af, 8 c df d 4 |
+                cf 1 |
                 df 1 |
                 ef 4 ef -. r2 |
                 ef 4 ef -. r2 |
@@ -1437,25 +1445,25 @@ globalTempo = {
                 df 1 |
                 ef 4 ef -. r2 |
                 ef 4 ef -. r8 bf af f |
-		
-		% Second verse
-		ef 4 ef ef bf, 8 ef _~ |
-		ef 8 ef 4 bf, 8 ef 4 bf, |
-		df 4 df df af, 8 df _~ |
-		df 8 df 4 af, 8 c df d 4 |
-		ef 4 ef ef bf, 8 ef _~ |
-		ef 8 ef 4 bf, 8 ef 4 bf, |
-		df 4 df df af, 8 df _~ |
-		df 8 df 4 af, 8 c df d 4 |
-		ef 4 ef ef bf, 8 ef _~ |
-		ef 8 ef 4 bf, 8 ef 4 bf, |
-		df 4 df df af, 8 df _~ |
-		df 8 df 4 af, 8 c df d 4 |
-		ef 4 ef ef bf, 8 ef _~ |
-		ef 8 ef 4 bf, 8 ef 4 bf, |
-		df 4 df df af, 8 df _~ |
-		df 8 df 4 af, 8 c df d 4 |
-		cf 1 |
+                
+                % Second verse
+                ef 4 ef ef bf, 8 ef _~ |
+                ef 8 ef 4 bf, 8 ef 4 bf, |
+                df 4 df df af, 8 df _~ |
+                df 8 df 4 af, 8 c df d 4 |
+                ef 4 ef ef bf, 8 ef _~ |
+                ef 8 ef 4 bf, 8 ef 4 bf, |
+                df 4 df df af, 8 df _~ |
+                df 8 df 4 af, 8 c df d 4 |
+                ef 4 ef ef bf, 8 ef _~ |
+                ef 8 ef 4 bf, 8 ef 4 bf, |
+                df 4 df df af, 8 df _~ |
+                df 8 df 4 af, 8 c df d 4 |
+                ef 4 ef ef bf, 8 ef _~ |
+                ef 8 ef 4 bf, 8 ef 4 bf, |
+                df 4 df df af, 8 df _~ |
+                df 8 df 4 af, 8 c df d 4 |
+                cf 1 |
                 df 1 |
                 ef 4 ef -. r2 |
                 ef 4 ef -. r2 |
@@ -1465,7 +1473,7 @@ globalTempo = {
                 ef 4 -. \! \f r4 r bf, 8 af, _~ |
 
                 % Second Chorus
-		\key gf \lydian
+                \key gf \lydian
                 af, 4 df 8  c 4. af, 8  gf, _~ |
                 gf, 4 gf, gf, gf, |
                 gf, 4. gf, bf, 8  af, _~ |
@@ -1477,9 +1485,9 @@ globalTempo = {
                 gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8 c 4. df 4 |
 
-		% Bridge
+                % Bridge
                 \key ef \aeolian
-                ef, 4 \mp ef, ef, ef, |
+                ef, 4 \mf ef, ef, ef, |
                 ef, 4 ef, ef, ef, |
                 ef, 4 ef, ef, ef, |
                 ef, 4 ef, ef, ef, |
@@ -1491,31 +1499,31 @@ globalTempo = {
                 ef, 4 ef, ef, ef, |
                 r4 ef, 8 ef, r2 |
                 r4 ef, 8 ef, r2 |
-		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
-		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
-		f, 8 f, f, f, f, 4 f, 8 f, _~ |
-		f, 8 f, 4 f, 8 f, 4 f, 8 r |
-		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
-		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
-		f, 8 f, f, f, f, 4 f, 8 f, _~ |
-		f, 8 f, 4 f, 8 f, 4 f, 8 r |
-		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
-		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
-		f, 8 f, f, f, f, 4 f, 8 f, _~ |
-		f, 8 f, 4 f, 8 f, 4 f, 8 r |
-		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
-		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
-		f, 8 f, f, f, f, 4 f, 8 f, _~ |
-		f, 8 f, 4 f, 8 f, 4 f, 8 r |
-		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
-		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
-		f, 8 f, f, f, f, 4 f, 8 f, _~ |
-		f, 8 f, 4 f, 8 f, 4 f, 8 r |
-		ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
-		ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
-		f, 8 f, f, f, f, 4 f, 8 f, _~ |
-		f, 8 f, 4 f, 8 f, 4 f, 8 r |
-		r2 \cresc gf, |
+                ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+                ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+                f, 8 f, f, f, f, 4 f, 8 f, _~ |
+                f, 8 f, 4 f, 8 f, 4 f, 8 r |
+                ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+                ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+                f, 8 f, f, f, f, 4 f, 8 f, _~ |
+                f, 8 f, 4 f, 8 f, 4 f, 8 r |
+                ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+                ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+                f, 8 f, f, f, f, 4 f, 8 f, _~ |
+                f, 8 f, 4 f, 8 f, 4 f, 8 r |
+                ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+                ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+                f, 8 f, f, f, f, 4 f, 8 f, _~ |
+                f, 8 f, 4 f, 8 f, 4 f, 8 r |
+                ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+                ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+                f, 8 f, f, f, f, 4 f, 8 f, _~ |
+                f, 8 f, 4 f, 8 f, 4 f, 8 r |
+                ef, 8 ef, ef, ef, ef, 4 ef, 8 ef, _~ |
+                ef, 8 ef, 4 ef, 8 ef, 4 ef, 8 r |
+                f, 8 f, f, f, f, 4 f, 8 f, _~ |
+                f, 8 f, 4 f, 8 f, 4 f, 8 r |
+                r2 \cresc gf, |
                 r2 cf |
                 ef 4 ef -. r2 |
                 ef 4 ef -. r2 |
@@ -1526,29 +1534,29 @@ globalTempo = {
                 bf, 8 \f bf, bf, bf, bf, bf, bf, bf, |
                 bf, 8 bf, bf, bf, bf, r r4 |
                 
-		% Second bridge
-		\key gf \lydian
-		r1 |
-		r1 |
-		r1 |
-		r1 |
-		r1 |
+                % Second bridge
+                \key gf \lydian
+                r1 |
+                r1 |
+                r1 |
+                r1 |
+                r1 |
                 r8 bf, \p [ af, gf, ef, ] bf, [ af,  gf, |
                 ef, 8 ] bf, [ af, gf, ef, ] r r4 |
                 R1 |
                 r8 bf, [ af, gf, ef, ] bf, [ af,  gf, |
                 ef, 8 ] bf, [ af, gf, ef, ] r r4 |
                 R1 |
-		r8 bf, [ af, gf, ef, ] bf, [ af,  gf, |
+                r8 bf, [ af, gf, ef, ] bf, [ af,  gf, |
                 ef, 8 ] bf, [ af, gf, ef, ] r r4 |
                 R1 |
-		r8 bf, [ af, gf, ef, ] bf, [ af,  gf, |
+                r8 bf, [ af, gf, ef, ] bf, [ af,  gf, |
                 ef, 8 ] bf, [ af, gf, ef, ] d [ \f ef af, ] _~ |
                 af, 1 _~ |
                 af, 1 |
-		\tuplet 3/2 { af, 8 af, af, af, af, af, } af, r bf, af, _~ |
+                \tuplet 3/2 { af, 8 af, af, af, af, af, } af, r bf, af, _~ |
                 
-		% Third chorus
+                % Third chorus
                 af, 4 df 8  c 4. af, 8  gf, _~ |
                 gf, 4 gf, gf, gf, |
                 gf, 4. gf, bf, 8  af, _~ |
@@ -1560,158 +1568,158 @@ globalTempo = {
                 gf, 4. gf, bf, 8  af, _~ |
                 af, 4 df 8 c 4. r 4 |
                 r1 |
-		\override NoteHead.style = #'cross
-		ef 4 -> ef -> r2 |
+                \override NoteHead.style = #'cross
+                ef 4 -> ef -> r2 |
                 ef 4 -> ef -> r2 |
                 ef 4 -> ef -> r2 |
                 r1 |
                 r1 \bar "|."
             } % Voice
-	    \addlyrics{
-	      \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
+            \addlyrics{
+              \markup \concat { eeoo\super 1 } ooee eeoo ooee eeoo ooee _
 
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      jmm jmm
-	      b' p' t' b' b' p' t' b' p' t' p' ta
-	      jmm jmm
-	      jmm jmm jmm jmm jmm jmm jmm jmm jmm jmm
-	      
-	      You're won -- d'ring who I am
-	      ba da da da da
-	      Mach -- ine or man -- ne -- quin
-	      ba da da da da
-	      With parts made in Jap -- an
-	      ba da da da da
-	      I am the mod -- ern
-	      
-	      ee oo
-	      ee oo
-	      ee oo
-	   oo ee oo 
-
-  thm thm thm thm thm thm thm thm
-	      thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ee oo
-	      ee oo
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              jmm jmm
+              b' p' t' b' b' p' t' b' p' t' p' ta
+              jmm jmm
+              jmm jmm jmm jmm jmm jmm jmm jmm jmm jmm
+              
+              You're won -- d'ring who I am
+              ba da da da da
+              Mach -- ine or man -- ne -- quin
+              ba da da da da
+              With parts made in Jap -- an
+              ba da da da da
+              I am the mod -- ern
+              
+              ee oo
+              ee oo
+              ee oo
+           oo ee oo 
 
   thm thm thm thm thm thm thm thm
-	      thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm
-	      thm thm thm thm thm
-	      thm thm thm thm thm
-	      	      
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ba ba ba ba
-	      ba ba ba ba
-	      ba
+              thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ee oo
+              ee oo
+
+  thm thm thm thm thm thm thm thm
+              thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm
+              thm thm thm thm thm
+              thm thm thm thm thm
+                      
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ba ba ba ba
+              ba ba ba ba
+              ba
 
               I am the mod -- ern man
-	      ba da da da da
-	      Who hides be -- hind a mask
-	      ba da da da da
-	      So no one else can see
-	      ba da da da da
-	      My true i -- den -- ti
+              ba da da da da
+              Who hides be -- hind a mask
+              ba da da da da
+              So no one else can see
+              ba da da da da
+              My true i -- den -- ti
 
-	      Do -- mo Do -- mo Do -- mo Do -- mo
-	      Do -- mo Do -- mo Do -- mo Do -- mo
-	      Do -- mo Do -- mo Do -- mo Do -- mo
-	      Do -- mo Do -- mo
-	      Do -- mo Do -- mo Do -- mo Do -- mo
-	      Do -- mo Do -- mo
+              Do -- mo Do -- mo Do -- mo Do -- mo
+              Do -- mo Do -- mo Do -- mo Do -- mo
+              Do -- mo Do -- mo Do -- mo Do -- mo
+              Do -- mo Do -- mo
+              Do -- mo Do -- mo Do -- mo Do -- mo
+              Do -- mo Do -- mo
 
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
-	      Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
+              Do -- mo A -- ri -- ga -- to, Mis -- ter Ro -- bo -- to
 
-	      
-	      ah ah
-	      ee oo
-	      ee oo
-	      ah ah
-	      ah ah
-	      na na na na
-	      na na na na
-	      na na na na
-	      na
+              
+              ah ah
+              ee oo
+              ee oo
+              ah ah
+              ah ah
+              na na na na
+              na na na na
+              na na na na
+              na
 
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
 
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
 
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
 
-	      deh doo doo dee
-	      deh doo doo dee
-	      deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
+              deh doo doo dee
 
-	      ba dam ba 
-	      ra ba ba ba ba ba
-	      ba
+              ba dam ba 
+              ra ba ba ba ba ba
+              ba
 
               The time has come at last
-	      ba da da da da
-	      To throw a -- way the mask
-	      ba da da da da
-	      Now ev -- rey -- one can see
-	      ba da da da da
-	      My true i -- den 
+              ba da da da da
+              To throw a -- way the mask
+              ba da da da da
+              Now ev -- rey -- one can see
+              ba da da da da
+              My true i -- den 
 
-	      Kil -- roy
-	      Kil -- roy
-	      Kil -- roy
-	      Kil -- roy
-	    }
+              Kil -- roy
+              Kil -- roy
+              Kil -- roy
+              Kil -- roy
+            }
         >> % Staff (final) ends
-	>>
+        >>
     >> % notes
   %>>
     \layout {
