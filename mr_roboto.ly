@@ -42,7 +42,7 @@ globalTempo = {
                 \override DynamicTextSpanner.style = #'none
                 \override Staff.TimeSignature #'style = #'() 
                 
-                \clef treble
+                \clef "treble_8"
                 \key af \mixolydian
                 
                 r1 r2 r4 r8 bf' 8 ( |
@@ -317,7 +317,7 @@ globalTempo = {
                 \override DynamicTextSpanner.style = #'none
                 \override Staff.TimeSignature #'style = #'() 
                 
-                \clef treble
+                \clef "treble_8"
                 \key af \mixolydian
                 \override Hairpin.circled-tip = ##t
                 
@@ -435,11 +435,11 @@ globalTempo = {
                 \key ef \aeolian
                 \override NoteHead.style = #'cross
                 \override TextScript.extra-offset = #'(0 . -1.5)
-                r4 bf' ^\markup{ \italic (stomp) } r2 |
+                r4 bf ^\markup{ \italic (stomp) } r2 |
                 \revert TextScript.extra-offset
-                r4 bf' r2 |
-                r4 bf' r2 |
-                r4 bf' r2 |
+                r4 bf r2 |
+                r4 bf r2 |
+                r4 bf r2 |
                 \revert NoteHead.style
                 r1 |
                 r1 |
@@ -449,6 +449,7 @@ globalTempo = {
                 r2 \tuplet 3/2 { bf' 4 bf' bf' } |
                 r2 \tuplet 3/2 { bf' 4 bf' bf' } |
                 R1 |
+                \ottava #1
                 r4 ef''^\markup \italic "optional solo, may be whistled" ( \p bf' gf'' |
                 f'' 1 _~ |
                 f'' 4 ) df'' ( bf' gf'' |
@@ -471,7 +472,7 @@ globalTempo = {
                 f'' 1 _~ |
                 f'' 4 ) ef'' ( bf' gf'' |
                 f'' 1 _~ |
-                f'' 4 ) r r2 |
+                f'' 4 ) \ottava #0 r r2 |
                 \override TextScript.extra-offset = #'(0 . -1.5)
                 r2 \cresc r4 ef'^\markup \italic "(tutti)" |
                 \revert TextScript.extra-offset
